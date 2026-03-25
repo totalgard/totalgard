@@ -74,7 +74,7 @@ export default function Navbar() {
           </div>
           <div className="flex items-center gap-4">
             <a
-              href={siteConfig.facebook}
+              href={siteConfig.social.facebook}
               target="_blank"
               aria-label="Facebook"
               className="text-[#444] hover:text-[#c9a84c] transition-colors text-xs font-semibold tracking-widest uppercase"
@@ -82,7 +82,7 @@ export default function Navbar() {
               FB
             </a>
             <a
-              href={siteConfig.instagram}
+              href={siteConfig.social.instagram}
               target="_blank"
               aria-label="Instagram"
               className="text-[#444] hover:text-[#c9a84c] transition-colors text-xs font-semibold tracking-widest uppercase"
@@ -90,7 +90,7 @@ export default function Navbar() {
               IG
             </a>
             <a
-              href={siteConfig.youtube}
+              href={siteConfig.social.youtube}
               target="_blank"
               aria-label="YouTube"
               className="text-[#444] hover:text-[#c9a84c] transition-colors text-xs font-semibold tracking-widest uppercase"
@@ -393,13 +393,13 @@ export default function Navbar() {
 
             {/* Social links */}
             <div className="flex items-center justify-center gap-6 pt-3 pb-1">
-              <a href={siteConfig.facebook} target="_blank" className="text-[#444] hover:text-[#c9a84c] transition-colors text-xs font-bold tracking-widest uppercase">
+              <a href={siteConfig.social.facebook} target="_blank" className="text-[#444] hover:text-[#c9a84c] transition-colors text-xs font-bold tracking-widest uppercase">
                 Facebook
               </a>
-              <a href={siteConfig.instagram} target="_blank" className="text-[#444] hover:text-[#c9a84c] transition-colors text-xs font-bold tracking-widest uppercase">
+              <a href={siteConfig.social.instagram} target="_blank" className="text-[#444] hover:text-[#c9a84c] transition-colors text-xs font-bold tracking-widest uppercase">
                 Instagram
               </a>
-              <a href={siteConfig.youtube} target="_blank" className="text-[#444] hover:text-[#c9a84c] transition-colors text-xs font-bold tracking-widest uppercase">
+              <a href={siteConfig.social.youtube} target="_blank" className="text-[#444] hover:text-[#c9a84c] transition-colors text-xs font-bold tracking-widest uppercase">
                 YouTube
               </a>
             </div>
