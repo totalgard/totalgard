@@ -4,8 +4,6 @@ import "./globals.css";
 import { siteConfig } from "@/lib/siteConfig";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
-import TopBar from "@/components/TopBar";
-
 const geist = Geist({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
