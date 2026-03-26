@@ -40,7 +40,6 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={`${geist.className} bg-[#0a0a0a] text-[#f5f5f5]`}>
-        <TopBar />
         <Navbar />
         <main>{children}</main>
         <Footer />
