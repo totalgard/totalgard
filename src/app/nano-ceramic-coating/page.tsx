@@ -4,12 +4,12 @@ import Link from "next/link";
 import { siteConfig } from "@/lib/siteConfig";
 
 export const metadata: Metadata = {
-  title: "Nano Ceramic Coating Sharjah | Best Car Ceramic Coating Sharjah — TotalGard",
+  title: "Nano Ceramic Coating Sharjah | Best Car Ceramic Coating Sharjah — Totalgard",
   description:
-    "TotalGard offers the best nano ceramic coating in Sharjah. Hydrophobic, UV-resistant ceramic coating for cars. Enhanced gloss, long-lasting protection and easy maintenance. Central Mall, Sharjah, UAE. Call +971 56 425 5770.",
+    "Totalgard offers the best nano ceramic coating in Sharjah. Hydrophobic, UV-resistant ceramic coating for cars. Enhanced gloss, long-lasting protection and easy maintenance. Central Mall, Sharjah, UAE. Call +971 56 425 5770.",
   keywords:
     "nano ceramic coating sharjah, ceramic coating sharjah, car ceramic coating sharjah, graphene coating sharjah, auto ceramic coating sharjah, automotive ceramic coating sharjah, ceramic coating near me sharjah, best ceramic coating sharjah",
-  alternates: { canonical: "https://totalgard.ae/nano-ceramic-coating" },
+  alternates: { canonical: "https://Totalgard.ae/nano-ceramic-coating" },
 };
 
 const benefits = [
@@ -27,14 +27,14 @@ const benefits = [
   },
   {
     title: "UV Resistance",
-    desc: "TotalGard's ceramic nano coating provides UV protection, preventing paint fading and oxidation caused by prolonged exposure to Sharjah's intense sun.",
+    desc: "Totalgard's ceramic nano coating provides UV protection, preventing paint fading and oxidation caused by prolonged exposure to Sharjah's intense sun.",
   },
 ];
 
 const whyUs = [
   {
     title: "High-Quality Products",
-    desc: "We use only the best quality nano ceramic coatings designed to provide long-lasting protection and enhance the appearance of your car. No shortcuts — only premium products at TotalGard Sharjah.",
+    desc: "We use only the best quality nano ceramic coatings designed to provide long-lasting protection and enhance the appearance of your car. No shortcuts — only premium products at Totalgard Sharjah.",
   },
   {
     title: "Expert Application",
@@ -54,7 +54,7 @@ const whyUs = [
   },
   {
     title: "Scratch & Stain Resistance",
-    desc: "TotalGard's ceramic coating creates a barrier that resists minor scratches and stains from everyday driving — keeping your vehicle pristine on Sharjah's roads.",
+    desc: "Totalgard's ceramic coating creates a barrier that resists minor scratches and stains from everyday driving — keeping your vehicle pristine on Sharjah's roads.",
   },
 ];
 
@@ -119,7 +119,7 @@ const process = [
   {
     step: "04",
     title: "Ceramic Coating Application",
-    desc: "Careful, panel-by-panel ceramic coating application by TotalGard's certified Sharjah technicians for full and even coverage.",
+    desc: "Careful, panel-by-panel ceramic coating application by Totalgard's certified Sharjah technicians for full and even coverage.",
   },
 ];
 
@@ -130,23 +130,23 @@ const faqs = [
   },
   {
     q: "How long does ceramic coating last in Sharjah?",
-    a: "TotalGard's nano ceramic coating in Sharjah typically lasts 2 to 5 years depending on the grade chosen. Graphene coatings can last 5+ years. Proper maintenance extends the coating's life significantly.",
+    a: "Totalgard's nano ceramic coating in Sharjah typically lasts 2 to 5 years depending on the grade chosen. Graphene coatings can last 5+ years. Proper maintenance extends the coating's life significantly.",
   },
   {
     q: "Is ceramic coating worth it in Sharjah's heat?",
-    a: "Absolutely. Sharjah's intense UV radiation and heat accelerate paint oxidation and fading. TotalGard's ceramic coating creates a UV-resistant, hydrophobic barrier that keeps your car looking new for years — saving money on repainting and detailing.",
+    a: "Absolutely. Sharjah's intense UV radiation and heat accelerate paint oxidation and fading. Totalgard's ceramic coating creates a UV-resistant, hydrophobic barrier that keeps your car looking new for years — saving money on repainting and detailing.",
   },
   {
     q: "How long does ceramic coating application take in Sharjah?",
-    a: "Full nano ceramic coating at TotalGard Sharjah takes 1 to 2 days including paint correction, decontamination and coating application. The vehicle then needs 24–48 hours of curing time.",
+    a: "Full nano ceramic coating at Totalgard Sharjah takes 1 to 2 days including paint correction, decontamination and coating application. The vehicle then needs 24–48 hours of curing time.",
   },
   {
     q: "What is the difference between ceramic coating and PPF in Sharjah?",
-    a: "Ceramic coating enhances shine, adds UV resistance and creates a hydrophobic surface — but does not protect against physical impact like stone chips. PPF provides physical protection against chips and scratches. TotalGard recommends combining both for ultimate protection in Sharjah.",
+    a: "Ceramic coating enhances shine, adds UV resistance and creates a hydrophobic surface — but does not protect against physical impact like stone chips. PPF provides physical protection against chips and scratches. Totalgard recommends combining both for ultimate protection in Sharjah.",
   },
   {
     q: "What is graphene coating and how is it better than ceramic?",
-    a: "Graphene coating is the next evolution of ceramic coating — infused with graphene for superior hardness, anti-static properties, water spot resistance and longer durability. TotalGard Sharjah offers both nano ceramic and graphene coating options.",
+    a: "Graphene coating is the next evolution of ceramic coating — infused with graphene for superior hardness, anti-static properties, water spot resistance and longer durability. Totalgard Sharjah offers both nano ceramic and graphene coating options.",
   },
 ];
 
@@ -155,13 +155,13 @@ const jsonLd = {
   "@graph": [
     {
       "@type": "Service",
-      "@id": "https://totalgard.ae/nano-ceramic-coating/#service",
+      "@id": "https://Totalgard.ae/nano-ceramic-coating/#service",
       name: "Nano Ceramic Coating Sharjah",
       description:
-        "TotalGard offers the best nano ceramic coating in Sharjah. Hydrophobic, UV-resistant ceramic and graphene coatings for long-lasting paint protection.",
-      provider: { "@id": "https://totalgard.ae/#business" },
+        "Totalgard offers the best nano ceramic coating in Sharjah. Hydrophobic, UV-resistant ceramic and graphene coatings for long-lasting paint protection.",
+      provider: { "@id": "https://Totalgard.ae/#business" },
       areaServed: { "@type": "City", name: "Sharjah" },
-      url: "https://totalgard.ae/nano-ceramic-coating",
+      url: "https://Totalgard.ae/nano-ceramic-coating",
     },
     {
       "@type": "FAQPage",
@@ -217,7 +217,7 @@ export default function NanoCeramicCoatingPage() {
               <span className="gold-text">Sharjah</span>
             </h1>
             <p className="mt-5 text-[#888] text-lg leading-relaxed">
-              TotalGard's nano ceramic coating forms a{" "}
+              Totalgard's nano ceramic coating forms a{" "}
               <span className="text-[#c9a84c] font-semibold">
                 durable, transparent hydrophobic layer
               </span>{" "}
@@ -249,7 +249,7 @@ export default function NanoCeramicCoatingPage() {
           <div className="relative rounded-3xl overflow-hidden h-[420px] shadow-2xl shadow-black/50">
             <Image
               src="https://images.unsplash.com/photo-1607860108855-64acf2078ed9?w=800&q=80"
-              alt="Nano ceramic coating Sharjah — TotalGard best car ceramic coating UAE"
+              alt="Nano ceramic coating Sharjah — Totalgard best car ceramic coating UAE"
               fill
               className="object-cover opacity-75"
               priority
@@ -291,7 +291,7 @@ export default function NanoCeramicCoatingPage() {
             <p className="text-[#888] mt-4 max-w-3xl mx-auto leading-relaxed">
               Nano ceramic coating is an innovative protective solution
               engineered to safeguard and enhance the exterior surfaces of
-              vehicles. TotalGard's nano ceramic coating forms a durable and
+              vehicles. Totalgard's nano ceramic coating forms a durable and
               transparent layer that bonds with the paint, creating a hydrophobic
               and dirt-repellent surface — providing long-lasting protection
               against environmental hazards such as UV rays, bird droppings and
@@ -333,7 +333,7 @@ export default function NanoCeramicCoatingPage() {
             </h2>
             <p className="text-[#888] mt-3 max-w-xl mx-auto text-sm leading-relaxed">
               From standard nano ceramic to advanced graphene coatings —
-              TotalGard Sharjah offers the right protection level for every
+              Totalgard Sharjah offers the right protection level for every
               vehicle and budget.
             </p>
           </div>
@@ -394,7 +394,7 @@ export default function NanoCeramicCoatingPage() {
               <br /> in Sharjah
             </h2>
             <p className="text-[#888] mt-3 max-w-xl mx-auto text-sm leading-relaxed">
-              TotalGard's certified technicians follow a meticulous multi-step
+              Totalgard's certified technicians follow a meticulous multi-step
               process to ensure maximum coating adhesion and a flawless finish.
             </p>
           </div>
@@ -415,21 +415,21 @@ export default function NanoCeramicCoatingPage() {
         </div>
       </section>
 
-      {/* ── WHY TOTALGARD ── */}
+      {/* ── WHY Totalgard ── */}
       <section className="bg-[#0a0a0a] py-24 relative overflow-hidden">
         <div className="absolute top-0 left-0 w-full h-px bg-gradient-to-r from-transparent via-[#c9a84c]/20 to-transparent pointer-events-none" />
         <div className="absolute right-0 top-0 w-[400px] h-[400px] bg-[#c9a84c] opacity-[0.04] blur-[80px] rounded-full pointer-events-none" />
         <div className="max-w-7xl mx-auto px-6">
           <div className="text-center mb-14">
             <span className="text-[#c9a84c] text-xs font-semibold tracking-[0.2em] uppercase">
-              Why Choose TotalGard
+              Why Choose Totalgard
             </span>
             <h2 className="text-3xl md:text-4xl font-extrabold text-[#f5f5f5] mt-3">
               The Best Car Nano Ceramic Coating
               <br /> in Sharjah
             </h2>
             <p className="text-[#888] mt-3 max-w-2xl mx-auto text-sm leading-relaxed">
-              At TotalGard, we understand the importance of protecting your car
+              At Totalgard, we understand the importance of protecting your car
               from Sharjah's harsh elements, UV rays and everyday wear and tear.
               Our nano ceramic coating provides a strong, durable barrier that
               shields your vehicle's paint from scratches, stains and fading.
@@ -462,7 +462,7 @@ export default function NanoCeramicCoatingPage() {
           <div className="relative rounded-3xl overflow-hidden h-[460px] shadow-2xl shadow-black/50">
             <Image
               src="https://images.unsplash.com/photo-1552519507-da3b142c6e3d?w=800&q=80"
-              alt="TotalGard nano ceramic coating results Sharjah — deep gloss and hydrophobic finish"
+              alt="Totalgard nano ceramic coating results Sharjah — deep gloss and hydrophobic finish"
               fill
               className="object-cover opacity-70"
             />
@@ -476,7 +476,7 @@ export default function NanoCeramicCoatingPage() {
           </div>
           <div>
             <span className="text-[#c9a84c] text-xs font-semibold tracking-[0.2em] uppercase">
-              The TotalGard Difference
+              The Totalgard Difference
             </span>
             <h2 className="text-3xl md:text-4xl font-extrabold text-[#f5f5f5] mt-4 leading-tight">
               Experience the Best Ceramic
@@ -556,7 +556,7 @@ export default function NanoCeramicCoatingPage() {
         </div>
         <div className="relative z-10 max-w-3xl mx-auto px-6 text-center">
           <span className="text-[#c9a84c]/60 text-xs font-semibold tracking-[0.2em] uppercase">
-            Contact TotalGard Sharjah
+            Contact Totalgard Sharjah
           </span>
           <h2 className="text-3xl md:text-4xl font-extrabold mt-4">
             <span className="text-[#f5f5f5]">Give Your Car the</span>
@@ -565,7 +565,7 @@ export default function NanoCeramicCoatingPage() {
           </h2>
           <p className="mt-4 text-[#888] text-sm max-w-lg mx-auto leading-relaxed">
             Don't settle for anything less than the best car nano ceramic
-            coating in Sharjah. Contact TotalGard today to schedule an
+            coating in Sharjah. Contact Totalgard today to schedule an
             appointment and give your car the protection it deserves.
           </p>
           <div className="flex flex-wrap justify-center gap-4 mt-8">

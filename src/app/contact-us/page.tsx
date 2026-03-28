@@ -3,10 +3,10 @@ import Link from "next/link";
 import { siteConfig } from "@/lib/siteConfig";
 
 export const metadata: Metadata = {
-  title: "Contact Us | TotalGard Sharjah — Automotive Protection UAE",
+  title: "Contact Us | Totalgard Sharjah — Automotive Protection UAE",
   description:
-    "Contact TotalGard Sharjah for window tinting, PPF, ceramic coating, car wrapping and smart film. Visit us at Central Mall, Sharjah. Call +971 56 425 5770 or WhatsApp for a free quote.",
-  alternates: { canonical: "https://totalgard.ae/contact-us" },
+    "Contact Totalgard Sharjah for window tinting, PPF, ceramic coating, car wrapping and smart film. Visit us at Central Mall, Sharjah. Call +971 56 425 5770 or WhatsApp for a free quote.",
+  alternates: { canonical: "https://Totalgard.ae/contact-us" },
 };
 
 const contactDetails = [
@@ -43,10 +43,10 @@ const contactDetails = [
 const jsonLd = {
   "@context": "https://schema.org",
   "@type": "ContactPage",
-  name: "Contact TotalGard Sharjah",
-  url: "https://totalgard.ae/contact-us",
+  name: "Contact Totalgard Sharjah",
+  url: "https://Totalgard.ae/contact-us",
   description:
-    "Contact TotalGard Sharjah for automotive protection services including window tinting, PPF, ceramic coating and car wrapping.",
+    "Contact Totalgard Sharjah for automotive protection services including window tinting, PPF, ceramic coating and car wrapping.",
 };
 
 export default function ContactPage() {
@@ -79,11 +79,11 @@ export default function ContactPage() {
               GET IN TOUCH
             </span>
             <h1 className="text-4xl md:text-5xl font-extrabold text-[#f5f5f5] leading-tight">
-              Contact <span className="gold-text">TotalGard</span>
+              Contact <span className="gold-text">Totalgard</span>
               <br /> Sharjah
             </h1>
             <p className="text-[#888] mt-4 leading-relaxed">
-              Ready to protect your vehicle? Contact TotalGard today and let us
+              Ready to protect your vehicle? Contact Totalgard today and let us
               keep your car looking its best.
             </p>
           </div>
@@ -318,7 +318,7 @@ export default function ContactPage() {
               allowFullScreen
               loading="lazy"
               referrerPolicy="no-referrer-when-downgrade"
-              title="TotalGard Sharjah Location — Central Mall"
+              title="Totalgard Sharjah Location — Central Mall"
             />
           </div>
           <div className="mt-4 text-center">

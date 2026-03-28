@@ -4,12 +4,12 @@ import Link from "next/link";
 import { siteConfig } from "@/lib/siteConfig";
 
 export const metadata: Metadata = {
-  title: "Window Tinting Sharjah | Best Car Window Tinting Sharjah — TotalGard",
+  title: "Window Tinting Sharjah | Best Car Window Tinting Sharjah — Totalgard",
   description:
-    "TotalGard offers professional car window tinting in Sharjah. Ceramic window films blocking up to 95% infrared heat and 99% UV rays. 3–10 year warranty. Central Mall, Sharjah, UAE. Call +971 56 425 5770.",
+    "Totalgard offers professional car window tinting in Sharjah. Ceramic window films blocking up to 95% infrared heat and 99% UV rays. 3–10 year warranty. Central Mall, Sharjah, UAE. Call +971 56 425 5770.",
   keywords:
     "window tinting sharjah, car window tinting sharjah, ceramic window tint sharjah, best window tint sharjah, UV protection window tint sharjah, heat reduction window film sharjah, car tinting sharjah",
-  alternates: { canonical: "https://totalgard.ae/window-tinting" },
+  alternates: { canonical: "https://Totalgard.ae/window-tinting" },
 };
 
 const benefits = [
@@ -93,23 +93,23 @@ const whyUs = [
 const faqs = [
   {
     q: "Is window tinting legal in Sharjah?",
-    a: "Yes, window tinting is legal in Sharjah and across the UAE. TotalGard ensures all window tinting is fully compliant with UAE traffic regulations regarding tint darkness levels.",
+    a: "Yes, window tinting is legal in Sharjah and across the UAE. Totalgard ensures all window tinting is fully compliant with UAE traffic regulations regarding tint darkness levels.",
   },
   {
     q: "How long does window tinting take in Sharjah?",
-    a: "Professional window tinting at TotalGard Sharjah typically takes 2 to 4 hours depending on vehicle type. Most jobs are completed same-day at our Central Mall, Sharjah workshop.",
+    a: "Professional window tinting at Totalgard Sharjah typically takes 2 to 4 hours depending on vehicle type. Most jobs are completed same-day at our Central Mall, Sharjah workshop.",
   },
   {
     q: "How long does window tint last in UAE heat?",
-    a: "TotalGard's ceramic window films are designed to last 3 to 10 years in UAE conditions. Our films are heat-stable and won't bubble, peel or fade in Sharjah's extreme climate.",
+    a: "Totalgard's ceramic window films are designed to last 3 to 10 years in UAE conditions. Our films are heat-stable and won't bubble, peel or fade in Sharjah's extreme climate.",
   },
   {
     q: "Can I wash my car after window tinting in Sharjah?",
-    a: "We recommend waiting 3 to 5 days after window tinting before washing your car. This allows the film adhesive to fully cure. TotalGard's team will provide full aftercare instructions after your appointment.",
+    a: "We recommend waiting 3 to 5 days after window tinting before washing your car. This allows the film adhesive to fully cure. Totalgard's team will provide full aftercare instructions after your appointment.",
   },
   {
     q: "What tint shade is best for Sharjah?",
-    a: "In Sharjah, we recommend 35% or darker for maximum heat rejection. TotalGard will advise the ideal shade based on your vehicle, preferences and UAE legal requirements.",
+    a: "In Sharjah, we recommend 35% or darker for maximum heat rejection. Totalgard will advise the ideal shade based on your vehicle, preferences and UAE legal requirements.",
   },
 ];
 
@@ -118,13 +118,13 @@ const jsonLd = {
   "@graph": [
     {
       "@type": "Service",
-      "@id": "https://totalgard.ae/window-tinting/#service",
+      "@id": "https://Totalgard.ae/window-tinting/#service",
       name: "Window Tinting Sharjah",
       description:
         "Professional ceramic car window tinting in Sharjah. Blocks up to 95% infrared heat and 99% UV rays. 3M and Global USA films. 3–10 year warranty.",
-      provider: { "@id": "https://totalgard.ae/#business" },
+      provider: { "@id": "https://Totalgard.ae/#business" },
       areaServed: { "@type": "City", name: "Sharjah" },
-      url: "https://totalgard.ae/window-tinting",
+      url: "https://Totalgard.ae/window-tinting",
       offers: [
         { "@type": "Offer", name: "Coupe Window Tinting Sharjah", price: "300", priceCurrency: "AED" },
         { "@type": "Offer", name: "Saloon Window Tinting Sharjah", price: "350", priceCurrency: "AED" },
@@ -184,7 +184,7 @@ export default function WindowTintingPage() {
               <span className="gold-text">Sharjah</span>
             </h1>
             <p className="mt-5 text-[#888] text-lg leading-relaxed">
-              TotalGard offers top-tier window tinting services in Sharjah,
+              Totalgard offers top-tier window tinting services in Sharjah,
               enhancing both the style and functionality of your vehicle.
               Blocking up to{" "}
               <span className="text-[#c9a84c] font-semibold">
@@ -220,7 +220,7 @@ export default function WindowTintingPage() {
           <div className="relative rounded-3xl overflow-hidden h-[420px] shadow-2xl shadow-black/50">
             <Image
               src="https://images.unsplash.com/photo-1619767886558-efdc259cde1a?w=800&q=80"
-              alt="Professional window tinting Sharjah — TotalGard ceramic window film UAE"
+              alt="Professional window tinting Sharjah — Totalgard ceramic window film UAE"
               fill
               className="object-cover opacity-75"
               priority
@@ -260,7 +260,7 @@ export default function WindowTintingPage() {
               <span className="gold-text">Dark Outside, Clear Within</span>
             </h2>
             <p className="text-[#888] mt-5 leading-relaxed">
-              TotalGard offers top-tier window tinting services, enhancing both
+              Totalgard offers top-tier window tinting services, enhancing both
               the style and functionality of your vehicle. Our premium tint
               films elevate your car's appearance while delivering essential
               benefits — UV protection, heat reduction, glare reduction and
@@ -271,7 +271,7 @@ export default function WindowTintingPage() {
               for comfort and elegance, our window tinting service ensures
               optimal interior temperature control and privacy. Utilising
               cutting-edge sun control technology backed by durable warranties
-              ranging from 3 to 10 years, TotalGard guarantees superior
+              ranging from 3 to 10 years, Totalgard guarantees superior
               performance even in Sharjah's harshest climate.
             </p>
             <div className="mt-8 grid grid-cols-2 gap-4">
@@ -306,7 +306,7 @@ export default function WindowTintingPage() {
         </div>
       </section>
 
-      {/* ── WHY TOTALGARD ── */}
+      {/* ── WHY Totalgard ── */}
       <section className="bg-[#0a0a0a] py-24 relative">
         <div className="absolute top-0 left-0 w-full h-px bg-gradient-to-r from-transparent via-[#c9a84c]/20 to-transparent pointer-events-none" />
         <div className="max-w-7xl mx-auto px-6">
@@ -319,7 +319,7 @@ export default function WindowTintingPage() {
               <br /> Car Window Tinting in Sharjah
             </h2>
             <p className="text-[#888] mt-3 max-w-2xl mx-auto text-sm leading-relaxed">
-              When it comes to car window tinting in Sharjah, TotalGard is the
+              When it comes to car window tinting in Sharjah, Totalgard is the
               name you can trust. With years of experience and a team of skilled
               professionals, we are dedicated to providing high-quality window
               tinting services.
@@ -418,7 +418,7 @@ export default function WindowTintingPage() {
             </h2>
             <p className="text-[#888] mt-5 leading-relaxed">
               Sharjah's extreme summer heat demands the very best window tinting
-              technology. TotalGard's ceramic films are engineered to handle
+              technology. Totalgard's ceramic films are engineered to handle
               UAE's harsh climate — keeping your car cool, protecting your
               interior and blocking harmful radiation.
             </p>
@@ -445,7 +445,7 @@ export default function WindowTintingPage() {
           <div className="relative rounded-3xl overflow-hidden h-[480px] shadow-2xl shadow-black/50">
             <Image
               src="https://images.unsplash.com/photo-1600705722908-bfd6a3fc8b04?w=800&q=80"
-              alt="Best ceramic window tinting Sharjah UAE — TotalGard heat and UV protection performance"
+              alt="Best ceramic window tinting Sharjah UAE — Totalgard heat and UV protection performance"
               fill
               className="object-cover opacity-70"
             />
@@ -483,7 +483,7 @@ export default function WindowTintingPage() {
         </div>
         <div className="relative z-10 max-w-3xl mx-auto px-6 text-center">
           <span className="text-[#c9a84c]/60 text-xs font-semibold tracking-[0.2em] uppercase">
-            Contact TotalGard Sharjah
+            Contact Totalgard Sharjah
           </span>
           <h2 className="text-3xl md:text-4xl font-extrabold mt-4">
             <span className="text-[#f5f5f5]">Get Your Car Tinted</span>
@@ -492,7 +492,7 @@ export default function WindowTintingPage() {
           </h2>
           <p className="mt-4 text-[#888] text-sm max-w-lg mx-auto leading-relaxed">
             If you are looking for professional car window tinting in Sharjah,
-            look no further than TotalGard. Contact us today to schedule an
+            look no further than Totalgard. Contact us today to schedule an
             appointment or to learn more about our window tinting services.
           </p>
           <div className="flex flex-wrap justify-center gap-4 mt-8">

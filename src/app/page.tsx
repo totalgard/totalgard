@@ -5,18 +5,18 @@ import { siteConfig } from "@/lib/siteConfig";
 import HeroSection from "@/components/HeroSection";
 
 export const metadata: Metadata = {
-  title: "TotalGard Sharjah | Window Tinting, PPF & Ceramic Coating Sharjah",
+  title: "Totalgard Sharjah | Window Tinting, PPF & Ceramic Coating Sharjah",
   description:
-    "TotalGard by Smart Auto — Sharjah's #1 automotive protection centre. Expert window tinting Sharjah, paint protection film Sharjah, nano ceramic coating Sharjah & car wrapping Sharjah. Central Mall, Sharjah, UAE. Call +971 56 425 5770.",
+    "Totalgard by Smart Auto — Sharjah's #1 automotive protection centre. Expert window tinting Sharjah, paint protection film Sharjah, nano ceramic coating Sharjah & car wrapping Sharjah. Central Mall, Sharjah, UAE. Call +971 56 425 5770.",
   keywords:
-    "window tinting sharjah, car window tinting sharjah, ceramic window tint sharjah, paint protection film sharjah, PPF sharjah, nano ceramic coating sharjah, car wrapping sharjah, vinyl wrap sharjah, smart film sharjah, stone protection film sharjah, automotive protection sharjah, TotalGard sharjah",
-  alternates: { canonical: "https://totalgard.ae" },
+    "window tinting sharjah, car window tinting sharjah, ceramic window tint sharjah, paint protection film sharjah, PPF sharjah, nano ceramic coating sharjah, car wrapping sharjah, vinyl wrap sharjah, smart film sharjah, stone protection film sharjah, automotive protection sharjah, Totalgard sharjah",
+  alternates: { canonical: "https://Totalgard.ae" },
   openGraph: {
-    title: "TotalGard Sharjah | Window Tinting, PPF & Ceramic Coating Sharjah",
+    title: "Totalgard Sharjah | Window Tinting, PPF & Ceramic Coating Sharjah",
     description:
       "Sharjah's #1 automotive protection experts. Window tinting, PPF, nano ceramic coating & car wrapping at Central Mall, Sharjah.",
-    url: "https://totalgard.ae",
-    siteName: "TotalGard Sharjah",
+    url: "https://Totalgard.ae",
+    siteName: "Totalgard Sharjah",
     locale: "en_AE",
     type: "website",
   },
@@ -90,29 +90,29 @@ const steps = [
     step: "04",
     title: "Quality Check & Delivery",
     description:
-      "Full quality inspection before delivery. You leave TotalGard Sharjah with a perfectly protected car.",
+      "Full quality inspection before delivery. You leave Totalgard Sharjah with a perfectly protected car.",
   },
 ];
 
 const testimonials = [
   {
     name: "John D.",
-    text: "TotalGard Sharjah made the car wrapping process seamless and the results are stunning. Quality work, top-notch service. Couldn't be happier.",
+    text: "Totalgard Sharjah made the car wrapping process seamless and the results are stunning. Quality work, top-notch service. Couldn't be happier.",
     service: "Car Wrapping Sharjah",
   },
   {
     name: "Michael L.",
-    text: "I've tried other window tinting services in Sharjah — TotalGard's expertise truly stands out. Excellent tinting, exceptional customer service. Will return.",
+    text: "I've tried other window tinting services in Sharjah — Totalgard's expertise truly stands out. Excellent tinting, exceptional customer service. Will return.",
     service: "Window Tinting Sharjah",
   },
   {
     name: "Roy Mathew",
-    text: "TotalGard Sharjah exceeded my expectations. Attention to detail and professionalism are unmatched. My car looks better than the day I bought it.",
+    text: "Totalgard Sharjah exceeded my expectations. Attention to detail and professionalism are unmatched. My car looks better than the day I bought it.",
     service: "Ceramic Coating Sharjah",
   },
   {
     name: "Ahmed K.",
-    text: "Got my PPF done at TotalGard Sharjah — thoroughly impressed. The film is invisible and my car's paint looks factory fresh after months of UAE highway driving.",
+    text: "Got my PPF done at Totalgard Sharjah — thoroughly impressed. The film is invisible and my car's paint looks factory fresh after months of UAE highway driving.",
     service: "PPF Sharjah",
   },
   {
@@ -130,35 +130,35 @@ const testimonials = [
 const faqs = [
   {
     q: "Where can I get the best window tinting in Sharjah?",
-    a: "TotalGard at Central Mall, Sharjah is widely regarded as Sharjah's top window tinting specialist. We use premium 3M and Global USA ceramic window films providing superior heat rejection, UV protection and privacy.",
+    a: "Totalgard at Central Mall, Sharjah is widely regarded as Sharjah's top window tinting specialist. We use premium 3M and Global USA ceramic window films providing superior heat rejection, UV protection and privacy.",
   },
   {
     q: "What is the best window tint for cars in Sharjah's heat?",
-    a: "Ceramic window film is the best choice for Sharjah's extreme heat. TotalGard's ceramic window tint rejects up to 85% infrared heat and 99% UV rays while maintaining clear visibility from inside.",
+    a: "Ceramic window film is the best choice for Sharjah's extreme heat. Totalgard's ceramic window tint rejects up to 85% infrared heat and 99% UV rays while maintaining clear visibility from inside.",
   },
   {
     q: "Where can I get PPF (Paint Protection Film) in Sharjah?",
-    a: "TotalGard at Central Mall, Sharjah offers professional PPF installation using self-healing paint protection film. Our Sharjah PPF service protects your paint from scratches and chips for 5 to 10 years.",
+    a: "Totalgard at Central Mall, Sharjah offers professional PPF installation using self-healing paint protection film. Our Sharjah PPF service protects your paint from scratches and chips for 5 to 10 years.",
   },
   {
     q: "Is ceramic coating worth it for cars in Sharjah?",
-    a: "Absolutely. Sharjah's harsh sun, sand and heat make nano ceramic coating essential. TotalGard's ceramic coating provides a hydrophobic layer repelling water, dust and UV damage.",
+    a: "Absolutely. Sharjah's harsh sun, sand and heat make nano ceramic coating essential. Totalgard's ceramic coating provides a hydrophobic layer repelling water, dust and UV damage.",
   },
   {
     q: "How much does car wrapping cost in Sharjah?",
-    a: "Car wrapping prices in Sharjah vary by vehicle size and wrap type. Contact TotalGard at +971 56 425 5770 for a free quote.",
+    a: "Car wrapping prices in Sharjah vary by vehicle size and wrap type. Contact Totalgard at +971 56 425 5770 for a free quote.",
   },
   {
     q: "How long does ceramic coating last in Sharjah?",
-    a: "TotalGard's nano ceramic coating in Sharjah lasts 2 to 5 years depending on grade. Application takes 1 to 2 days at our Central Mall workshop.",
+    a: "Totalgard's nano ceramic coating in Sharjah lasts 2 to 5 years depending on grade. Application takes 1 to 2 days at our Central Mall workshop.",
   },
   {
     q: "Does window tinting block heat in Sharjah?",
-    a: "Yes. TotalGard's ceramic window films reject up to 85% infrared heat, dramatically reducing cabin temperature in Sharjah's extreme summers while reducing AC load.",
+    a: "Yes. Totalgard's ceramic window films reject up to 85% infrared heat, dramatically reducing cabin temperature in Sharjah's extreme summers while reducing AC load.",
   },
   {
-    q: "How do I contact TotalGard in Sharjah?",
-    a: "TotalGard is at Central Mall, Sharjah, UAE. Call +971 56 425 5770, WhatsApp us, or email info@totalgard.ae. Open 7 days a week.",
+    q: "How do I contact Totalgard in Sharjah?",
+    a: "Totalgard is at Central Mall, Sharjah, UAE. Call +971 56 425 5770, WhatsApp us, or email info@Totalgard.ae. Open 7 days a week.",
   },
 ];
 
@@ -167,14 +167,14 @@ const jsonLd = {
   "@graph": [
     {
       "@type": "AutoRepair",
-      "@id": "https://totalgard.ae/#business",
-      name: "TotalGard Sharjah — Smart Auto",
-      alternateName: ["Smart Auto Sharjah", "TotalGard UAE", "Window Tinting Sharjah"],
+      "@id": "https://Totalgard.ae/#business",
+      name: "Totalgard Sharjah — Smart Auto",
+      alternateName: ["Smart Auto Sharjah", "Totalgard UAE", "Window Tinting Sharjah"],
       description:
-        "TotalGard is Sharjah's premier automotive protection centre offering window tinting, PPF, nano ceramic coating and car wrapping in Sharjah, UAE.",
-      url: "https://totalgard.ae",
+        "Totalgard is Sharjah's premier automotive protection centre offering window tinting, PPF, nano ceramic coating and car wrapping in Sharjah, UAE.",
+      url: "https://Totalgard.ae",
       telephone: "+971564255770",
-      email: "info@totalgard.ae",
+      email: "info@Totalgard.ae",
       priceRange: "$$",
       address: {
         "@type": "PostalAddress",
@@ -197,7 +197,7 @@ const jsonLd = {
       areaServed: { "@type": "City", name: "Sharjah" },
       sameAs: [
         "https://www.facebook.com/profile.php?id=100063549502114",
-        "https://www.instagram.com/totalgarduae/",
+        "https://www.instagram.com/Totalgarduae/",
         "https://www.youtube.com/@smartautouae",
       ],
       hasOfferCatalog: {
@@ -219,9 +219,9 @@ const jsonLd = {
     },
     {
       "@type": "WebSite",
-      "@id": "https://totalgard.ae/#website",
-      url: "https://totalgard.ae",
-      name: "TotalGard Sharjah",
+      "@id": "https://Totalgard.ae/#website",
+      url: "https://Totalgard.ae",
+      name: "Totalgard Sharjah",
       description: "Sharjah's premier automotive protection centre.",
     },
   ],
@@ -273,7 +273,7 @@ export default function HomePage() {
             </h2>
             <p className="text-[#888] mt-4 max-w-2xl mx-auto text-base leading-relaxed">
               From ceramic window tinting Sharjah to full car wrapping Sharjah,
-              TotalGard provides every automotive protection service under one
+              Totalgard provides every automotive protection service under one
               roof at Central Mall, Sharjah.
             </p>
           </div>
@@ -287,7 +287,7 @@ export default function HomePage() {
                 <div className="relative h-52 overflow-hidden">
                   <Image
                     src={s.image}
-                    alt={`${s.title} — TotalGard Sharjah UAE`}
+                    alt={`${s.title} — Totalgard Sharjah UAE`}
                     fill
                     className="object-cover group-hover:scale-105 transition-transform duration-700 opacity-70"
                   />
@@ -318,7 +318,7 @@ export default function HomePage() {
           <div className="relative rounded-3xl overflow-hidden h-[500px] shadow-2xl shadow-black/50">
             <Image
               src="https://images.unsplash.com/photo-1625047509248-ec889cbff17f?w=800&q=80"
-              alt="TotalGard Smart Auto Sharjah workshop — best automotive protection in Sharjah UAE"
+              alt="Totalgard Smart Auto Sharjah workshop — best automotive protection in Sharjah UAE"
               fill
               className="object-cover opacity-70"
             />
@@ -332,14 +332,14 @@ export default function HomePage() {
           </div>
           <div>
             <span className="text-[#c9a84c] text-xs font-semibold tracking-[0.2em] uppercase">
-              About TotalGard Sharjah
+              About Totalgard Sharjah
             </span>
             <h2 className="text-4xl font-extrabold text-[#f5f5f5] mt-4 leading-tight">
               Sharjah's Most Trusted
               <br /> Automotive Protection Centre
             </h2>
             <p className="text-[#888] mt-5 leading-relaxed">
-              TotalGard by Smart Auto has been Sharjah's go-to automotive
+              Totalgard by Smart Auto has been Sharjah's go-to automotive
               protection specialist for over 10 years. Located at Central Mall,
               Sharjah, we lead in window tinting Sharjah, PPF Sharjah, nano
               ceramic coating Sharjah, and car wrapping Sharjah.
@@ -385,7 +385,7 @@ export default function HomePage() {
               Our Process
             </span>
             <h2 className="text-4xl font-extrabold text-[#f5f5f5] mt-4">
-              How TotalGard Sharjah Works
+              How Smart Auto Sharjah Works
             </h2>
             <p className="text-[#888] mt-4 max-w-lg mx-auto text-sm leading-relaxed">
               A seamless, transparent process from booking to delivery at our
@@ -426,7 +426,7 @@ export default function HomePage() {
             </h2>
             <p className="text-[#888] mt-5 leading-relaxed">
               Sharjah's extreme heat demands the best window tinting available.
-              TotalGard's ceramic window tinting in Sharjah drastically reduces
+              Totalgard's ceramic window tinting in Sharjah drastically reduces
               cabin heat, blocks UV radiation, and prevents interior fading —
               using only 3M and Global USA ceramic films.
             </p>
@@ -458,7 +458,7 @@ export default function HomePage() {
           <div className="relative rounded-3xl overflow-hidden h-[480px] shadow-2xl shadow-black/50">
             <Image
               src="https://images.unsplash.com/photo-1600705722908-bfd6a3fc8b04?w=800&q=80"
-              alt="Best ceramic window tinting Sharjah UAE — TotalGard heat and UV protection"
+              alt="Best ceramic window tinting Sharjah UAE — Totalgard heat and UV protection"
               fill
               className="object-cover opacity-70"
             />
@@ -480,7 +480,7 @@ export default function HomePage() {
               We Use Only the Best Materials
             </h2>
             <p className="text-[#888] mt-4 max-w-lg mx-auto text-sm leading-relaxed">
-              TotalGard Sharjah exclusively sources from the world's most trusted
+              Totalgard Sharjah exclusively sources from the world's most trusted
               automotive protection brands — quality and longevity guaranteed.
             </p>
           </div>
@@ -490,13 +490,13 @@ export default function HomePage() {
                 name: "3M",
                 desc: "Window Films, PPF & Automotive Solutions",
                 detail:
-                  "3M is the global leader in automotive window films and paint protection. TotalGard Sharjah uses 3M's certified range for window tinting and PPF — trusted by professionals worldwide for over 80 years.",
+                  "3M is the global leader in automotive window films and paint protection. Totalgard Sharjah uses 3M's certified range for window tinting and PPF — trusted by professionals worldwide for over 80 years.",
               },
               {
                 name: "Global USA",
                 desc: "Premium Ceramic Window Films",
                 detail:
-                  "Global Window Films by Madico offers advanced ceramic nano-technology window film. Used by TotalGard Sharjah for superior heat rejection and UV protection — perfect for UAE's intense climate.",
+                  "Global PPF offers advanced ceramic nano-technology window film. Used by Totalgard Sharjah for superior heat rejection and UV protection — perfect for UAE's intense climate.",
               },
             ].map((b) => (
               <div
@@ -525,7 +525,7 @@ export default function HomePage() {
             Watch Us Work
           </span>
           <h2 className="text-4xl font-extrabold text-[#f5f5f5] mt-4">
-            See TotalGard Sharjah in Action
+            See Smart Auto Sharjah in Action
           </h2>
           <p className="text-[#888] mt-4 mb-10 max-w-lg mx-auto text-sm leading-relaxed">
             Watch our certified Sharjah technicians protect and transform
@@ -534,7 +534,7 @@ export default function HomePage() {
           <div className="relative rounded-3xl overflow-hidden shadow-2xl shadow-black/50 aspect-video glass">
             <iframe
               src="https://www.youtube.com/embed?listType=user_uploads&list=smartautouae"
-              title="TotalGard Smart Auto Sharjah — Window Tinting PPF and Ceramic Coating Videos"
+              title="Totalgard Smart Auto Sharjah — Window Tinting PPF and Ceramic Coating Videos"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
               allowFullScreen
               className="w-full h-full"
@@ -554,7 +554,7 @@ export default function HomePage() {
               What Sharjah Customers Say
             </h2>
             <p className="text-[#888] mt-4 max-w-lg mx-auto text-sm leading-relaxed">
-              Hundreds of satisfied customers across Sharjah trust TotalGard
+              Hundreds of satisfied customers across Sharjah trust Totalgard
               for professional window tinting, PPF, ceramic coating and car
               wrapping.
             </p>
@@ -596,7 +596,7 @@ export default function HomePage() {
               Find Us in Sharjah
             </span>
             <h2 className="text-4xl font-extrabold text-[#f5f5f5] mt-4">
-              Visit TotalGard — Central Mall, Sharjah
+              Visit Smart Auto — Central Mall, Sharjah
             </h2>
             <p className="text-[#888] mt-4 text-sm">
               Easy access and ample parking at Central Mall, Sharjah, UAE.
@@ -610,12 +610,12 @@ export default function HomePage() {
               style={{ border: 0 }}
               allowFullScreen
               loading="lazy"
-              title="TotalGard Smart Auto — Central Mall Sharjah Location Map"
+              title="Totalgard Smart Auto — Central Mall Sharjah Location Map"
             />
           </div>
           <div className="flex flex-wrap justify-center gap-8 mt-10 text-sm">
             <a href={siteConfig.googleMaps} target="_blank" className="text-[#c9a84c] font-semibold hover:underline">
-              Get Directions to TotalGard Sharjah →
+              Get Directions to Totalgard Sharjah →
             </a>
             <a href={`tel:${siteConfig.phone}`} className="text-[#555] hover:text-[#c9a84c] transition-colors">
               {siteConfig.phoneDisplay}
@@ -639,7 +639,7 @@ export default function HomePage() {
             </h2>
             <p className="text-[#888] mt-4 text-sm leading-relaxed">
               Your questions about window tinting Sharjah, PPF Sharjah, ceramic
-              coating Sharjah and car wrapping Sharjah — answered by TotalGard's
+              coating Sharjah and car wrapping Sharjah — answered by Totalgard's
               experts.
             </p>
           </div>
@@ -673,7 +673,7 @@ export default function HomePage() {
             <span className="gold-text">Your Vehicle in Sharjah?</span>
           </h2>
           <p className="mt-5 text-base text-[#888] max-w-xl mx-auto leading-relaxed">
-            Visit TotalGard at Central Mall, Sharjah or contact us today for a
+            Visit Smart Auto at Central Mall, Sharjah or contact us today for a
             free consultation on window tinting, PPF, ceramic coating or car
             wrapping in Sharjah.
           </p>
@@ -683,7 +683,7 @@ export default function HomePage() {
               target="_blank"
               className="gold-gradient text-[#0a0a0a] px-10 py-4 rounded-full font-bold text-base hover:opacity-90 transition-opacity shadow-xl shadow-[#c9a84c]/20"
             >
-              WhatsApp TotalGard Sharjah
+              WhatsApp Totalgard Sharjah
             </a>
             <a
               href={`tel:${siteConfig.phone}`}

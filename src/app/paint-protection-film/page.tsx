@@ -4,12 +4,12 @@ import Link from "next/link";
 import { siteConfig } from "@/lib/siteConfig";
 
 export const metadata: Metadata = {
-  title: "Paint Protection Film Sharjah | Best PPF Sharjah — TotalGard",
+  title: "Paint Protection Film Sharjah | Best PPF Sharjah — Totalgard",
   description:
-    "TotalGard offers the best paint protection film (PPF) in Sharjah. Transparent, self-healing PPF shielding your car from chips, scratches and environmental damage. Central Mall, Sharjah, UAE. Call +971 56 425 5770.",
+    "Totalgard offers the best paint protection film (PPF) in Sharjah. Transparent, self-healing PPF shielding your car from chips, scratches and environmental damage. Central Mall, Sharjah, UAE. Call +971 56 425 5770.",
   keywords:
     "paint protection film sharjah, PPF sharjah, car paint protection sharjah, self healing PPF sharjah, clear bra sharjah, best PPF sharjah, car protection film sharjah, ppf automotive sharjah",
-  alternates: { canonical: "https://totalgard.ae/paint-protection-film" },
+  alternates: { canonical: "https://Totalgard.ae/paint-protection-film" },
 };
 
 const benefits = [
@@ -23,7 +23,7 @@ const benefits = [
   },
   {
     title: "Invisibility",
-    desc: "TotalGard's paint protection film is virtually invisible once applied, allowing your vehicle's original paint colour and finish to shine through.",
+    desc: "Totalgard's paint protection film is virtually invisible once applied, allowing your vehicle's original paint colour and finish to shine through.",
   },
   {
     title: "Ease of Maintenance",
@@ -123,27 +123,27 @@ const filmTypes = [
 const faqs = [
   {
     q: "What is Paint Protection Film (PPF) and why do I need it in Sharjah?",
-    a: "PPF is a clear, self-healing polyurethane film applied to your car's paint surface. In Sharjah and the UAE, roads are full of stone chips, sand and debris that damage paint. TotalGard's PPF provides an invisible shield that protects your car for years.",
+    a: "PPF is a clear, self-healing polyurethane film applied to your car's paint surface. In Sharjah and the UAE, roads are full of stone chips, sand and debris that damage paint. Totalgard's PPF provides an invisible shield that protects your car for years.",
   },
   {
     q: "How long does PPF last in UAE conditions?",
-    a: "TotalGard's PPF in Sharjah is engineered to withstand UAE's extreme heat without yellowing, bubbling or peeling — typically lasting 7 to 10 years depending on the grade and coverage chosen.",
+    a: "Totalgard's PPF in Sharjah is engineered to withstand UAE's extreme heat without yellowing, bubbling or peeling — typically lasting 7 to 10 years depending on the grade and coverage chosen.",
   },
   {
     q: "Is PPF worth it for my car in Sharjah?",
-    a: "Absolutely. Sharjah's roads, dust and heat are harsh on car paint. PPF is a one-time investment that saves thousands in paint repairs and preserves your car's resale value. TotalGard offers competitive PPF pricing.",
+    a: "Absolutely. Sharjah's roads, dust and heat are harsh on car paint. PPF is a one-time investment that saves thousands in paint repairs and preserves your car's resale value. Totalgard offers competitive PPF pricing.",
   },
   {
     q: "Can PPF be removed without damaging paint?",
-    a: "Yes. TotalGard's professionally installed PPF can be removed cleanly without damaging the underlying paint — one of the key advantages of PPF for paint protection in Sharjah.",
+    a: "Yes. Totalgard's professionally installed PPF can be removed cleanly without damaging the underlying paint — one of the key advantages of PPF for paint protection in Sharjah.",
   },
   {
     q: "How long does PPF installation take in Sharjah?",
-    a: "PPF installation at TotalGard Sharjah takes 1 to 3 days depending on coverage area. Full body PPF takes longer while partial packages can often be completed same day at our Central Mall, Sharjah workshop.",
+    a: "PPF installation at Totalgard Sharjah takes 1 to 3 days depending on coverage area. Full body PPF takes longer while partial packages can often be completed same day at our Central Mall, Sharjah workshop.",
   },
   {
     q: "What is the difference between Gloss and Matte PPF?",
-    a: "Gloss PPF preserves your car's original shiny finish while matte PPF gives your vehicle a premium satin/matte appearance. Both provide the same level of paint protection. TotalGard Sharjah offers both options.",
+    a: "Gloss PPF preserves your car's original shiny finish while matte PPF gives your vehicle a premium satin/matte appearance. Both provide the same level of paint protection. Totalgard Sharjah offers both options.",
   },
 ];
 
@@ -152,13 +152,13 @@ const jsonLd = {
   "@graph": [
     {
       "@type": "Service",
-      "@id": "https://totalgard.ae/paint-protection-film/#service",
+      "@id": "https://Totalgard.ae/paint-protection-film/#service",
       name: "Paint Protection Film Sharjah",
       description:
-        "TotalGard offers the best paint protection film (PPF) in Sharjah. Self-healing, invisible PPF shielding paint from chips, scratches and environmental damage.",
-      provider: { "@id": "https://totalgard.ae/#business" },
+        "Totalgard offers the best paint protection film (PPF) in Sharjah. Self-healing, invisible PPF shielding paint from chips, scratches and environmental damage.",
+      provider: { "@id": "https://Totalgard.ae/#business" },
       areaServed: { "@type": "City", name: "Sharjah" },
-      url: "https://totalgard.ae/paint-protection-film",
+      url: "https://Totalgard.ae/paint-protection-film",
     },
     {
       "@type": "FAQPage",
@@ -214,7 +214,7 @@ export default function PPFPage() {
               <span className="gold-text">Sharjah</span>
             </h1>
             <p className="mt-5 text-[#888] text-lg leading-relaxed">
-              TotalGard offers the best paint protection film in Sharjah. Our
+              Totalgard offers the best paint protection film in Sharjah. Our
               transparent and durable PPF serves as an{" "}
               <span className="text-[#c9a84c] font-semibold">
                 invisible shield
@@ -246,7 +246,7 @@ export default function PPFPage() {
           <div className="relative rounded-3xl overflow-hidden h-[420px] shadow-2xl shadow-black/50">
             <Image
               src="https://images.unsplash.com/photo-1552519507-da3b142c6e3d?w=800&q=80"
-              alt="Best paint protection film PPF Sharjah — TotalGard self-healing car paint protection UAE"
+              alt="Best paint protection film PPF Sharjah — Totalgard self-healing car paint protection UAE"
               fill
               className="object-cover opacity-75"
               priority
@@ -286,7 +286,7 @@ export default function PPFPage() {
               <span className="gold-text">Pristine Finish</span>
             </h2>
             <p className="text-[#888] mt-4 max-w-3xl mx-auto leading-relaxed">
-              TotalGard offers the best paint protection film in Sharjah. Our
+              Totalgard offers the best paint protection film in Sharjah. Our
               PPF solution is meticulously engineered to provide unparalleled
               protection — the top choice for drivers in Sharjah looking to
               safeguard their investment and drive with confidence knowing their
@@ -328,7 +328,7 @@ export default function PPFPage() {
               <br /> of Car Paint Damage in Sharjah
             </h2>
             <p className="text-[#888] mt-3 max-w-xl mx-auto text-sm leading-relaxed">
-              TotalGard's anti-ageing PPF protects every vulnerable area of your
+              Totalgard's anti-ageing PPF protects every vulnerable area of your
               vehicle from the hazards of Sharjah's roads and climate.
             </p>
           </div>
@@ -425,7 +425,7 @@ export default function PPFPage() {
               PPF Options Available in Sharjah
             </h2>
             <p className="text-[#888] mt-3 max-w-xl mx-auto text-sm leading-relaxed">
-              TotalGard offers a full range of paint protection film types to
+              Totalgard offers a full range of paint protection film types to
               suit every style and protection requirement.
             </p>
           </div>
@@ -451,7 +451,7 @@ export default function PPFPage() {
         </div>
       </section>
 
-      {/* ── WHY TOTALGARD ── */}
+      {/* ── WHY Totalgard ── */}
       <section className="bg-[#0d0d0d] py-24 relative overflow-hidden">
         <div className="absolute top-0 left-0 w-full h-px bg-gradient-to-r from-transparent via-[#c9a84c]/20 to-transparent pointer-events-none" />
         <div className="absolute right-0 top-1/2 w-[400px] h-[400px] bg-[#c9a84c] opacity-[0.04] blur-[80px] rounded-full pointer-events-none" />
@@ -459,7 +459,7 @@ export default function PPFPage() {
           <div className="relative rounded-3xl overflow-hidden h-[460px] shadow-2xl shadow-black/50">
             <Image
               src="https://images.unsplash.com/photo-1625047509248-ec889cbff17f?w=800&q=80"
-              alt="TotalGard PPF installation workshop Sharjah — best paint protection film UAE"
+              alt="Totalgard PPF installation workshop Sharjah — best paint protection film UAE"
               fill
               className="object-cover opacity-70"
             />
@@ -473,21 +473,21 @@ export default function PPFPage() {
           </div>
           <div>
             <span className="text-[#c9a84c] text-xs font-semibold tracking-[0.2em] uppercase">
-              Why TotalGard Sharjah
+              Why Totalgard Sharjah
             </span>
             <h2 className="text-3xl md:text-4xl font-extrabold text-[#f5f5f5] mt-4 leading-tight">
               The Best Car Paint Protection
               <br /> Film in Sharjah
             </h2>
             <p className="text-[#888] mt-5 leading-relaxed">
-              When it comes to keeping your car looking brand new, TotalGard is
+              When it comes to keeping your car looking brand new, Totalgard is
               the go-to provider for the best car paint protection film in
               Sharjah. Our high-quality film is designed to shield your vehicle
               from scratches, chips and other forms of damage — ensuring it
               retains its pristine appearance for years to come.
             </p>
             <p className="text-[#888] mt-4 leading-relaxed">
-              At TotalGard, we understand that every car is unique. Our team of
+              At Totalgard, we understand that every car is unique. Our team of
               experts will work closely with you to determine the best PPF
               solution for your car, ensuring a perfect fit and maximum
               protection. We guarantee a flawless installation every time.
@@ -530,10 +530,10 @@ export default function PPFPage() {
             <h2 className="text-3xl font-extrabold text-[#f5f5f5] mt-3">
               Safeguard Your Vehicle
               <br />
-              <span className="gold-text">with TotalGard PPF Sharjah</span>
+              <span className="gold-text">with Totalgard PPF Sharjah</span>
             </h2>
             <p className="text-[#888] mt-3 text-sm leading-relaxed">
-              Send us a message and let's protect your vehicle with TotalGard's
+              Send us a message and let's protect your vehicle with Totalgard's
               expertise in Sharjah.
             </p>
           </div>
@@ -603,7 +603,7 @@ export default function PPFPage() {
               target="_blank"
               className="w-full glass text-[#c9a84c] py-3.5 rounded-full font-bold text-sm hover:border-[#c9a84c]/40 transition-colors block text-center"
             >
-              WhatsApp TotalGard Sharjah
+              WhatsApp Totalgard Sharjah
             </a>
           </form>
         </div>
@@ -643,7 +643,7 @@ export default function PPFPage() {
         </div>
         <div className="relative z-10 max-w-3xl mx-auto px-6 text-center">
           <span className="text-[#c9a84c]/60 text-xs font-semibold tracking-[0.2em] uppercase">
-            Contact TotalGard Sharjah
+            Contact Totalgard Sharjah
           </span>
           <h2 className="text-3xl md:text-4xl font-extrabold mt-4">
             <span className="text-[#f5f5f5]">Don't Settle for Less —</span>
@@ -651,7 +651,7 @@ export default function PPFPage() {
             <span className="gold-text">Get the Best PPF in Sharjah</span>
           </h2>
           <p className="mt-4 text-[#888] text-sm max-w-lg mx-auto leading-relaxed">
-            Trust TotalGard to provide you with the finest car paint protection
+            Trust Totalgard to provide you with the finest car paint protection
             film in Sharjah. Contact us today to learn more and schedule an
             appointment at Central Mall, Sharjah.
           </p>

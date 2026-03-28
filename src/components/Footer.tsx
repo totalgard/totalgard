@@ -92,7 +92,7 @@ export default function Footer() {
         {/* Contact */}
         <div>
           <p className="text-[#f5f5f5] font-semibold mb-4 text-xs tracking-widest uppercase">
-            Contact TotalGard Sharjah
+            Contact Totalgard Sharjah
           </p>
           <ul className="space-y-3 text-xs">
             <li>
@@ -128,7 +128,7 @@ export default function Footer() {
       {/* Bottom bar */}
       <div className="max-w-7xl mx-auto px-6 mt-12 pt-6 border-t border-[#1a1a1a] flex flex-wrap justify-between gap-3 text-xs text-[#2a2a2a]">
         <p>
-          ©2025 TotalGard Sharjah. All Rights Reserved.{" "}
+          ©2025 Totalgard Sharjah. All Rights Reserved.{" "}
           <a
             href="https://smartautouae.com"
             target="_blank"

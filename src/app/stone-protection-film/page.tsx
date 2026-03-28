@@ -4,12 +4,12 @@ import Link from "next/link";
 import { siteConfig } from "@/lib/siteConfig";
 
 export const metadata: Metadata = {
-  title: "Stone Protection Film Sharjah | Marble & Stone Surface Protection — TotalGard",
+  title: "Stone Protection Film Sharjah | Marble & Stone Surface Protection — Totalgard",
   description:
-    "TotalGard offers professional stone protection film installation in Sharjah. Transparent polyurethane film protecting marble, glass and stone countertops from scratches, stains and damage. Residential and commercial. Call +971 56 425 5770.",
+    "Totalgard offers professional stone protection film installation in Sharjah. Transparent polyurethane film protecting marble, glass and stone countertops from scratches, stains and damage. Residential and commercial. Call +971 56 425 5770.",
   keywords:
     "stone protection film sharjah, marble protection film sharjah, stone surface protection sharjah, countertop protection film sharjah, stone film installation sharjah, marble protection sharjah, surface protection film sharjah",
-  alternates: { canonical: "https://totalgard.ae/stone-protection-film" },
+  alternates: { canonical: "https://Totalgard.ae/stone-protection-film" },
 };
 
 const benefits = [
@@ -118,7 +118,7 @@ const installationSteps = [
   {
     step: "01",
     title: "Initial Consultation",
-    desc: "TotalGard's experts assess your stone surfaces — type, condition, environment — to determine the appropriate film and extent of preparation required.",
+    desc: "Totalgard's experts assess your stone surfaces — type, condition, environment — to determine the appropriate film and extent of preparation required.",
   },
   {
     step: "02",
@@ -128,12 +128,12 @@ const installationSteps = [
   {
     step: "03",
     title: "Precision Film Application",
-    desc: "Meticulous alignment and application of the protection film by TotalGard's trained professionals — cut and fitted with advanced tools, zero bubbles.",
+    desc: "Meticulous alignment and application of the protection film by Totalgard's trained professionals — cut and fitted with advanced tools, zero bubbles.",
   },
   {
     step: "04",
     title: "Quality Inspection",
-    desc: "Thorough post-installation inspection to confirm the film is applied correctly and meets TotalGard's highest performance standards in Sharjah.",
+    desc: "Thorough post-installation inspection to confirm the film is applied correctly and meets Totalgard's highest performance standards in Sharjah.",
   },
 ];
 
@@ -155,12 +155,12 @@ const misconceptions = [
   {
     myth: "Film ruins the look of your stone",
     truth:
-      "High-quality stone protection films from TotalGard are virtually invisible once applied — actually enhancing the natural beauty and colour of your stone rather than detracting from it.",
+      "High-quality stone protection films from Totalgard are virtually invisible once applied — actually enhancing the natural beauty and colour of your stone rather than detracting from it.",
   },
   {
     myth: "DIY installation is just as good",
     truth:
-      "Professional installation is strongly recommended. TotalGard's skilled technicians ensure optimal adhesion, precision cutting and a bubble-free result that DIY simply cannot match.",
+      "Professional installation is strongly recommended. Totalgard's skilled technicians ensure optimal adhesion, precision cutting and a bubble-free result that DIY simply cannot match.",
   },
 ];
 
@@ -168,19 +168,19 @@ const testimonials = [
   {
     name: "Restaurant Owner, Sharjah",
     quote:
-      "After TotalGard's stone protection film installation, we noticed a significant reduction in damage from spills and scratches. Lower maintenance costs and our countertops always look great — the long-lasting protection exceeded our expectations.",
+      "After Totalgard's stone protection film installation, we noticed a significant reduction in damage from spills and scratches. Lower maintenance costs and our countertops always look great — the long-lasting protection exceeded our expectations.",
     type: "Commercial",
   },
   {
     name: "Residential Client, Sharjah",
     quote:
-      "Since applying the stone protection film on our outdoor patio, cleaning has become effortless. Previous sealants were disappointing, but TotalGard's film proved to be an effective solution against harsh weather while keeping the stone vibrant.",
+      "Since applying the stone protection film on our outdoor patio, cleaning has become effortless. Previous sealants were disappointing, but Totalgard's film proved to be an effective solution against harsh weather while keeping the stone vibrant.",
     type: "Residential",
   },
   {
     name: "Facility Manager, Office Building Sharjah",
     quote:
-      "Dramatic improvements in the durability of our marble flooring after TotalGard's installation. Easier cleaning, reduced frequency of repairs — a great investment in protecting our high-quality materials.",
+      "Dramatic improvements in the durability of our marble flooring after Totalgard's installation. Easier cleaning, reduced frequency of repairs — a great investment in protecting our high-quality materials.",
     type: "Commercial",
   },
 ];
@@ -188,27 +188,27 @@ const testimonials = [
 const faqs = [
   {
     q: "What is stone protection film and what surfaces does it protect?",
-    a: "Stone protection film is a transparent polyurethane film applied to marble, granite, glass and natural stone surfaces to protect them from scratches, stains, UV damage and daily wear. TotalGard installs stone protection film on countertops, bathroom surfaces, outdoor patios, marble flooring and more across Sharjah.",
+    a: "Stone protection film is a transparent polyurethane film applied to marble, granite, glass and natural stone surfaces to protect them from scratches, stains, UV damage and daily wear. Totalgard installs stone protection film on countertops, bathroom surfaces, outdoor patios, marble flooring and more across Sharjah.",
   },
   {
     q: "Will stone protection film change the appearance of my stone in Sharjah?",
-    a: "No. TotalGard's high-quality stone protection films are virtually invisible once applied. Rather than altering your stone's appearance, the film enhances its natural colour and shine — preserving and accentuating the original beauty of your surfaces.",
+    a: "No. Totalgard's high-quality stone protection films are virtually invisible once applied. Rather than altering your stone's appearance, the film enhances its natural colour and shine — preserving and accentuating the original beauty of your surfaces.",
   },
   {
     q: "How long does stone protection film last in Sharjah's climate?",
-    a: "TotalGard's polyurethane stone protection films are engineered to withstand Sharjah's harsh climate including extreme heat, UV radiation and humidity. With proper maintenance, the film provides long-lasting protection — significantly extending the life of your stone surfaces.",
+    a: "Totalgard's polyurethane stone protection films are engineered to withstand Sharjah's harsh climate including extreme heat, UV radiation and humidity. With proper maintenance, the film provides long-lasting protection — significantly extending the life of your stone surfaces.",
   },
   {
     q: "Is professional installation necessary for stone protection film in Sharjah?",
-    a: "Yes. Professional installation is strongly recommended. TotalGard's certified technicians ensure precise cutting, proper surface preparation and optimal film adhesion — guaranteeing a bubble-free, flawless result that performs effectively over time.",
+    a: "Yes. Professional installation is strongly recommended. Totalgard's certified technicians ensure precise cutting, proper surface preparation and optimal film adhesion — guaranteeing a bubble-free, flawless result that performs effectively over time.",
   },
   {
     q: "How do I maintain stone surfaces after film installation in Sharjah?",
-    a: "Use pH-neutral cleaners and soft microfiber cloths for routine cleaning. Avoid acidic or abrasive products. Wipe spills promptly. TotalGard's team provides full aftercare guidance after every installation in Sharjah.",
+    a: "Use pH-neutral cleaners and soft microfiber cloths for routine cleaning. Avoid acidic or abrasive products. Wipe spills promptly. Totalgard's team provides full aftercare guidance after every installation in Sharjah.",
   },
   {
     q: "Is stone protection film suitable for commercial properties in Sharjah?",
-    a: "Absolutely. TotalGard's stone protection film is ideal for restaurants, hotels, offices and commercial establishments in Sharjah with high-traffic stone surfaces. It protects against heavy daily use while maintaining an inviting aesthetic and reducing maintenance costs.",
+    a: "Absolutely. Totalgard's stone protection film is ideal for restaurants, hotels, offices and commercial establishments in Sharjah with high-traffic stone surfaces. It protects against heavy daily use while maintaining an inviting aesthetic and reducing maintenance costs.",
   },
 ];
 
@@ -217,13 +217,13 @@ const jsonLd = {
   "@graph": [
     {
       "@type": "Service",
-      "@id": "https://totalgard.ae/stone-protection-film/#service",
+      "@id": "https://Totalgard.ae/stone-protection-film/#service",
       name: "Stone Protection Film Sharjah",
       description:
-        "TotalGard offers professional stone protection film installation in Sharjah for marble, glass and stone surfaces. Residential and commercial.",
-      provider: { "@id": "https://totalgard.ae/#business" },
+        "Totalgard offers professional stone protection film installation in Sharjah for marble, glass and stone surfaces. Residential and commercial.",
+      provider: { "@id": "https://Totalgard.ae/#business" },
       areaServed: { "@type": "City", name: "Sharjah" },
-      url: "https://totalgard.ae/stone-protection-film",
+      url: "https://Totalgard.ae/stone-protection-film",
     },
     {
       "@type": "FAQPage",
@@ -279,7 +279,7 @@ export default function StoneProtectionFilmPage() {
               <span className="gold-text">Sharjah</span>
             </h1>
             <p className="mt-5 text-[#888] text-lg leading-relaxed">
-              TotalGard offers professional stone protection film installation
+              Totalgard offers professional stone protection film installation
               in Sharjah — an{" "}
               <span className="text-[#c9a84c] font-semibold">
                 advanced transparent barrier
@@ -312,7 +312,7 @@ export default function StoneProtectionFilmPage() {
           <div className="relative rounded-3xl overflow-hidden h-[420px] shadow-2xl shadow-black/50">
             <Image
               src="https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?w=800&q=80"
-              alt="Stone protection film Sharjah — TotalGard marble and stone surface protection UAE"
+              alt="Stone protection film Sharjah — Totalgard marble and stone surface protection UAE"
               fill
               className="object-cover opacity-75"
               priority
@@ -395,7 +395,7 @@ export default function StoneProtectionFilmPage() {
               <br /> Film in Sharjah
             </h2>
             <p className="text-[#888] mt-3 max-w-xl mx-auto text-sm leading-relaxed">
-              TotalGard's stone protection film is ideal for a wide range of
+              Totalgard's stone protection film is ideal for a wide range of
               residential and commercial applications across Sharjah and UAE.
             </p>
           </div>
@@ -429,10 +429,10 @@ export default function StoneProtectionFilmPage() {
             </span>
             <h2 className="text-3xl md:text-4xl font-extrabold text-[#f5f5f5] mt-3">
               Stone Protection Film Materials
-              <br /> Used by TotalGard Sharjah
+              <br /> Used by Totalgard Sharjah
             </h2>
             <p className="text-[#888] mt-3 max-w-xl mx-auto text-sm leading-relaxed">
-              TotalGard uses only the highest quality stone protection film
+              Totalgard uses only the highest quality stone protection film
               materials — engineered to withstand Sharjah's harsh climate and
               heavy daily use.
             </p>
@@ -489,7 +489,7 @@ export default function StoneProtectionFilmPage() {
               Installation Process
             </span>
             <h2 className="text-3xl md:text-4xl font-extrabold text-[#f5f5f5] mt-3">
-              How TotalGard Installs Stone
+              How Smart Auto Installs Stone
               <br /> Protection Film in Sharjah
             </h2>
             <p className="text-[#888] mt-3 max-w-xl mx-auto text-sm leading-relaxed">
@@ -515,7 +515,7 @@ export default function StoneProtectionFilmPage() {
         </div>
       </section>
 
-      {/* ── WHY TOTALGARD ── */}
+      {/* ── WHY Totalgard ── */}
       <section className="bg-[#0d0d0d] py-24 relative overflow-hidden">
         <div className="absolute top-0 left-0 w-full h-px bg-gradient-to-r from-transparent via-[#c9a84c]/20 to-transparent pointer-events-none" />
         <div className="absolute right-0 top-0 w-[400px] h-[400px] bg-[#c9a84c] opacity-[0.04] blur-[80px] rounded-full pointer-events-none" />
@@ -523,7 +523,7 @@ export default function StoneProtectionFilmPage() {
           <div className="relative rounded-3xl overflow-hidden h-[460px] shadow-2xl shadow-black/50">
             <Image
               src="https://images.unsplash.com/photo-1600585154526-990dced4db0d?w=800&q=80"
-              alt="TotalGard stone protection film installation Sharjah — marble and countertop protection UAE"
+              alt="Totalgard stone protection film installation Sharjah — marble and countertop protection UAE"
               fill
               className="object-cover opacity-70"
             />
@@ -537,7 +537,7 @@ export default function StoneProtectionFilmPage() {
           </div>
           <div>
             <span className="text-[#c9a84c] text-xs font-semibold tracking-[0.2em] uppercase">
-              Why TotalGard Sharjah
+              Why Totalgard Sharjah
             </span>
             <h2 className="text-3xl md:text-4xl font-extrabold text-[#f5f5f5] mt-4 leading-tight">
               Sharjah's Leading Stone
@@ -545,7 +545,7 @@ export default function StoneProtectionFilmPage() {
               <span className="gold-text">Protection Film Specialists</span>
             </h2>
             <p className="text-[#888] mt-5 leading-relaxed">
-              TotalGard has emerged as a leading choice for stone protection
+              Totalgard has emerged as a leading choice for stone protection
               film in Sharjah — renowned for exceptional expertise, high-quality
               materials and a commitment to customer satisfaction. Our team is
               well-versed in various stone types and the specific requirements
@@ -677,7 +677,7 @@ export default function StoneProtectionFilmPage() {
               <span className="gold-text">Protected Stone Surfaces</span>
             </h2>
             <p className="text-[#888] mt-5 leading-relaxed">
-              After TotalGard's professional stone protection film installation
+              After Totalgard's professional stone protection film installation
               in Sharjah, proper maintenance ensures the longevity of your
               marble, glass and stone countertops — preserving their aesthetic
               appeal and functionality for years.
@@ -694,7 +694,7 @@ export default function StoneProtectionFilmPage() {
           <div className="relative rounded-3xl overflow-hidden h-[440px] shadow-2xl shadow-black/50">
             <Image
               src="https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?w=800&q=80"
-              alt="Stone protection film maintenance Sharjah — TotalGard protected marble countertop UAE"
+              alt="Stone protection film maintenance Sharjah — Totalgard protected marble countertop UAE"
               fill
               className="object-cover opacity-70"
             />
@@ -743,7 +743,7 @@ export default function StoneProtectionFilmPage() {
         </div>
         <div className="relative z-10 max-w-3xl mx-auto px-6 text-center">
           <span className="text-[#c9a84c]/60 text-xs font-semibold tracking-[0.2em] uppercase">
-            Get Started with TotalGard Sharjah
+            Get Started with Totalgard Sharjah
           </span>
           <h2 className="text-3xl md:text-4xl font-extrabold mt-4">
             <span className="text-[#f5f5f5]">Protect Your Stone Surfaces</span>
@@ -751,7 +751,7 @@ export default function StoneProtectionFilmPage() {
             <span className="gold-text">in Sharjah Today</span>
           </h2>
           <p className="mt-4 text-[#888] text-sm max-w-lg mx-auto leading-relaxed">
-            Reach out to TotalGard Sharjah for a free consultation and quote on
+            Reach out to Totalgard Sharjah for a free consultation and quote on
             stone protection film installation. Residential and commercial
             properties across Sharjah and UAE. We frequently offer special
             promotions — ask about ongoing deals when you contact us.

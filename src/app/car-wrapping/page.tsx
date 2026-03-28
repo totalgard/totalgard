@@ -4,12 +4,12 @@ import Link from "next/link";
 import { siteConfig } from "@/lib/siteConfig";
 
 export const metadata: Metadata = {
-  title: "Car Wrapping Sharjah | Professional Car Wrap Sharjah — TotalGard",
+  title: "Car Wrapping Sharjah | Professional Car Wrap Sharjah — Totalgard",
   description:
-    "TotalGard offers professional car wrapping in Sharjah. Full wraps, partial wraps, colour changes and car graphics. Premium vinyl materials, stunning results. Central Mall, Sharjah, UAE. Call +971 56 425 5770.",
+    "Totalgard offers professional car wrapping in Sharjah. Full wraps, partial wraps, colour changes and car graphics. Premium vinyl materials, stunning results. Central Mall, Sharjah, UAE. Call +971 56 425 5770.",
   keywords:
     "car wrapping sharjah, car wrap sharjah, vinyl wrap sharjah, colour change wrap sharjah, car graphics sharjah, vehicle wrap sharjah, full car wrap sharjah, partial car wrap sharjah, car decals sharjah",
-  alternates: { canonical: "https://totalgard.ae/car-wrapping" },
+  alternates: { canonical: "https://Totalgard.ae/car-wrapping" },
 };
 
 const benefits = [
@@ -19,7 +19,7 @@ const benefits = [
   },
   {
     title: "Protection",
-    desc: "Shield your vehicle's original paint from scratches, chips and UV damage with a high-quality vinyl wrap applied by TotalGard's Sharjah experts.",
+    desc: "Shield your vehicle's original paint from scratches, chips and UV damage with a high-quality vinyl wrap applied by Totalgard's Sharjah experts.",
   },
   {
     title: "Versatility",
@@ -118,7 +118,7 @@ const process = [
   {
     step: "01",
     title: "Design Consultation",
-    desc: "Discuss your vision, colour preferences and design goals with TotalGard's Sharjah team. We'll help you find the perfect wrap solution.",
+    desc: "Discuss your vision, colour preferences and design goals with Totalgard's Sharjah team. We'll help you find the perfect wrap solution.",
   },
   {
     step: "02",
@@ -133,34 +133,34 @@ const process = [
   {
     step: "04",
     title: "Quality Inspection",
-    desc: "Full post-wrap quality check before delivery. You leave TotalGard Sharjah with a perfectly wrapped vehicle and full aftercare instructions.",
+    desc: "Full post-wrap quality check before delivery. You leave Totalgard Sharjah with a perfectly wrapped vehicle and full aftercare instructions.",
   },
 ];
 
 const faqs = [
   {
     q: "How much does car wrapping cost in Sharjah?",
-    a: "Car wrapping prices in Sharjah vary based on vehicle size, wrap type, film brand and design complexity. TotalGard offers competitive car wrapping prices in Sharjah. Contact us at +971 56 425 5770 or WhatsApp us for a free quote.",
+    a: "Car wrapping prices in Sharjah vary based on vehicle size, wrap type, film brand and design complexity. Totalgard offers competitive car wrapping prices in Sharjah. Contact us at +971 56 425 5770 or WhatsApp us for a free quote.",
   },
   {
     q: "How long does a car wrap last in Sharjah's heat?",
-    a: "A professionally installed car wrap from TotalGard Sharjah typically lasts 5 to 7 years. We use premium vinyl films specifically rated for UAE's extreme heat and UV conditions — they won't fade, bubble or peel prematurely.",
+    a: "A professionally installed car wrap from Totalgard Sharjah typically lasts 5 to 7 years. We use premium vinyl films specifically rated for UAE's extreme heat and UV conditions — they won't fade, bubble or peel prematurely.",
   },
   {
     q: "Will car wrapping damage my original paint in Sharjah?",
-    a: "No. A professionally installed car wrap by TotalGard actually protects your original paint from UV, scratches and stone chips. When removed correctly, the original factory paint is preserved in perfect condition.",
+    a: "No. A professionally installed car wrap by Totalgard actually protects your original paint from UV, scratches and stone chips. When removed correctly, the original factory paint is preserved in perfect condition.",
   },
   {
     q: "How long does car wrapping take in Sharjah?",
-    a: "A full car wrap at TotalGard Sharjah typically takes 3 to 5 days depending on vehicle size and design complexity. Partial wraps and graphics can often be completed in 1 to 2 days at our Central Mall, Sharjah workshop.",
+    a: "A full car wrap at Totalgard Sharjah typically takes 3 to 5 days depending on vehicle size and design complexity. Partial wraps and graphics can often be completed in 1 to 2 days at our Central Mall, Sharjah workshop.",
   },
   {
     q: "Can I wrap my car a different colour in Sharjah?",
-    a: "Absolutely. Colour change wrapping is one of the most popular services at TotalGard Sharjah. With 100+ colour options including gloss, matte, satin and chrome — you can completely transform your car's colour without permanent paint changes.",
+    a: "Absolutely. Colour change wrapping is one of the most popular services at Totalgard Sharjah. With 100+ colour options including gloss, matte, satin and chrome — you can completely transform your car's colour without permanent paint changes.",
   },
   {
     q: "Can car graphics be used for business advertising in Sharjah?",
-    a: "Yes. TotalGard Sharjah provides professional car graphics and fleet branding services for businesses across Sharjah and UAE. Turn your vehicle into a powerful moving advertisement with our custom-designed vinyl graphics.",
+    a: "Yes. Totalgard Sharjah provides professional car graphics and fleet branding services for businesses across Sharjah and UAE. Turn your vehicle into a powerful moving advertisement with our custom-designed vinyl graphics.",
   },
 ];
 
@@ -169,13 +169,13 @@ const jsonLd = {
   "@graph": [
     {
       "@type": "Service",
-      "@id": "https://totalgard.ae/car-wrapping/#service",
+      "@id": "https://Totalgard.ae/car-wrapping/#service",
       name: "Car Wrapping Sharjah",
       description:
         "Professional car wrapping in Sharjah. Full wraps, colour changes, partial wraps and car graphics using premium vinyl materials.",
-      provider: { "@id": "https://totalgard.ae/#business" },
+      provider: { "@id": "https://Totalgard.ae/#business" },
       areaServed: { "@type": "City", name: "Sharjah" },
-      url: "https://totalgard.ae/car-wrapping",
+      url: "https://Totalgard.ae/car-wrapping",
     },
     {
       "@type": "FAQPage",
@@ -230,7 +230,7 @@ export default function CarWrappingPage() {
               <span className="gold-text">Sharjah</span>
             </h1>
             <p className="mt-5 text-[#888] text-lg leading-relaxed">
-              TotalGard specialises in professional car wrapping services in
+              Totalgard specialises in professional car wrapping services in
               Sharjah — seamlessly blending{" "}
               <span className="text-[#c9a84c] font-semibold">
                 creativity, expertise and top-quality materials
@@ -263,7 +263,7 @@ export default function CarWrappingPage() {
           <div className="relative rounded-3xl overflow-hidden h-[420px] shadow-2xl shadow-black/50">
             <Image
               src="https://images.unsplash.com/photo-1568844293986-8d0400bd4745?w=800&q=80"
-              alt="Professional car wrapping Sharjah — TotalGard vinyl wrap colour change UAE"
+              alt="Professional car wrapping Sharjah — Totalgard vinyl wrap colour change UAE"
               fill
               className="object-cover opacity-75"
               priority
@@ -300,13 +300,13 @@ export default function CarWrappingPage() {
             <h2 className="text-3xl md:text-4xl font-extrabold text-[#f5f5f5] mt-3 leading-tight">
               Elevate Your Vehicle's Style
               <br />
-              <span className="gold-text">with TotalGard Car Wrapping</span>
+              <span className="gold-text">with Totalgard Car Wrapping</span>
             </h2>
             <p className="text-[#888] mt-4 max-w-3xl mx-auto leading-relaxed">
               Car wrapping is a transformative process that empowers individuals
               to express their unique style, safeguard their vehicle's exterior,
               or effectively promote their business through captivating visuals.
-              With TotalGard, your car wrapping project will be executed with
+              With Totalgard, your car wrapping project will be executed with
               precision and attention to detail — resulting in a flawless finish
               that commands attention on Sharjah's roads.
             </p>
@@ -343,7 +343,7 @@ export default function CarWrappingPage() {
               Car Wrapping Options in Sharjah
             </h2>
             <p className="text-[#888] mt-3 max-w-xl mx-auto text-sm leading-relaxed">
-              From full colour changes to custom graphics — TotalGard Sharjah
+              From full colour changes to custom graphics — Totalgard Sharjah
               has the perfect car wrapping solution for your vehicle and budget.
             </p>
           </div>
@@ -403,7 +403,7 @@ export default function CarWrappingPage() {
               Vinyl Wrap Finishes in Sharjah
             </h2>
             <p className="text-[#888] mt-3 max-w-xl mx-auto text-sm leading-relaxed">
-              TotalGard offers a wide range of premium vinyl wrap finishes to
+              Totalgard offers a wide range of premium vinyl wrap finishes to
               suit every style, preference and budget.
             </p>
           </div>
@@ -443,14 +443,14 @@ export default function CarWrappingPage() {
             <p className="text-[#888] mt-5 leading-relaxed">
               Car graphics are a dynamic form of vehicle customisation that
               allows individuals and businesses to make a bold statement on
-              Sharjah's roads. At TotalGard, we offer professional car graphics
+              Sharjah's roads. At Totalgard, we offer professional car graphics
               services — from sleek racing stripes and vibrant decals to full
               branding and fleet graphics.
             </p>
             <p className="text-[#888] mt-4 leading-relaxed">
               Whether you're looking for subtle accents or a full vehicle wrap
               for your business, our car graphics solutions are fully
-              customisable. Trust TotalGard to transform your vehicle into a
+              customisable. Trust Totalgard to transform your vehicle into a
               powerful marketing tool or a personalised work of art.
             </p>
             <div className="mt-8 grid grid-cols-1 sm:grid-cols-2 gap-4">
@@ -480,7 +480,7 @@ export default function CarWrappingPage() {
           <div className="relative rounded-3xl overflow-hidden h-[480px] shadow-2xl shadow-black/50">
             <Image
               src="https://images.unsplash.com/photo-1503376780353-7e6692767b70?w=800&q=80"
-              alt="Car graphics and branding Sharjah — TotalGard professional vehicle graphics UAE"
+              alt="Car graphics and branding Sharjah — Totalgard professional vehicle graphics UAE"
               fill
               className="object-cover opacity-70"
             />
@@ -528,7 +528,7 @@ export default function CarWrappingPage() {
         </div>
       </section>
 
-      {/* ── WHY TOTALGARD ── */}
+      {/* ── WHY Totalgard ── */}
       <section className="bg-[#0a0a0a] py-24 relative overflow-hidden">
         <div className="absolute top-0 left-0 w-full h-px bg-gradient-to-r from-transparent via-[#c9a84c]/20 to-transparent pointer-events-none" />
         <div className="absolute left-0 top-1/2 w-[400px] h-[400px] bg-[#c9a84c] opacity-[0.04] blur-[80px] rounded-full pointer-events-none" />
@@ -536,7 +536,7 @@ export default function CarWrappingPage() {
           <div className="relative rounded-3xl overflow-hidden h-[460px] shadow-2xl shadow-black/50">
             <Image
               src="https://images.unsplash.com/photo-1625047509248-ec889cbff17f?w=800&q=80"
-              alt="TotalGard car wrapping workshop Sharjah — professional vinyl wrap UAE"
+              alt="Totalgard car wrapping workshop Sharjah — professional vinyl wrap UAE"
               fill
               className="object-cover opacity-70"
             />
@@ -550,14 +550,14 @@ export default function CarWrappingPage() {
           </div>
           <div>
             <span className="text-[#c9a84c] text-xs font-semibold tracking-[0.2em] uppercase">
-              Why TotalGard Sharjah
+              Why Totalgard Sharjah
             </span>
             <h2 className="text-3xl md:text-4xl font-extrabold text-[#f5f5f5] mt-4 leading-tight">
               Sharjah's Leading
               <br /> Car Wrapping Studio
             </h2>
             <p className="text-[#888] mt-5 leading-relaxed">
-              At TotalGard, we specialize in professional car wrapping services
+              At Totalgard, we specialize in professional car wrapping services
               that seamlessly blend creativity, expertise and top-quality
               materials. Whether you're enhancing your vehicle's aesthetic
               appeal, protecting its original paint or creating eye-catching
@@ -626,7 +626,7 @@ export default function CarWrappingPage() {
         </div>
         <div className="relative z-10 max-w-3xl mx-auto px-6 text-center">
           <span className="text-[#c9a84c]/60 text-xs font-semibold tracking-[0.2em] uppercase">
-            Contact TotalGard Sharjah
+            Contact Totalgard Sharjah
           </span>
           <h2 className="text-3xl md:text-4xl font-extrabold mt-4">
             <span className="text-[#f5f5f5]">Transform Your Vehicle</span>
@@ -634,7 +634,7 @@ export default function CarWrappingPage() {
             <span className="gold-text">with Car Wrapping in Sharjah</span>
           </h2>
           <p className="mt-4 text-[#888] text-sm max-w-lg mx-auto leading-relaxed">
-            Contact TotalGard Sharjah today for a free consultation and quote on
+            Contact Totalgard Sharjah today for a free consultation and quote on
             car wrapping, colour changes or car graphics. Central Mall, Sharjah
             — open 7 days a week.
           </p>

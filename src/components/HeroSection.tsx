@@ -3,99 +3,127 @@
 import Image from "next/image";
 import { siteConfig } from "@/lib/siteConfig";
 
+const stats = [
+  { value: "10+", label: "Years Experience" },
+  { value: "5,000+", label: "Cars Protected" },
+  { value: "5-Year", label: "Tint Warranty" },
+];
+
+function IconArrowRight() {
+  return (
+    <svg
+      viewBox="0 0 24 24"
+      fill="none"
+      stroke="currentColor"
+      strokeWidth={2}
+      strokeLinecap="round"
+      strokeLinejoin="round"
+      className="w-4 h-4"
+    >
+      <path d="M5 12h14" />
+      <path d="M12 5l7 7-7 7" />
+    </svg>
+  );
+}
+
+function IconPhone() {
+  return (
+    <svg
+      viewBox="0 0 24 24"
+      fill="none"
+      stroke="currentColor"
+      strokeWidth={1.8}
+      strokeLinecap="round"
+      strokeLinejoin="round"
+      className="w-4 h-4"
+    >
+      <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 12 19.79 19.79 0 0 1 1.61 3.18 2 2 0 0 1 3.6 1h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11l-.94.94a16 16 0 0 0 5.49 5.49l.95-.95a2 2 0 0 1 2.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z" />
+    </svg>
+  );
+}
+
 export default function HeroSection() {
   return (
-    <section className="relative min-h-[92vh] flex items-center overflow-hidden bg-[#0a0a0a]">
-
-      {/* ── BACKGROUND IMAGE ── */}
+    <section className="relative min-h-screen overflow-hidden bg-[#0a0a0a]">
       <Image
-        src="https://images.unsplash.com/photo-1619642751034-765dfdf7c58e?w=1600&q=85"
+        src="/images/hero-car.jpg"
         alt="TotalGard automotive protection Sharjah"
         fill
-        className="object-cover opacity-30"
         priority
+        className="object-cover object-center opacity-25"
       />
 
-      {/* ── GRADIENT OVERLAY ── */}
-      <div className="absolute inset-0 bg-gradient-to-r from-[#0a0a0a] via-[#0a0a0a]/80 to-transparent z-10" />
-      <div className="absolute inset-0 bg-gradient-to-t from-[#0a0a0a] via-transparent to-transparent z-10" />
+      <div className="absolute inset-0 bg-[#0a0a0a]/78" />
+      <div className="absolute inset-0 bg-gradient-to-b from-[#0a0a0a]/40 via-[#0a0a0a]/65 to-[#0a0a0a]" />
 
-      {/* ── CONTENT ── */}
-      <div className="relative z-20 max-w-7xl mx-auto px-6 py-32 w-full">
-        <div className="max-w-2xl">
+      <div className="relative z-10 mx-auto flex min-h-screen max-w-7xl items-center px-6 py-24">
+        <div className="w-full text-center">
+          <div className="mx-auto max-w-4xl">
+            <p className="text-xs font-semibold uppercase tracking-[0.28em] text-[#c9a84c]">
+              TotalGard Sharjah
+            </p>
 
-          {/* Badge */}
-          <div className="inline-flex items-center gap-2 glass-gold text-[#c9a84c] text-xs font-semibold tracking-[0.2em] uppercase px-5 py-2.5 rounded-full mb-8">
-            <span className="w-1.5 h-1.5 bg-[#c9a84c] rounded-full animate-pulse" />
-            Sharjah's Premier Automotive Protection
-          </div>
+            <h1 className="mt-6 text-5xl font-extrabold leading-[0.95] tracking-tight text-[#f5f5f5] md:text-6xl lg:text-7xl">
+              Premium protection
+              <br />
+              for every drive
+            </h1>
 
-          {/* Heading */}
-          <h1 className="text-5xl md:text-6xl lg:text-7xl font-extrabold leading-[1.05] tracking-tight mb-6">
-            <span className="text-[#f5f5f5]">Protect &</span>
-            <br />
-            <span className="text-[#f5f5f5]">Elevate </span>
-            <span className="gold-text">Your</span>
-            <br />
-            <span className="gold-text">Vehicle.</span>
-          </h1>
+            <p className="mx-auto mt-6 max-w-2xl text-base leading-relaxed text-[#9a9a9a] md:text-lg">
+              Ceramic window tinting, paint protection film, nano ceramic coating
+              and car wrapping — expertly applied in Sharjah for a clean,
+              refined and long-lasting finish.
+            </p>
 
-          {/* Subtext */}
-          <p className="text-[#888] text-lg leading-relaxed font-light max-w-lg mb-10">
-            TotalGard by Smart Auto Sharjah — the UAE's trusted automotive
-            protection specialist. Ceramic tinting, PPF, nano ceramic coating
-            and car wrapping with 10+ years of precision expertise.
-          </p>
-
-          {/* CTAs */}
-          <div className="flex flex-wrap gap-4 mb-8">
-            <a
-              href={`https://api.whatsapp.com/send?phone=${siteConfig.whatsapp}`}
-              target="_blank"
-              className="gold-gradient text-[#0a0a0a] px-9 py-4 rounded-full font-bold text-sm hover:opacity-90 transition-opacity shadow-lg shadow-[#c9a84c]/20"
-            >
-              Get a Free Quote
-            </a>
-            <a
-              href={`tel:${siteConfig.phone}`}
-              className="glass text-[#f5f5f5] px-9 py-4 rounded-full font-semibold text-sm hover:border-[#c9a84c]/40 hover:text-[#c9a84c] transition-colors"
-            >
-              {siteConfig.phoneDisplay}
-            </a>
-          </div>
-
-          {/* Location */}
-          <p className="text-xs text-[#444] tracking-[0.2em] uppercase">
-            📍 Central Mall, Sharjah, UAE
-          </p>
-
-        </div>
-      </div>
-
-      {/* ── STATS BAR ── */}
-      <div className="absolute bottom-0 left-0 right-0 z-20 border-t border-[#1e1e1e]">
-        <div className="max-w-7xl mx-auto px-6">
-          <div className="grid grid-cols-2 md:grid-cols-4">
-            {[
-              { value: "10+", label: "Years Experience" },
-              { value: "5,000+", label: "Cars Protected" },
-              { value: "99%", label: "UV Rejection" },
-              { value: "100%", label: "Satisfaction" },
-            ].map((s, i) => (
-              <div
-                key={s.label}
-                className={`py-5 px-6 text-center ${
-                  i !== 3 ? "border-r border-[#1e1e1e]" : ""
-                } ${i >= 2 ? "hidden md:block" : ""}`}
+            <div className="mt-10 flex flex-wrap items-center justify-center gap-4">
+              <a
+                href={`https://api.whatsapp.com/send?phone=${siteConfig.whatsapp}`}
+                target="_blank"
+                rel="noreferrer"
+                className="inline-flex items-center gap-2 rounded-full bg-[#c9a84c] px-8 py-4 text-sm font-bold text-[#0a0a0a] transition hover:opacity-90"
               >
-                <p className="text-xl font-extrabold gold-text">{s.value}</p>
-                <p className="text-xs text-[#555] mt-0.5 tracking-wide">{s.label}</p>
-              </div>
-            ))}
+                Get a Free Quote
+                <IconArrowRight />
+              </a>
+
+              <a
+                href={`tel:${siteConfig.phone}`}
+                className="inline-flex items-center gap-2 rounded-full border border-[#2b2b2b] px-8 py-4 text-sm font-semibold text-[#f5f5f5] transition hover:border-[#c9a84c]/40 hover:text-[#c9a84c]"
+              >
+                <IconPhone />
+                {siteConfig.phoneDisplay}
+              </a>
+            </div>
+          </div>
+
+          {/* Stats card */}
+          <div className="mx-auto mt-16 max-w-4xl rounded-3xl border border-[#1f1f1f] bg-[#111111] p-6 md:p-8">
+            <div className="grid grid-cols-1 gap-6 md:grid-cols-3">
+              {stats.map((stat, index) => (
+                <div
+                  key={stat.label}
+                  className={`text-center ${
+                    index !== stats.length - 1 ? "md:border-r md:border-[#1f1f1f]" : ""
+                  }`}
+                >
+                  <p className="text-3xl font-extrabold text-[#c9a84c] md:text-4xl">
+                    {stat.value}
+                  </p>
+                  <p className="mt-2 text-xs uppercase tracking-[0.18em] text-[#666]">
+                    {stat.label}
+                  </p>
+                </div>
+              ))}
+            </div>
+
+            <div className="mt-6 border-t border-[#1f1f1f] pt-5 text-center">
+              <p className="text-xs uppercase tracking-[0.18em] text-[#5f5f5f]">
+                Central Mall, Sharjah • Open Daily 10 AM – 10 PM
+              </p>
+            </div>
           </div>
         </div>
       </div>
-
     </section>
   );
 }

@@ -4,12 +4,12 @@ import Link from "next/link";
 import { siteConfig } from "@/lib/siteConfig";
 
 export const metadata: Metadata = {
-  title: "Smart Film Sharjah | PDLC Switchable Privacy Glass Film Sharjah — TotalGard",
+  title: "Smart Film Sharjah | PDLC Switchable Privacy Glass Film Sharjah — Totalgard",
   description:
-    "TotalGard offers PDLC switchable privacy glass film (smart film) in Sharjah. Control transparency at the touch of a button. Blocks 98% UV rays. Residential and commercial smart film installation in Sharjah, UAE. Call +971 56 425 5770.",
+    "Totalgard offers PDLC switchable privacy glass film (smart film) in Sharjah. Control transparency at the touch of a button. Blocks 98% UV rays. Residential and commercial smart film installation in Sharjah, UAE. Call +971 56 425 5770.",
   keywords:
     "smart film sharjah, PDLC film sharjah, switchable glass film sharjah, privacy glass film sharjah, smart glass sharjah, switchable privacy glass sharjah, smart film installation sharjah, smart window film sharjah",
-  alternates: { canonical: "https://totalgard.ae/smart-film-pdlc-switchable-privacy-glass-film-sharjah" },
+  alternates: { canonical: "https://Totalgard.ae/smart-film-pdlc-switchable-privacy-glass-film-sharjah" },
 };
 
 const benefits = [
@@ -99,7 +99,7 @@ const installationSteps = [
   {
     step: "01",
     title: "Site Survey",
-    desc: "TotalGard's team visits your Sharjah property to assess the glass surfaces, dimensions and electrical requirements for smart film installation.",
+    desc: "Totalgard's team visits your Sharjah property to assess the glass surfaces, dimensions and electrical requirements for smart film installation.",
   },
   {
     step: "02",
@@ -109,7 +109,7 @@ const installationSteps = [
   {
     step: "03",
     title: "Smart Film Application",
-    desc: "Precise, professional application of the PDLC smart film by TotalGard's certified Sharjah installers — panel by panel with care.",
+    desc: "Precise, professional application of the PDLC smart film by Totalgard's certified Sharjah installers — panel by panel with care.",
   },
   {
     step: "04",
@@ -125,15 +125,15 @@ const faqs = [
   },
   {
     q: "Where can smart film be installed in Sharjah?",
-    a: "TotalGard's smart film can be installed on any existing glass surface in Sharjah — office partitions, conference rooms, residential windows, bathroom glass, shop fronts, hotel rooms and more. It's suitable for both residential and commercial properties.",
+    a: "Totalgard's smart film can be installed on any existing glass surface in Sharjah — office partitions, conference rooms, residential windows, bathroom glass, shop fronts, hotel rooms and more. It's suitable for both residential and commercial properties.",
   },
   {
     q: "How much UV does smart film block?",
-    a: "TotalGard's PDLC smart film blocks up to 98% of harmful UVA, UVB and UVC rays — protecting interiors from fading and reducing solar heat gain in Sharjah's intense climate.",
+    a: "Totalgard's PDLC smart film blocks up to 98% of harmful UVA, UVB and UVC rays — protecting interiors from fading and reducing solar heat gain in Sharjah's intense climate.",
   },
   {
     q: "Can smart film integrate with smart home systems in Sharjah?",
-    a: "Yes. TotalGard's smart film integrates seamlessly with existing smart home systems through Bluetooth connectivity and a dedicated mobile app. You can control transparency from your phone or automate it based on time of day.",
+    a: "Yes. Totalgard's smart film integrates seamlessly with existing smart home systems through Bluetooth connectivity and a dedicated mobile app. You can control transparency from your phone or automate it based on time of day.",
   },
   {
     q: "Is smart film easy to maintain in Sharjah?",
@@ -141,7 +141,7 @@ const faqs = [
   },
   {
     q: "Can smart film be installed on existing glass in Sharjah?",
-    a: "Yes. TotalGard's PDLC smart film is applied directly to existing glass surfaces without requiring glass replacement — making it a highly cost-effective privacy and design solution for properties in Sharjah.",
+    a: "Yes. Totalgard's PDLC smart film is applied directly to existing glass surfaces without requiring glass replacement — making it a highly cost-effective privacy and design solution for properties in Sharjah.",
   },
 ];
 
@@ -150,13 +150,13 @@ const jsonLd = {
   "@graph": [
     {
       "@type": "Service",
-      "@id": "https://totalgard.ae/smart-film-pdlc-switchable-privacy-glass-film-sharjah/#service",
+      "@id": "https://Totalgard.ae/smart-film-pdlc-switchable-privacy-glass-film-sharjah/#service",
       name: "Smart Film Sharjah — PDLC Switchable Privacy Glass Film",
       description:
-        "TotalGard offers PDLC switchable smart film installation in Sharjah. Control transparency at the touch of a button. Blocks 98% UV rays. Residential and commercial installation.",
-      provider: { "@id": "https://totalgard.ae/#business" },
+        "Totalgard offers PDLC switchable smart film installation in Sharjah. Control transparency at the touch of a button. Blocks 98% UV rays. Residential and commercial installation.",
+      provider: { "@id": "https://Totalgard.ae/#business" },
       areaServed: { "@type": "City", name: "Sharjah" },
-      url: "https://totalgard.ae/smart-film-pdlc-switchable-privacy-glass-film-sharjah",
+      url: "https://Totalgard.ae/smart-film-pdlc-switchable-privacy-glass-film-sharjah",
     },
     {
       "@type": "FAQPage",
@@ -211,7 +211,7 @@ export default function SmartFilmPage() {
               <span className="gold-text">Sharjah</span>
             </h1>
             <p className="mt-5 text-[#888] text-lg leading-relaxed">
-              TotalGard brings revolutionary{" "}
+              Totalgard brings revolutionary{" "}
               <span className="text-[#c9a84c] font-semibold">
                 PDLC switchable privacy glass film
               </span>{" "}
@@ -243,7 +243,7 @@ export default function SmartFilmPage() {
           <div className="relative rounded-3xl overflow-hidden h-[420px] shadow-2xl shadow-black/50">
             <Image
               src="https://images.unsplash.com/photo-1497366216548-37526070297c?w=800&q=80"
-              alt="Smart film PDLC switchable privacy glass Sharjah — TotalGard smart film installation UAE"
+              alt="Smart film PDLC switchable privacy glass Sharjah — Totalgard smart film installation UAE"
               fill
               className="object-cover opacity-75"
               priority
@@ -292,7 +292,7 @@ export default function SmartFilmPage() {
             <p className="text-[#888] mt-4 leading-relaxed">
               Such ease of use has made it an ideal choice for individuals and
               businesses in Sharjah seeking privacy without sacrificing natural
-              light. TotalGard's smart film also blocks harmful UV and infrared
+              light. Totalgard's smart film also blocks harmful UV and infrared
               rays, protects interiors and contributes to lower energy costs —
               making it a smart investment for any property in Sharjah, UAE.
             </p>
@@ -345,7 +345,7 @@ export default function SmartFilmPage() {
             </h2>
             <p className="text-[#888] mt-3 max-w-xl mx-auto text-sm leading-relaxed">
               Understanding the revolutionary liquid crystal technology behind
-              TotalGard's smart film in Sharjah.
+              Totalgard's smart film in Sharjah.
             </p>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-4 gap-10">
@@ -400,7 +400,7 @@ export default function SmartFilmPage() {
               <br /> in Sharjah
             </h2>
             <p className="text-[#888] mt-3 max-w-xl mx-auto text-sm leading-relaxed">
-              TotalGard's PDLC smart film is perfect for both residential and
+              Totalgard's PDLC smart film is perfect for both residential and
               commercial spaces across Sharjah and the UAE.
             </p>
           </div>
@@ -454,7 +454,7 @@ export default function SmartFilmPage() {
               <span className="gold-text">From Your Phone</span>
             </h2>
             <p className="text-[#888] mt-5 leading-relaxed">
-              TotalGard's switchable privacy glass film seamlessly integrates
+              Totalgard's switchable privacy glass film seamlessly integrates
               with existing smart home systems — enhancing both convenience and
               functionality. The glass film operates either manually or
               automatically, accommodating various user preferences and needs.
@@ -498,7 +498,7 @@ export default function SmartFilmPage() {
               <br /> in Sharjah
             </h2>
             <p className="text-[#888] mt-3 max-w-xl mx-auto text-sm leading-relaxed">
-              TotalGard's professional smart film installation in Sharjah is
+              Totalgard's professional smart film installation in Sharjah is
               recommended over DIY — precision is paramount, especially in
               commercial settings. Our certified installers ensure optimal
               adhesion, functionality and longevity.
@@ -531,7 +531,7 @@ export default function SmartFilmPage() {
                   Smart Film Maintenance in Sharjah
                 </h3>
                 <p className="text-[#888] text-sm leading-relaxed">
-                  Once installed, maintaining TotalGard's smart film is simple —
+                  Once installed, maintaining Totalgard's smart film is simple —
                   far easier than traditional curtains and blinds. Regular
                   cleaning with a soft, damp cloth is typically sufficient to
                   remove dust and stains without causing damage. Avoid abrasive
@@ -579,7 +579,7 @@ export default function SmartFilmPage() {
         </div>
         <div className="relative z-10 max-w-3xl mx-auto px-6 text-center">
           <span className="text-[#c9a84c]/60 text-xs font-semibold tracking-[0.2em] uppercase">
-            Contact TotalGard Sharjah
+            Contact Totalgard Sharjah
           </span>
           <h2 className="text-3xl md:text-4xl font-extrabold mt-4">
             <span className="text-[#f5f5f5]">Upgrade Your Space with</span>
@@ -587,7 +587,7 @@ export default function SmartFilmPage() {
             <span className="gold-text">Smart Film in Sharjah</span>
           </h2>
           <p className="mt-4 text-[#888] text-sm max-w-lg mx-auto leading-relaxed">
-            Contact TotalGard Sharjah today for a free smart film consultation
+            Contact Totalgard Sharjah today for a free smart film consultation
             and quote. Residential and commercial smart film installation across
             Sharjah and UAE.
           </p>
