@@ -4,6 +4,8 @@ import "./globals.css";
 import { siteConfig } from "@/lib/siteConfig";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
+import ChatbotWrapper from "@/components/ChatbotWrapper";
+
 const geist = Geist({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
@@ -41,6 +43,7 @@ export default function RootLayout({
         <Navbar />
         <main>{children}</main>
         <Footer />
+        <ChatbotWrapper />
       </body>
     </html>
   );

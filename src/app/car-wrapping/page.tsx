@@ -262,7 +262,7 @@ export default function CarWrappingPage() {
           {/* Image card */}
           <div className="relative rounded-3xl overflow-hidden h-[420px] shadow-2xl shadow-black/50">
             <Image
-              src="https://images.unsplash.com/photo-1568844293986-8d0400bd4745?w=800&q=80"
+              src="/images/car-wrap-1.webp"
               alt="Professional car wrapping Sharjah — Totalgard vinyl wrap colour change UAE"
               fill
               className="object-cover opacity-75"
@@ -479,7 +479,7 @@ export default function CarWrappingPage() {
           </div>
           <div className="relative rounded-3xl overflow-hidden h-[480px] shadow-2xl shadow-black/50">
             <Image
-              src="https://images.unsplash.com/photo-1503376780353-7e6692767b70?w=800&q=80"
+              src="/images/car-wrapping.webp"
               alt="Car graphics and branding Sharjah — Totalgard professional vehicle graphics UAE"
               fill
               className="object-cover opacity-70"
@@ -535,7 +535,7 @@ export default function CarWrappingPage() {
         <div className="max-w-7xl mx-auto px-6 grid md:grid-cols-2 gap-16 items-center">
           <div className="relative rounded-3xl overflow-hidden h-[460px] shadow-2xl shadow-black/50">
             <Image
-              src="https://images.unsplash.com/photo-1625047509248-ec889cbff17f?w=800&q=80"
+              src="/images/car-wrap.webp"
               alt="Totalgard car wrapping workshop Sharjah — professional vinyl wrap UAE"
               fill
               className="object-cover opacity-70"

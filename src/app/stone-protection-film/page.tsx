@@ -311,7 +311,7 @@ export default function StoneProtectionFilmPage() {
           {/* Image card */}
           <div className="relative rounded-3xl overflow-hidden h-[420px] shadow-2xl shadow-black/50">
             <Image
-              src="https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?w=800&q=80"
+              src="/images/surface-protection.webp"
               alt="Stone protection film Sharjah — Totalgard marble and stone surface protection UAE"
               fill
               className="object-cover opacity-75"
@@ -522,7 +522,7 @@ export default function StoneProtectionFilmPage() {
         <div className="max-w-7xl mx-auto px-6 grid md:grid-cols-2 gap-16 items-center">
           <div className="relative rounded-3xl overflow-hidden h-[460px] shadow-2xl shadow-black/50">
             <Image
-              src="https://images.unsplash.com/photo-1600585154526-990dced4db0d?w=800&q=80"
+              src="/images/marble-and-surface-protection.webp"
               alt="Totalgard stone protection film installation Sharjah — marble and countertop protection UAE"
               fill
               className="object-cover opacity-70"
@@ -693,7 +693,7 @@ export default function StoneProtectionFilmPage() {
           </div>
           <div className="relative rounded-3xl overflow-hidden h-[440px] shadow-2xl shadow-black/50">
             <Image
-              src="https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?w=800&q=80"
+              src="/images/surface-protection-film-2.webp"
               alt="Stone protection film maintenance Sharjah — Totalgard protected marble countertop UAE"
               fill
               className="object-cover opacity-70"

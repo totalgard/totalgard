@@ -28,42 +28,42 @@ const services = [
     href: "/window-tinting",
     description:
       "Professional ceramic window tinting in Sharjah. Superior heat rejection, 99% UV protection and enhanced privacy — dark from outside, crystal clear from inside.",
-    image: "https://images.unsplash.com/photo-1619767886558-efdc259cde1a?w=600&q=80",
+    image: "/images/car-window-tinting.webp",
   },
   {
     title: "Paint Protection Film Sharjah",
     href: "/paint-protection-film",
     description:
       "Self-healing PPF in Sharjah. Protect your vehicle's paint from scratches, stone chips and road damage with the best paint protection film in Sharjah.",
-    image: "https://images.unsplash.com/photo-1552519507-da3b142c6e3d?w=600&q=80",
+    image: "/images/ppf.webp",
   },
   {
     title: "Ceramic Coating Sharjah",
     href: "/nano-ceramic-coating",
     description:
       "Professional nano ceramic coating in Sharjah. Long-lasting gloss, hydrophobic protection and UV resistance — essential for Sharjah's extreme heat and sand.",
-    image: "https://images.unsplash.com/photo-1607860108855-64acf2078ed9?w=600&q=80",
+    image: "/images/nano-ceramic.webp",
   },
   {
     title: "Car Wrapping Sharjah",
     href: "/car-wrapping",
     description:
       "Premium vinyl car wrapping in Sharjah. Full wraps, partial wraps and custom colour changes to completely transform your vehicle's appearance.",
-    image: "https://images.unsplash.com/photo-1568844293986-8d0400bd4745?w=600&q=80",
+    image: "/images/car-wrap.webp",
   },
   {
     title: "Smart Film Sharjah",
     href: "/smart-film-pdlc-switchable-privacy-glass-film-sharjah",
     description:
       "Switchable PDLC smart film in Sharjah for vehicles, offices and homes. Instant privacy at the touch of a button.",
-    image: "https://images.unsplash.com/photo-1497366216548-37526070297c?w=600&q=80",
+    image: "/images/smart-film.webp",
   },
   {
     title: "Stone Protection Film Sharjah",
     href: "/stone-protection-film",
     description:
       "Heavy-duty stone guard protection film in Sharjah. Guards vulnerable panels from gravel, chips and road debris — critical for UAE highway driving.",
-    image: "https://images.unsplash.com/photo-1503376780353-7e6692767b70?w=600&q=80",
+    image: "/images/surface-protection.webp",
   },
 ];
 
@@ -317,7 +317,7 @@ export default function HomePage() {
         <div className="max-w-7xl mx-auto px-6 grid md:grid-cols-2 gap-20 items-center">
           <div className="relative rounded-3xl overflow-hidden h-[500px] shadow-2xl shadow-black/50">
             <Image
-              src="https://images.unsplash.com/photo-1625047509248-ec889cbff17f?w=800&q=80"
+              src="/images/car-wrapping.webp"
               alt="Totalgard Smart Auto Sharjah workshop — best automotive protection in Sharjah UAE"
               fill
               className="object-cover opacity-70"
@@ -457,7 +457,7 @@ export default function HomePage() {
           </div>
           <div className="relative rounded-3xl overflow-hidden h-[480px] shadow-2xl shadow-black/50">
             <Image
-              src="https://images.unsplash.com/photo-1600705722908-bfd6a3fc8b04?w=800&q=80"
+              src="/images/car-window-tint-2.webp"
               alt="Best ceramic window tinting Sharjah UAE — Totalgard heat and UV protection"
               fill
               className="object-cover opacity-70"
@@ -533,7 +533,7 @@ export default function HomePage() {
           </p>
           <div className="relative rounded-3xl overflow-hidden shadow-2xl shadow-black/50 aspect-video glass">
             <iframe
-              src="https://www.youtube.com/embed?listType=user_uploads&list=smartautouae"
+              src="https://www.youtube.com/embed/ffREujs26j8?si=Ggsa8OWESHoUNban"
               title="Totalgard Smart Auto Sharjah — Window Tinting PPF and Ceramic Coating Videos"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
               allowFullScreen
@@ -604,7 +604,7 @@ export default function HomePage() {
           </div>
           <div className="rounded-3xl overflow-hidden shadow-2xl shadow-black/50 h-[420px] glass">
             <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3607.0!2d55.393!3d25.357!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMjXCsDIxJzI1LjMiTiA1NcKwMjMnMzQuOCJF!5e0!3m2!1sen!2sae!4v1"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3605.9518525218955!2d55.41463777554239!3d25.339396625926117!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f599640e3e9b3%3A0xacb155b55f797862!2sSmart%20Auto%20Sharjah%20-%20Window%20Tinting%2C%20Car%20Paint%20Protection%20Film!5e0!3m2!1sen!2sae!4v1774775661068!5m2!1sen!2sae"
               width="100%"
               height="100%"
               style={{ border: 0 }}
@@ -692,7 +692,7 @@ export default function HomePage() {
               {siteConfig.phoneDisplay}
             </a>
           </div>
-          <p className="mt-8 text-xs text-[#2a2a2a] tracking-widest uppercase">
+          <p className="mt-8 text-xs text-white tracking-widest uppercase">
             Central Mall, Sharjah, UAE — Open 7 Days a Week
           </p>
         </div>

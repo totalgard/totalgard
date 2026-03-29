@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { siteConfig } from "@/lib/siteConfig";
+import Image from "next/image";
 
 const services = [
   { label: "Window Tinting Sharjah", href: "/window-tinting" },
@@ -19,10 +20,16 @@ export default function Footer() {
       <div className="max-w-7xl mx-auto px-6 grid grid-cols-1 md:grid-cols-4 gap-10">
         {/* Brand */}
         <div>
-          <p className="font-extrabold text-xl mb-3">
-            <span className="text-[#f5f5f5]">Total</span>
-            <span className="gold-text">Gard</span>
-          </p>
+          <Link href="/" className="flex items-center flex-shrink-0">
+  <Image
+    src="/totalgard-white-logo.png"
+    alt="TotalGard Sharjah"
+    width={140}
+    height={40}
+    className="object-contain h-10 w-auto"
+    priority
+  />
+</Link>
           <p className="text-xs text-[#444] leading-relaxed">
             Sharjah's premier automotive protection centre. Window tinting,
             PPF, ceramic coating and car wrapping specialists at Central Mall,

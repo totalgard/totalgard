@@ -4,6 +4,7 @@ import { useState, useEffect } from "react";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { siteConfig } from "@/lib/siteConfig";
+import Image from "next/image";
 
 const services = [
   { label: "Window Tinting", href: "/window-tinting" },
@@ -53,25 +54,34 @@ export default function Navbar() {
       <nav className="max-w-7xl mx-auto px-6 h-16 flex items-center justify-between">
 
         {/* ── LOGO ── */}
-        <Link href="/" className="flex items-center gap-3 group flex-shrink-0">
-          <div className="relative">
-            <div className="w-8 h-8 gold-gradient rounded-lg flex items-center justify-center shadow-lg shadow-[#c9a84c]/20 group-hover:scale-105 transition-transform duration-300">
-              <span className="text-[#0a0a0a] font-extrabold text-xs tracking-tight">TG</span>
-            </div>
-            <div className="absolute inset-0 gold-gradient rounded-lg blur-md opacity-0 group-hover:opacity-30 transition-opacity duration-300" />
-          </div>
-          <div className="flex flex-col leading-none">
-            <span className="text-[#f5f5f5] font-extrabold text-sm tracking-wide">
-              TOTAL<span className="gold-text">GARD</span>
-            </span>
-            <span className="text-[#444] text-[9px] tracking-[0.2em] uppercase mt-0.5">
-              Sharjah, UAE
-            </span>
-          </div>
+        <Link href="/" className="flex items-center flex-shrink-0">
+          <Image
+            src="/totalgard-white-logo.png"
+            alt="TotalGard Sharjah"
+            width={140}
+            height={40}
+            className="object-contain h-10 w-auto"
+            priority
+          />
         </Link>
 
         {/* ── DESKTOP LINKS ── */}
         <div className="hidden lg:flex items-center gap-1">
+
+          {/* Home */}
+          <Link
+            href="/"
+            className={`relative px-4 py-2 text-xs font-semibold tracking-wide transition-colors duration-200 rounded-full ${
+              isActive("/")
+                ? "text-[#c9a84c]"
+                : "text-[#888] hover:text-[#f5f5f5]"
+            }`}
+          >
+            {isActive("/") && (
+              <span className="absolute inset-0 glass-gold rounded-full" />
+            )}
+            <span className="relative z-10">Home</span>
+          </Link>
 
           {/* Services Dropdown */}
           <div className="relative">
@@ -181,11 +191,27 @@ export default function Navbar() {
       {/* ── MOBILE MENU ── */}
       <div
         className={`lg:hidden overflow-hidden transition-all duration-300 ease-in-out ${
-          mobileOpen ? "max-h-[500px] opacity-100" : "max-h-0 opacity-0"
+          mobileOpen ? "max-h-[540px] opacity-100" : "max-h-0 opacity-0"
         }`}
       >
-        {/* Fully solid background — no transparency */}
         <div className="border-t border-[#1a1a1a] bg-[#0d0d0d] px-4 py-3 space-y-1">
+
+          {/* Mobile Home link */}
+          <Link
+            href="/"
+            className={`flex items-center gap-3 px-4 py-3 rounded-xl text-sm font-semibold transition-colors duration-200 ${
+              isActive("/")
+                ? "text-[#c9a84c] bg-[#c9a84c]/5 border border-[#c9a84c]/20"
+                : "text-[#888] hover:text-[#f5f5f5] hover:bg-[#1a1a1a]"
+            }`}
+          >
+            <span
+              className={`w-1.5 h-1.5 rounded-full flex-shrink-0 ${
+                isActive("/") ? "bg-[#c9a84c]" : "bg-[#333]"
+              }`}
+            />
+            Home
+          </Link>
 
           {/* Mobile Services accordion */}
           <div>

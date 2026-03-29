@@ -242,7 +242,7 @@ export default function AboutPage() {
             {/* Hero image */}
             <div className="relative rounded-3xl overflow-hidden h-[420px] shadow-2xl shadow-black/50">
               <Image
-                src="https://images.unsplash.com/photo-1625047509248-ec889cbff17f?w=800&q=80"
+                src="/images/color-ppf.webp"
                 alt="Totalgard Sharjah automotive protection workshop — Smart Auto UAE"
                 fill
                 className="object-cover opacity-70"
@@ -289,7 +289,7 @@ export default function AboutPage() {
         <div className="max-w-7xl mx-auto px-6 grid md:grid-cols-2 gap-16 items-center">
           <div className="relative rounded-3xl overflow-hidden h-[480px] shadow-2xl shadow-black/50">
             <Image
-              src="https://images.unsplash.com/photo-1568844293986-8d0400bd4745?w=800&q=80"
+              src="/images/detailing.webp"
               alt="Totalgard story — Smart Auto Sharjah automotive protection UAE"
               fill
               className="object-cover opacity-65"
@@ -447,7 +447,7 @@ export default function AboutPage() {
         <div className="max-w-7xl mx-auto px-6 grid md:grid-cols-2 gap-16 items-center">
           <div>
             <span className="text-[#c9a84c] text-xs font-semibold tracking-[0.2em] uppercase">
-              Why Choose Totalgard
+              Why Choose SmartAuto
             </span>
             <h2 className="text-3xl md:text-4xl font-extrabold text-[#f5f5f5] mt-4 leading-tight">
               The Totalgard Difference
@@ -472,7 +472,7 @@ export default function AboutPage() {
           </div>
           <div className="relative rounded-3xl overflow-hidden h-[460px] shadow-2xl shadow-black/50">
             <Image
-              src="https://images.unsplash.com/photo-1503376780353-7e6692767b70?w=800&q=80"
+              src="/images/ceramic-coating-2.webp"
               alt="Totalgard team Sharjah — trusted automotive protection UAE"
               fill
               className="object-cover opacity-65"

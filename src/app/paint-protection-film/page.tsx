@@ -245,7 +245,7 @@ export default function PPFPage() {
           {/* Image card */}
           <div className="relative rounded-3xl overflow-hidden h-[420px] shadow-2xl shadow-black/50">
             <Image
-              src="https://images.unsplash.com/photo-1552519507-da3b142c6e3d?w=800&q=80"
+              src="/images/ppf-2.webp"
               alt="Best paint protection film PPF Sharjah — Totalgard self-healing car paint protection UAE"
               fill
               className="object-cover opacity-75"
@@ -458,7 +458,7 @@ export default function PPFPage() {
         <div className="max-w-7xl mx-auto px-6 grid md:grid-cols-2 gap-16 items-center">
           <div className="relative rounded-3xl overflow-hidden h-[460px] shadow-2xl shadow-black/50">
             <Image
-              src="https://images.unsplash.com/photo-1625047509248-ec889cbff17f?w=800&q=80"
+              src="/images/ppf.webp"
               alt="Totalgard PPF installation workshop Sharjah — best paint protection film UAE"
               fill
               className="object-cover opacity-70"
@@ -517,98 +517,7 @@ export default function PPFPage() {
           </div>
         </div>
       </section>
-
-      {/* ── BOOK NOW FORM ── */}
-      <section className="bg-[#0a0a0a] py-24 relative">
-        <div className="absolute top-0 left-0 w-full h-px bg-gradient-to-r from-transparent via-[#c9a84c]/20 to-transparent pointer-events-none" />
-        <div className="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 w-[500px] h-[300px] bg-[#c9a84c] opacity-[0.04] blur-[80px] rounded-full pointer-events-none" />
-        <div className="max-w-2xl mx-auto px-6">
-          <div className="text-center mb-10">
-            <span className="text-[#c9a84c] text-xs font-semibold tracking-[0.2em] uppercase">
-              Book Now
-            </span>
-            <h2 className="text-3xl font-extrabold text-[#f5f5f5] mt-3">
-              Safeguard Your Vehicle
-              <br />
-              <span className="gold-text">with Totalgard PPF Sharjah</span>
-            </h2>
-            <p className="text-[#888] mt-3 text-sm leading-relaxed">
-              Send us a message and let's protect your vehicle with Totalgard's
-              expertise in Sharjah.
-            </p>
-          </div>
-          <form
-            action={`mailto:${siteConfig.email}`}
-            method="post"
-            encType="text/plain"
-            className="glass rounded-3xl p-8 space-y-5"
-          >
-            <div className="absolute top-0 right-0 w-32 h-32 bg-[#c9a84c] opacity-[0.04] blur-3xl rounded-full pointer-events-none" />
-            <div>
-              <label className="text-xs text-[#666] tracking-widest uppercase block mb-2">
-                Your Name
-              </label>
-              <input
-                type="text"
-                name="name"
-                required
-                placeholder="John Doe"
-                className="w-full bg-[#0d0d0d] border border-[#2a2a2a] rounded-xl px-4 py-3 text-[#f5f5f5] text-sm placeholder-[#333] focus:outline-none focus:border-[#c9a84c]/50 transition-colors"
-              />
-            </div>
-            <div>
-              <label className="text-xs text-[#666] tracking-widest uppercase block mb-2">
-                Email
-              </label>
-              <input
-                type="email"
-                name="email"
-                required
-                placeholder="john@example.com"
-                className="w-full bg-[#0d0d0d] border border-[#2a2a2a] rounded-xl px-4 py-3 text-[#f5f5f5] text-sm placeholder-[#333] focus:outline-none focus:border-[#c9a84c]/50 transition-colors"
-              />
-            </div>
-            <div>
-              <label className="text-xs text-[#666] tracking-widest uppercase block mb-2">
-                Preferred Date
-              </label>
-              <input
-                type="date"
-                name="date"
-                className="w-full bg-[#0d0d0d] border border-[#2a2a2a] rounded-xl px-4 py-3 text-[#f5f5f5] text-sm focus:outline-none focus:border-[#c9a84c]/50 transition-colors"
-              />
-            </div>
-            <div>
-              <label className="text-xs text-[#666] tracking-widest uppercase block mb-2">
-                Message
-              </label>
-              <textarea
-                name="message"
-                rows={4}
-                placeholder="Tell us about your vehicle and the PPF package you're interested in..."
-                className="w-full bg-[#0d0d0d] border border-[#2a2a2a] rounded-xl px-4 py-3 text-[#f5f5f5] text-sm placeholder-[#333] focus:outline-none focus:border-[#c9a84c]/50 transition-colors resize-none"
-              />
-            </div>
-            <button
-              type="submit"
-              className="w-full gold-gradient text-[#0a0a0a] py-4 rounded-full font-bold text-sm hover:opacity-90 transition-opacity shadow-lg shadow-[#c9a84c]/20"
-            >
-              Send Message
-            </button>
-            <p className="text-center text-xs text-[#444]">
-              Or WhatsApp us directly for a faster response
-            </p>
-            <a
-              href={`https://api.whatsapp.com/send?phone=${siteConfig.whatsapp}`}
-              target="_blank"
-              className="w-full glass text-[#c9a84c] py-3.5 rounded-full font-bold text-sm hover:border-[#c9a84c]/40 transition-colors block text-center"
-            >
-              WhatsApp Totalgard Sharjah
-            </a>
-          </form>
-        </div>
-      </section>
-
+      
       {/* ── FAQ ── */}
       <section className="bg-[#0d0d0d] py-24 relative">
         <div className="absolute top-0 left-0 w-full h-px bg-gradient-to-r from-transparent via-[#c9a84c]/20 to-transparent pointer-events-none" />

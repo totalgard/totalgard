@@ -248,7 +248,7 @@ export default function NanoCeramicCoatingPage() {
           {/* Image + stat badges */}
           <div className="relative rounded-3xl overflow-hidden h-[420px] shadow-2xl shadow-black/50">
             <Image
-              src="https://images.unsplash.com/photo-1607860108855-64acf2078ed9?w=800&q=80"
+              src="/images/nano-ceramic-2.webp"
               alt="Nano ceramic coating Sharjah — Totalgard best car ceramic coating UAE"
               fill
               className="object-cover opacity-75"
@@ -461,7 +461,7 @@ export default function NanoCeramicCoatingPage() {
         <div className="max-w-7xl mx-auto px-6 grid md:grid-cols-2 gap-16 items-center">
           <div className="relative rounded-3xl overflow-hidden h-[460px] shadow-2xl shadow-black/50">
             <Image
-              src="https://images.unsplash.com/photo-1552519507-da3b142c6e3d?w=800&q=80"
+              src="/images/nano-ceramic.webp"
               alt="Totalgard nano ceramic coating results Sharjah — deep gloss and hydrophobic finish"
               fill
               className="object-cover opacity-70"

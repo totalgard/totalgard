@@ -242,7 +242,7 @@ export default function SmartFilmPage() {
           {/* Image + stat badges */}
           <div className="relative rounded-3xl overflow-hidden h-[420px] shadow-2xl shadow-black/50">
             <Image
-              src="https://images.unsplash.com/photo-1497366216548-37526070297c?w=800&q=80"
+              src="/images/smart-film.webp"
               alt="Smart film PDLC switchable privacy glass Sharjah — Totalgard smart film installation UAE"
               fill
               className="object-cover opacity-75"
@@ -431,7 +431,7 @@ export default function SmartFilmPage() {
         <div className="max-w-7xl mx-auto px-6 grid md:grid-cols-2 gap-16 items-center">
           <div className="relative rounded-3xl overflow-hidden h-[460px] shadow-2xl shadow-black/50">
             <Image
-              src="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=800&q=80"
+              src="/images/smart-glass.webp"
               alt="Smart film smart home integration Sharjah — PDLC Bluetooth mobile app control UAE"
               fill
               className="object-cover opacity-70"

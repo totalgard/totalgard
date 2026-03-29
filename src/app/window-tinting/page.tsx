@@ -219,7 +219,7 @@ export default function WindowTintingPage() {
           {/* Stats card */}
           <div className="relative rounded-3xl overflow-hidden h-[420px] shadow-2xl shadow-black/50">
             <Image
-              src="https://images.unsplash.com/photo-1619767886558-efdc259cde1a?w=800&q=80"
+              src="/images/car-window-tint-2.webp"
               alt="Professional window tinting Sharjah — Totalgard ceramic window film UAE"
               fill
               className="object-cover opacity-75"
@@ -444,7 +444,7 @@ export default function WindowTintingPage() {
           </div>
           <div className="relative rounded-3xl overflow-hidden h-[480px] shadow-2xl shadow-black/50">
             <Image
-              src="https://images.unsplash.com/photo-1600705722908-bfd6a3fc8b04?w=800&q=80"
+              src="/images/car-window-tinting.webp"
               alt="Best ceramic window tinting Sharjah UAE — Totalgard heat and UV protection performance"
               fill
               className="object-cover opacity-70"
