@@ -432,9 +432,9 @@ export default function HomePage() {
             </p>
             <div className="mt-10 space-y-6">
               {[
-                { label: "Cool Comfort — Heat Rejection", value: 50, desc: "Reduces interior cabin temperature in Sharjah's heat" },
-                { label: "Infrared Defense", value: 85, desc: "Blocks infrared rays causing heat buildup in parked cars" },
-                { label: "UV Armor — UV Rejection", value: 99, desc: "Protects skin and interior from Sharjah's intense UV" },
+                { label: "Cool Comfort — Heat Rejection", value: 90, desc: "Reduces interior cabin temperature in Sharjah's heat" },
+                { label: "Infrared Defense", value: 99, desc: "Blocks infrared rays causing heat buildup in parked cars" },
+                { label: "UV Armor — UV Rejection", value: 100, desc: "Protects skin and interior from Sharjah's intense UV" },
               ].map((bar) => (
                 <div key={bar.label}>
                   <div className="flex justify-between text-sm mb-2">
