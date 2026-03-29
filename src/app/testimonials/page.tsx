@@ -240,8 +240,8 @@ export default function TestimonialsPage() {
                 </div>
               </div>
               <div className="flex flex-col items-center bg-[#111] border border-[#1e1e1e] rounded-2xl px-8 py-5">
-                <span className="text-4xl font-extrabold text-[#f5f5f5]">40+</span>
-                <span className="text-[#555] text-xs mt-1">Five Star Reviews</span>
+                <span className="text-4xl font-extrabold text-[#f5f5f5]">10K+</span>
+                <span className="text-[#555] text-xs mt-1">Satisfied Customers</span>
                 <span className="text-[#c9a84c] text-xs mt-2 font-semibold">Sharjah Central Mall</span>
               </div>
             </div>

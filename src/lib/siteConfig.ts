@@ -7,7 +7,7 @@ export const siteConfig = {
   url: "https://Totalgard.ae",
   phone: "+971564255770",
   phoneDisplay: "+971 56 425 5770",
-  whatsapp: "971547011800",
+  whatsapp: "971564255770",
   email: "info@Totalgard.ae",
   address: "Central Mall, Sharjah, UAE",
   googleMaps: "https://maps.app.goo.gl/NZEHHcH1L7iKn8e97",
