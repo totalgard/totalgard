@@ -498,7 +498,7 @@ export default function SmartFilmPage() {
               <br /> in Sharjah
             </h2>
             <p className="text-[#888] mt-3 max-w-xl mx-auto text-sm leading-relaxed">
-              Totalgard's professional smart film installation in Sharjah is
+              Totalgard professional smart film installation in Sharjah is
               recommended over DIY — precision is paramount, especially in
               commercial settings. Our certified installers ensure optimal
               adhesion, functionality and longevity.

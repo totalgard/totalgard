@@ -127,7 +127,7 @@ export default function Footer() {
                 Central Mall, Sharjah, UAE
               </a>
             </li>
-            <li className="text-[#333]">Open 7 Days — 9AM to 9PM</li>
+            <li className="text-[#333]">Open 7 Days — 10AM to 10PM</li>
           </ul>
         </div>
       </div>

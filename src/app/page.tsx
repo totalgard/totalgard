@@ -78,13 +78,13 @@ const steps = [
     step: "02",
     title: "Vehicle Inspection",
     description:
-      "Our certified Sharjah technicians inspect your vehicle and recommend the ideal protection solution.",
+      "Our certified technicians inspect your vehicle and recommend the ideal protection solution.",
   },
   {
     step: "03",
     title: "Precision Application",
     description:
-      "Using premium 3M and Global USA materials applied with meticulous care in our Sharjah workshop.",
+      "Using premium materials applied with meticulous care in our Sharjah workshop.",
   },
   {
     step: "04",
@@ -130,7 +130,7 @@ const testimonials = [
 const faqs = [
   {
     q: "Where can I get the best window tinting in Sharjah?",
-    a: "Totalgard at Central Mall, Sharjah is widely regarded as Sharjah's top window tinting specialist. We use premium 3M and Global USA ceramic window films providing superior heat rejection, UV protection and privacy.",
+    a: "Totalgard at Central Mall, Sharjah is widely regarded as Sharjah's top window tinting specialist. We use premium Totalgard 3M and Global USA ceramic window films providing superior heat rejection, UV protection and privacy.",
   },
   {
     q: "What is the best window tint for cars in Sharjah's heat?",
@@ -346,7 +346,7 @@ export default function HomePage() {
             </p>
             <p className="text-[#888] mt-3 leading-relaxed">
               Every vehicle enters our Sharjah workshop with the same level of
-              precision care — backed by premium 3M and Global USA materials,
+              precision care — backed by premium Totalgard 3M and Global USA materials,
               certified technicians, and a 100% satisfaction guarantee.
             </p>
             <ul className="mt-8 grid grid-cols-2 gap-3">
@@ -428,7 +428,7 @@ export default function HomePage() {
               Sharjah's extreme heat demands the best window tinting available.
               Totalgard's ceramic window tinting in Sharjah drastically reduces
               cabin heat, blocks UV radiation, and prevents interior fading —
-              using only 3M and Global USA ceramic films.
+              using only Totalgard 3M and Global USA ceramic films.
             </p>
             <div className="mt-10 space-y-6">
               {[
@@ -528,8 +528,8 @@ export default function HomePage() {
             See Smart Auto Sharjah in Action
           </h2>
           <p className="text-[#888] mt-4 mb-10 max-w-lg mx-auto text-sm leading-relaxed">
-            Watch our certified Sharjah technicians protect and transform
-            vehicles at our Central Mall workshop.
+            Watch our certified technicians protect and transform
+            vehicles at our Garage.
           </p>
           <div className="relative rounded-3xl overflow-hidden shadow-2xl shadow-black/50 aspect-video glass">
             <iframe

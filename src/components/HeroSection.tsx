@@ -6,7 +6,7 @@ import { siteConfig } from "@/lib/siteConfig";
 const stats = [
   { value: "10+", label: "Years Experience" },
   { value: "5,000+", label: "Cars Protected" },
-  { value: "5-Year", label: "Tint Warranty" },
+  { value: "15-Year", label: "Tint Warranty" },
 ];
 
 function IconArrowRight() {

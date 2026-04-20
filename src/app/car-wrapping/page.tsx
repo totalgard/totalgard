@@ -128,7 +128,7 @@ const process = [
   {
     step: "03",
     title: "Precision Wrap Application",
-    desc: "Our certified Sharjah wrap technicians apply your chosen vinyl film with meticulous precision — panel by panel, edge to edge.",
+    desc: "Our certified wrap technicians apply your chosen vinyl film with meticulous precision — panel by panel, edge to edge.",
   },
   {
     step: "04",
