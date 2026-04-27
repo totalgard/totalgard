@@ -1,5 +1,10 @@
 import type { NextConfig } from "next";
 
+const allowedDevOrigins: string[] = [
+  "http://localhost:3000",
+  "http://192.168.70.175",
+];
+
 const nextConfig: NextConfig = {
   async redirects() {
     return [
