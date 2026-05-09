@@ -158,7 +158,7 @@ const faqs = [
   },
   {
     q: "How do I contact Totalgard in Sharjah?",
-    a: "Totalgard is at Central Mall, Sharjah, UAE. Call +971 56 425 5770, WhatsApp us, or email info@smartautouae.ae. Open 7 days a week.",
+    a: "Totalgard is at Central Mall, Sharjah, UAE. Call +971 56 425 5770, WhatsApp us, or email info@smartautouae.com. Open 7 days a week.",
   },
 ];
 
@@ -174,7 +174,7 @@ const jsonLd = {
         "Totalgard is Sharjah's premier automotive protection centre offering window tinting, PPF, nano ceramic coating and car wrapping in Sharjah, UAE.",
       url: "https://Totalgard.ae",
       telephone: "+971564255770",
-      email: "info@smartautouae.ae",
+      email: "info@smartautouae.com",
       priceRange: "$$",
       address: {
         "@type": "PostalAddress",
