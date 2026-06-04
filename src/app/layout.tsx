@@ -9,24 +9,21 @@ import ChatbotWrapper from "@/components/ChatbotWrapper";
 const geist = Geist({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: {
-    default: `${siteConfig.name} | Automotive Protection Dubai & Sharjah`,
-    template: `%s | ${siteConfig.name}`,
-  },
+  title: `${siteConfig.name} | Automotive Protection Dubai & Sharjah`,
   description: siteConfig.description,
-  keywords:    siteConfig.keywords,
+  keywords: siteConfig.keywords,
   metadataBase: new URL(siteConfig.url),
   openGraph: {
-    type:        "website",
-    locale:      "en_AE",
-    url:         siteConfig.url,
-    siteName:    siteConfig.name,
-    title:       `${siteConfig.name} | Automotive Protection Dubai & Sharjah`,
+    type: "website",
+    locale: "en_AE",
+    url: siteConfig.url,
+    siteName: siteConfig.name,
+    title: `${siteConfig.name} | Automotive Protection Dubai & Sharjah`,
     description: siteConfig.description,
   },
   twitter: {
-    card:        "summary_large_image",
-    title:       `${siteConfig.name} | Automotive Protection Dubai & Sharjah`,
+    card: "summary_large_image",
+    title: `${siteConfig.name} | Automotive Protection Dubai & Sharjah`,
     description: siteConfig.description,
   },
   alternates: { canonical: siteConfig.url },
