@@ -117,13 +117,13 @@ const jsonLd = {
   "@graph": [
     {
       "@type": "Service",
-      "@id": "https://Totalgard.ae/window-tinting/#service",
+      "@id": "https://www.totalgard.ae/window-tinting/#service",
       name: "Window Tinting Sharjah",
       description:
         "Professional ceramic car window tinting in Sharjah. Blocks up to 95% infrared heat and 99% UV rays. Totalgard 3M and Global USA films. 3–10 year warranty.",
-      provider: { "@id": "https://Totalgard.ae/#business" },
+      provider: { "@id": "https://www.totalgard.ae/#business" },
       areaServed: { "@type": "City", name: "Sharjah" },
-      url: "https://Totalgard.ae/window-tinting",
+      url: "https://www.totalgard.ae/window-tinting",
       offers: [
         { "@type": "Offer", name: "Coupe Window Tinting Sharjah", price: "300", priceCurrency: "AED" },
         { "@type": "Offer", name: "Saloon Window Tinting Sharjah", price: "350", priceCurrency: "AED" },

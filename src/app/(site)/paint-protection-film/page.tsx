@@ -151,13 +151,13 @@ const jsonLd = {
   "@graph": [
     {
       "@type": "Service",
-      "@id": "https://Totalgard.ae/paint-protection-film/#service",
+      "@id": "https://www.totalgard.ae/paint-protection-film/#service",
       name: "Paint Protection Film Sharjah",
       description:
         "Totalgard offers the best paint protection film (PPF) in Sharjah. Self-healing, invisible PPF shielding paint from chips, scratches and environmental damage.",
-      provider: { "@id": "https://Totalgard.ae/#business" },
+      provider: { "@id": "https://www.totalgard.ae/#business" },
       areaServed: { "@type": "City", name: "Sharjah" },
-      url: "https://Totalgard.ae/paint-protection-film",
+      url: "https://www.totalgard.ae/paint-protection-film",
     },
     {
       "@type": "FAQPage",

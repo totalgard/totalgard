@@ -46,7 +46,7 @@ export default function HeroSection() {
   return (
     <section className="relative min-h-screen overflow-hidden bg-[#0a0a0a]">
       <Image
-        src="/images/hero-car.jpg"
+        src="/images/detailing.webp"
         alt="TotalGard automotive protection Sharjah"
         fill
         priority

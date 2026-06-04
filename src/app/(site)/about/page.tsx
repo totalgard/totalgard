@@ -148,13 +148,13 @@ const jsonLd = {
   "@context": "https://schema.org",
   "@type": "AboutPage",
   name: "About Totalgard Sharjah",
-  url: "https://Totalgard.ae/about",
+  url: "https://www.totalgard.ae/about",
   description:
     "Totalgard by Smart Auto Sharjah — 10+ years of automotive protection expertise in window tinting, PPF, ceramic coating and car wrapping.",
   mainEntity: {
     "@type": "AutoBodyShop",
     name: "Totalgard by Smart Auto Sharjah",
-    url: "https://Totalgard.ae",
+    url: "https://www.totalgard.ae",
     telephone: siteConfig.phone,
     email: siteConfig.email,
     address: {

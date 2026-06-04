@@ -154,13 +154,13 @@ const jsonLd = {
   "@graph": [
     {
       "@type": "Service",
-      "@id": "https://Totalgard.ae/nano-ceramic-coating/#service",
+      "@id": "https://www.totalgard.ae/nano-ceramic-coating/#service",
       name: "Nano Ceramic Coating Sharjah",
       description:
         "Totalgard offers the best nano ceramic coating in Sharjah. Hydrophobic, UV-resistant ceramic and graphene coatings for long-lasting paint protection.",
-      provider: { "@id": "https://Totalgard.ae/#business" },
+      provider: { "@id": "https://www.totalgard.ae/#business" },
       areaServed: { "@type": "City", name: "Sharjah" },
-      url: "https://Totalgard.ae/nano-ceramic-coating",
+      url: "https://www.totalgard.ae/nano-ceramic-coating",
     },
     {
       "@type": "FAQPage",

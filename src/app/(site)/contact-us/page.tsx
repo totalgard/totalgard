@@ -90,7 +90,7 @@ const jsonLd = {
   "@context": "https://schema.org",
   "@type": "ContactPage",
   name: "Contact TotalGard Sharjah",
-  url: "https://totalgard.ae/contact-us",
+  url: "https://www.totalgard.ae/contact-us",
   description:
     "Contact TotalGard Sharjah for automotive protection services including window tinting, PPF, ceramic coating and car wrapping.",
 };

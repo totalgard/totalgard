@@ -169,13 +169,13 @@ const jsonLd = {
   "@graph": [
     {
       "@type": "Service",
-      "@id": "https://Totalgard.ae/car-wrapping/#service",
+      "@id": "https://www.totalgard.ae/car-wrapping/#service",
       name: "Car Wrapping Sharjah",
       description:
         "Professional car wrapping in Sharjah. Full wraps, colour changes, partial wraps and car graphics using premium vinyl materials.",
-      provider: { "@id": "https://Totalgard.ae/#business" },
+      provider: { "@id": "https://www.totalgard.ae/#business" },
       areaServed: { "@type": "City", name: "Sharjah" },
-      url: "https://Totalgard.ae/car-wrapping",
+      url: "https://www.totalgard.ae/car-wrapping",
     },
     {
       "@type": "FAQPage",

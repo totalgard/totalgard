@@ -157,12 +157,12 @@ const jsonLd = {
   "@graph": [
     {
       "@type": "AutoRepair",
-      "@id": "https://Totalgard.ae/#business",
+      "@id": "https://www.totalgard.ae/#business",
       name: "Totalgard Sharjah — Smart Auto",
       alternateName: ["Smart Auto Sharjah", "Totalgard UAE", "Window Tinting Sharjah"],
       description:
         "Totalgard is Sharjah's premier automotive protection centre offering window tinting, PPF, nano ceramic coating and car wrapping in Sharjah, UAE.",
-      url: "https://Totalgard.ae",
+      url: "https://www.totalgard.ae",
       telephone: "+971564255770",
       email: "info@smartautouae.com",
       priceRange: "$$",
@@ -209,8 +209,8 @@ const jsonLd = {
     },
     {
       "@type": "WebSite",
-      "@id": "https://Totalgard.ae/#website",
-      url: "https://Totalgard.ae",
+      "@id": "https://www.totalgard.ae/#website",
+      url: "https://www.totalgard.ae",
       name: "Totalgard Sharjah",
       description: "Sharjah's premier automotive protection centre.",
     },

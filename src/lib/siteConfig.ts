@@ -4,7 +4,7 @@ export const siteConfig = {
   tagline: "Sharjah's Leading Automotive Protection Experts",
   description:
     "Totalgard by Smart Auto is Sharjah's premier automotive protection centre offering professional window tinting Sharjah, paint protection film Sharjah, nano ceramic coating Sharjah and car wrapping Sharjah. Located at Central Mall, Sharjah, UAE.",
-  url: "https://Totalgard.ae",
+  url: "https://www.totalgard.ae",
   phone: "+971564255770",
   phoneDisplay: "+971 56 425 5770",
   whatsapp: "971564255770",

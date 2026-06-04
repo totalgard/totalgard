@@ -216,13 +216,13 @@ const jsonLd = {
   "@graph": [
     {
       "@type": "Service",
-      "@id": "https://Totalgard.ae/stone-protection-film/#service",
+      "@id": "https://www.totalgard.ae/stone-protection-film/#service",
       name: "Stone Protection Film Sharjah",
       description:
         "Totalgard offers professional stone protection film installation in Sharjah for marble, glass and stone surfaces. Residential and commercial.",
-      provider: { "@id": "https://Totalgard.ae/#business" },
+      provider: { "@id": "https://www.totalgard.ae/#business" },
       areaServed: { "@type": "City", name: "Sharjah" },
-      url: "https://Totalgard.ae/stone-protection-film",
+      url: "https://www.totalgard.ae/stone-protection-film",
     },
     {
       "@type": "FAQPage",

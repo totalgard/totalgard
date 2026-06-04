@@ -149,13 +149,13 @@ const jsonLd = {
   "@graph": [
     {
       "@type": "Service",
-      "@id": "https://Totalgard.ae/smart-film-pdlc-switchable-privacy-glass-film-sharjah/#service",
+      "@id": "https://www.totalgard.ae/smart-film-pdlc-switchable-privacy-glass-film-sharjah/#service",
       name: "Smart Film Sharjah — PDLC Switchable Privacy Glass Film",
       description:
         "Totalgard offers PDLC switchable smart film installation in Sharjah. Control transparency at the touch of a button. Blocks 98% UV rays. Residential and commercial installation.",
-      provider: { "@id": "https://Totalgard.ae/#business" },
+      provider: { "@id": "https://www.totalgard.ae/#business" },
       areaServed: { "@type": "City", name: "Sharjah" },
-      url: "https://Totalgard.ae/smart-film-pdlc-switchable-privacy-glass-film-sharjah",
+      url: "https://www.totalgard.ae/smart-film-pdlc-switchable-privacy-glass-film-sharjah",
     },
     {
       "@type": "FAQPage",
