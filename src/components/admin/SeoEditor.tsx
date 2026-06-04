@@ -288,15 +288,15 @@ export default function SeoEditor({ route, pageLabel, initialData }: Props) {
 
     // 3. Fire request with Bearer token
     try {
-      const res = await fetch(`/api/admin/seo/${route.replace(/^\//, '')}`, {
-        method: 'PUT',
-        credentials: 'include',
-        headers: {
-          'Content-Type': 'application/json',
-          'Authorization': `Bearer ${session.access_token}`,
-        },
-        body: JSON.stringify({ ...fields, structured_data }),
-      })
+      const res = await fetch(`/api/admin/seo${route}`, {
+  method: 'PUT',
+  credentials: 'include',
+  headers: {
+    'Content-Type': 'application/json',
+    'Authorization': `Bearer ${session.access_token}`,
+  },
+  body: JSON.stringify({ ...fields, structured_data }),
+})
 
       if (res.ok) {
         setSaved(true)
