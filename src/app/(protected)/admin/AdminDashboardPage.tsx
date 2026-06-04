@@ -170,36 +170,35 @@ export default function AdminDashboardPage() {
   setError('')
   try {
     const [seoRes, blogRes] = await Promise.all([
-      fetch('/api/admin/seo',          { credentials: 'include' }), // ← ADD
-      fetch('/api/admin/blog?limit=5', { credentials: 'include' }), // ← ADD for consistency
+      fetch('/api/admin/seo',          { credentials: 'include' }),
+      fetch('/api/admin/blog?limit=5', { credentials: 'include' }),
     ])
 
-    // ── ADD THESE 4 LINES ──
     console.log('SEO status:',  seoRes.status)
     console.log('Blog status:', blogRes.status)
-    const seoRaw = await seoRes.text()
-    console.log('SEO response:', seoRaw)
-    //
 
     const seoPages: Record<string, unknown>[] = seoRes.ok ? await seoRes.json() : []
-      const blogData = blogRes.ok ? await blogRes.json() : { posts: [], total: 0 }
+    const blogData = blogRes.ok ? await blogRes.json() : { posts: [], total: 0 }
 
-      const complete  = seoPages.filter((p) => p.title && p.description && p.og_image).length
-      const noTitle   = seoPages.filter((p) => !p.title).length
-      const noDesc    = seoPages.filter((p) => !p.description).length
-      const noOgImage = seoPages.filter((p) => !p.og_image).length
+    console.log('Blog data:', blogData)
 
-      setData({
-        seo: { total: seoPages.length, complete, incomplete: seoPages.length - complete, noTitle, noDesc, noOgImage },
-        recentPosts: blogData.posts ?? [],
-        totalPosts:  blogData.total ?? 0,
-      })
-    } catch {
-      setError('Failed to load dashboard data.')
-    } finally {
-      setLoading(false)
-    }
+    const complete  = seoPages.filter((p) => p.title && p.description && p.og_image).length
+    const noTitle   = seoPages.filter((p) => !p.title).length
+    const noDesc    = seoPages.filter((p) => !p.description).length
+    const noOgImage = seoPages.filter((p) => !p.og_image).length
+
+    setData({
+      seo: { total: seoPages.length, complete, incomplete: seoPages.length - complete, noTitle, noDesc, noOgImage },
+      recentPosts: blogData.posts ?? [],
+      totalPosts:  blogData.total ?? 0,
+    })
+  } catch (err) {
+    console.error('Dashboard load error:', err)
+    setError(err instanceof Error ? err.message : 'Failed to load dashboard data.')
+  } finally {
+    setLoading(false)
   }
+}
 
   useEffect(() => { load() }, [])
 
