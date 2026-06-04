@@ -82,7 +82,7 @@ export default function AdminLoginPage() {
             className="font-bold text-white text-2xl mb-1"
             style={{ fontFamily: 'var(--font-playfair),serif' }}
           >
-            Smart Auto UAE
+            Totalgard
           </h1>
           <p className="text-[13px]" style={{ color: 'rgba(255,255,255,0.3)' }}>
             Admin Panel — Sign in to continue
@@ -215,7 +215,7 @@ export default function AdminLoginPage() {
         </div>
 
         <p className="text-center text-[11px] mt-6" style={{ color: 'rgba(255,255,255,0.15)' }}>
-          Smart Auto UAE · Admin Access Only
+          Totalgard · Admin Access Only
         </p>
       </div>
 

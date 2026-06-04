@@ -171,7 +171,7 @@ export default async function BlogPostPage({ params }: Props) {
             </Link>
 
             <p style={{ fontSize: '0.75rem', color: '#b8b0a0' }}>
-              Smart Auto UAE
+              Totalgard
               {post.published_at && (
                 <> · {new Date(post.published_at).toLocaleDateString('en-AE', { year: 'numeric', month: 'long' })}</>
               )}

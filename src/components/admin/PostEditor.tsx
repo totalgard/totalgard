@@ -23,13 +23,13 @@ const CATEGORIES = [
 const SCHEMA_TEMPLATES: Record<string, string> = {
   Article: JSON.stringify({
     "@context": "https://schema.org", "@type": "Article", "headline": "", "description": "",
-    "author": { "@type": "Organization", "name": "Smart Auto UAE" },
-    "publisher": { "@type": "Organization", "name": "Smart Auto UAE", "logo": { "@type": "ImageObject", "url": "https://www.smartautouae.com/logo.png" } },
+    "author": { "@type": "Organization", "name": "Totalgard" },
+    "publisher": { "@type": "Organization", "name": "Totalgard", "logo": { "@type": "ImageObject", "url": "https://www.smartautouae.com/logo.png" } },
     "datePublished": "", "dateModified": "", "image": ""
   }, null, 2),
   BlogPosting: JSON.stringify({
     "@context": "https://schema.org", "@type": "BlogPosting", "headline": "", "description": "",
-    "author": { "@type": "Organization", "name": "Smart Auto UAE" }, "datePublished": "", "image": ""
+    "author": { "@type": "Organization", "name": "Totalgard" }, "datePublished": "", "image": ""
   }, null, 2),
   FAQPage: JSON.stringify({
     "@context": "https://schema.org", "@type": "FAQPage",
@@ -47,16 +47,16 @@ const SCHEMA_TEMPLATES: Record<string, string> = {
   }, null, 2),
   Service: JSON.stringify({
     "@context": "https://schema.org", "@type": "Service", "name": "", "description": "",
-    "provider": { "@type": "Organization", "name": "Smart Auto UAE" },
+    "provider": { "@type": "Organization", "name": "Totalgard" },
     "areaServed": { "@type": "City", "name": "Dubai" }, "serviceType": ""
   }, null, 2),
   Product: JSON.stringify({
     "@context": "https://schema.org", "@type": "Product", "name": "", "description": "",
-    "brand": { "@type": "Brand", "name": "Smart Auto UAE" }
+    "brand": { "@type": "Brand", "name": "Totalgard" }
   }, null, 2),
   NewsArticle: JSON.stringify({
     "@context": "https://schema.org", "@type": "NewsArticle", "headline": "", "description": "",
-    "datePublished": "", "author": { "@type": "Organization", "name": "Smart Auto UAE" }
+    "datePublished": "", "author": { "@type": "Organization", "name": "Totalgard" }
   }, null, 2),
   Custom: '{\n  "@context": "https://schema.org",\n  "@type": ""\n}',
 }

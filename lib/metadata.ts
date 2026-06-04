@@ -2,7 +2,7 @@ import type { Metadata } from 'next'
 import { getSeoForRoute } from './seo'
 
 const SITE_URL       = 'https://www.totalgard.ae'  
-const SITE_NAME      = 'Smart Auto UAE'
+const SITE_NAME      = 'Totalgard'
 const DEFAULT_OG_IMAGE = '/og-image.jpg'
 
 export async function buildMetadata(
@@ -48,7 +48,7 @@ export async function getStructuredData(route: string): Promise<Record<string, u
     return {
       '@context': 'https://schema.org',
       '@type': 'AutoRepair',
-      name: 'Smart Auto UAE',
+      name: 'Totalgard',
       url: SITE_URL,
       logo: `${SITE_URL}/images/logo.png`,
       image: `${SITE_URL}/og-image.jpg`,

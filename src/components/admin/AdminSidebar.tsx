@@ -101,7 +101,7 @@ export default function AdminSidebar() {
           {!collapsed && (
             <div style={{ overflow: 'hidden', flex: 1 }}>
               <p style={{ fontSize: '0.85rem', fontWeight: 700, color: '#1a1814', lineHeight: 1.2, whiteSpace: 'nowrap', overflow: 'hidden', textOverflow: 'ellipsis' }}>
-                Smart Auto UAE
+                Totalgard
               </p>
               <p style={{ fontSize: '0.65rem', color: '#b8b0a0' }}>Admin Panel</p>
             </div>

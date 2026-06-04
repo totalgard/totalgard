@@ -244,7 +244,7 @@ export default function AboutPage() {
             <div className="relative rounded-3xl overflow-hidden h-[420px] shadow-2xl shadow-black/50">
               <Image
                 src="/images/color-ppf.webp"
-                alt="Totalgard Sharjah automotive protection workshop — Smart Auto UAE"
+                alt="Totalgard Sharjah automotive protection workshop — Totalgard"
                 fill
                 className="object-cover opacity-70"
                 priority

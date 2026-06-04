@@ -28,7 +28,7 @@ export default async function BlogPage() {
             textTransform: 'uppercase', letterSpacing: '0.18em',
             color: '#b8860b', marginBottom: '0.5rem',
           }}>
-            Smart Auto UAE
+            Totalgard
           </p>
           <h1 style={{
             fontSize: 'clamp(2rem, 5vw, 3rem)',

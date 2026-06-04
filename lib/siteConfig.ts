@@ -1,6 +1,6 @@
 export const siteConfig = {
   name: "Totalgard",
-  businessName: "Smart Auto Sharjah",
+  businessName: "Totalgard",
   tagline: "Sharjah's Leading Automotive Protection Experts",
   description:
     "Totalgard by Smart Auto is Sharjah's premier automotive protection centre offering professional window tinting Sharjah, paint protection film Sharjah, nano ceramic coating Sharjah and car wrapping Sharjah. Located at Central Mall, Sharjah, UAE.",

@@ -14,7 +14,7 @@ const SCHEMA_TEMPLATES: Record<string, (route: string) => Record<string, unknown
   LocalBusiness: (route) => ({
     '@context': 'https://schema.org',
     '@type': 'AutoRepair',
-    name: 'Smart Auto UAE',
+    name: 'Totalgard',
     url: `https://www.totalgard.ae${route}`,
     telephone: '+971524403677',
     address: { '@type': 'PostalAddress', addressLocality: 'Dubai', addressCountry: 'AE' },
@@ -24,7 +24,7 @@ const SCHEMA_TEMPLATES: Record<string, (route: string) => Record<string, unknown
     '@context': 'https://schema.org',
     '@type': 'Service',
     name: '',
-    provider: { '@type': 'AutoRepair', name: 'Smart Auto UAE', url: 'https://www.totalgard.ae' },
+    provider: { '@type': 'AutoRepair', name: 'Totalgard', url: 'https://www.totalgard.ae' },
     areaServed: { '@type': 'City', name: 'Dubai' },
     url: `https://www.totalgard.ae${route}`,
   }),
@@ -47,10 +47,10 @@ const SCHEMA_TEMPLATES: Record<string, (route: string) => Record<string, unknown
     '@context': 'https://schema.org',
     '@type': 'Article',
     headline: '',
-    author: { '@type': 'Organization', name: 'Smart Auto UAE' },
+    author: { '@type': 'Organization', name: 'Totalgard' },
     publisher: {
       '@type': 'Organization',
-      name: 'Smart Auto UAE',
+      name: 'Totalgard',
       logo: { '@type': 'ImageObject', url: 'https://www.totalgard.ae/images/logo.png' },
     },
     url: `https://www.totalgard.ae${route}`,
@@ -436,7 +436,7 @@ export default function SeoEditor({ route, pageLabel, initialData }: Props) {
               style={inputSt}
               value={fields.title}
               onChange={e => set('title', e.target.value)}
-              placeholder="Car Window Tinting Dubai | Smart Auto UAE"
+              placeholder="Car Window Tinting Dubai | Totalgard"
             />
             <p style={hintSt}>Recommended: 50–60 characters. Appears in Google results and browser tabs.</p>
           </div>

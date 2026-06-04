@@ -71,7 +71,7 @@ export default function AdminLayoutClient({ children }: { children: React.ReactN
               fontWeight: 700, fontSize: '0.75rem', color: '#000', flexShrink: 0,
             }}>SA</div>
             <div>
-              <p style={{ fontSize: '0.8rem', fontWeight: 700, color: '#1a1814', lineHeight: 1.2 }}>Smart Auto UAE</p>
+              <p style={{ fontSize: '0.8rem', fontWeight: 700, color: '#1a1814', lineHeight: 1.2 }}>Totalgard</p>
               <p style={{ fontSize: '0.65rem', color: '#7a7264' }}>Admin Panel</p>
             </div>
           </div>
@@ -141,7 +141,7 @@ export default function AdminLayoutClient({ children }: { children: React.ReactN
             display: 'flex', alignItems: 'center', justifyContent: 'center',
             fontWeight: 700, fontSize: '0.65rem', color: '#000',
           }}>SA</div>
-          <span style={{ fontSize: '0.85rem', fontWeight: 700, color: '#1a1814' }}>Smart Auto UAE</span>
+          <span style={{ fontSize: '0.85rem', fontWeight: 700, color: '#1a1814' }}>Totalgard</span>
         </div>
         <button
           onClick={() => setDrawerOpen(true)}

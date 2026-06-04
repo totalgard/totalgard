@@ -1,5 +1,4 @@
 import './admin.css'
-import AdminSidebar from '@/components/admin/AdminSidebar'
 import type { ReactNode } from 'react'
 
 export default function AdminLayout({ children }: { children: ReactNode }) {
@@ -10,8 +9,6 @@ export default function AdminLayout({ children }: { children: ReactNode }) {
       color: 'var(--admin-text)',
       display: 'flex',
     }}>
-      <AdminSidebar />
-
       <main style={{ flex: 1, minWidth: 0, padding: '2rem 1.5rem', overflowX: 'hidden' }}>
         {children}
       </main>
