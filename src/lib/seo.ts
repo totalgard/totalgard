@@ -1,11 +1,12 @@
 import 'server-only'
 import { createClient } from '@supabase/supabase-js'
+import { unstable_cache } from 'next/cache'
 
 function getAdminClient() {
   return createClient(
     process.env.NEXT_PUBLIC_SUPABASE_URL!,
     process.env.SUPABASE_SERVICE_ROLE_KEY!
-  ) 
+  )
 }
 
 export type SeoPage = {
@@ -31,19 +32,26 @@ export type SeoPage = {
 }
 
 // ── Server-side read — used in generateMetadata ───────────────────────────────
-export async function getSeoForRoute(route: string): Promise<SeoPage | null> {
-  const { data, error } = await getAdminClient()
-    .from('seo_pages')
-    .select('*')
-    .eq('route', route)
-    .single()
+export const getSeoForRoute = unstable_cache(
+  async (route: string): Promise<SeoPage | null> => {
+    const { data, error } = await getAdminClient()
+      .from('seo_pages')
+      .select('*')
+      .eq('route', route)
+      .single()
 
-  if (error && error.code !== 'PGRST116') {
-    console.error(`getSeoForRoute(${route}):`, error.message)
+    if (error && error.code !== 'PGRST116') {
+      console.error(`getSeoForRoute(${route}):`, error.message)
+    }
+
+    return data ?? null
+  },
+  ['seo-route'],
+  {
+    tags: ['seo-pages'],  // matches revalidateTag('seo-pages') in PUT route
+    revalidate: 3600,
   }
-
-  return data ?? null
-}
+)
 
 // ── Admin read all — used in admin dashboard list ─────────────────────────────
 export async function getAllSeoPages(): Promise<SeoPage[]> {
