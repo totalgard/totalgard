@@ -31,9 +31,10 @@ async function isAuthorized(req: NextRequest): Promise<boolean> {
     {
       cookies: {
         getAll: () => cookieStore.getAll(),
-        setAll: (cs) => cs.forEach(({ name, value, options }) =>
-          cookieStore.set(name, value, options)
-        ),
+        setAll: (cs) =>
+          cs.forEach(({ name, value, options }) =>
+            cookieStore.set(name, value, options)
+          ),
       },
     }
   )
@@ -42,8 +43,6 @@ async function isAuthorized(req: NextRequest): Promise<boolean> {
   return !!user
 }
 
-// [...route] gives string[] e.g. ['services', 'ceramic-coating']
-// Join and prepend slash → '/services/ceramic-coating'
 function decodeRoute(segments: string[]): string {
   return '/' + segments.map(decodeURIComponent).join('/')
 }
@@ -52,8 +51,9 @@ export async function GET(
   req: NextRequest,
   { params }: { params: Promise<{ route: string[] }> }
 ) {
-  if (!(await isAuthorized(req)))
+  if (!(await isAuthorized(req))) {
     return NextResponse.json({ error: 'Unauthorized' }, { status: 401 })
+  }
 
   const { route } = await params
   const decoded = decodeRoute(route)
@@ -67,8 +67,9 @@ export async function PUT(
   req: NextRequest,
   { params }: { params: Promise<{ route: string[] }> }
 ) {
-  if (!(await isAuthorized(req)))
+  if (!(await isAuthorized(req))) {
     return NextResponse.json({ error: 'Unauthorized' }, { status: 401 })
+  }
 
   const { route } = await params
   const decoded = decodeRoute(route)
@@ -88,8 +89,7 @@ export async function PUT(
     return NextResponse.json({ error: error.message }, { status: 500 })
   }
 
-  // ── Bust the cache immediately so next page load gets fresh metadata ──
-revalidateTag('seo-pages', 'max')
+  revalidateTag('seo-pages', 'max')
   console.log('✅ Cache revalidated for tag: seo-pages')
 
   return NextResponse.json({ success: true })

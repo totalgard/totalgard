@@ -1,5 +1,7 @@
+import { NextRequest, NextResponse } from 'next/server'
 import { createServerClient } from '@supabase/ssr'
 import { cookies } from 'next/headers'
+import { getAllSeoPages } from '@/lib/seo'
 
 async function isAuthenticated(): Promise<boolean> {
   const cookieStore = await cookies()
@@ -20,7 +22,10 @@ async function isAuthenticated(): Promise<boolean> {
   return !!user
 }
 
-// Then in your route handler replace:
-// if (!(await verifySession(token))) ...
-// with:
-if (!(await isAuthenticated())) return NextResponse.json({ error: 'Unauthorized' }, { status: 401 })
+export async function GET(req: NextRequest) {
+  if (!(await isAuthenticated())) {
+    return NextResponse.json({ error: 'Unauthorized' }, { status: 401 })
+  }
+  const pages = await getAllSeoPages()
+  return NextResponse.json(pages)
+}
