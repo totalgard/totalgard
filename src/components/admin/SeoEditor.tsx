@@ -288,7 +288,8 @@ export default function SeoEditor({ route, pageLabel, initialData }: Props) {
 
     // 3. Fire request with Bearer token
     try {
-      const res = await fetch(`/api/admin/seo${route}`, {
+const apiSegment = route === '/' ? 'home' : route.replace(/^\//, '')
+const res = await fetch(`/api/admin/seo/${apiSegment}`, {
   method: 'PUT',
   credentials: 'include',
   headers: {
