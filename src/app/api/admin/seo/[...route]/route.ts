@@ -11,7 +11,6 @@ const supabaseAdmin = createClient(
 )
 
 async function isAuthorized(req: NextRequest): Promise<boolean> {
-  // 1. Try Bearer token first
   const authHeader = req.headers.get('authorization')
   if (authHeader?.startsWith('Bearer ')) {
     const token = authHeader.slice(7)
@@ -23,7 +22,6 @@ async function isAuthorized(req: NextRequest): Promise<boolean> {
     console.log('❌ Bearer token invalid:', error?.message)
   }
 
-  // 2. Fall back to cookie session
   const cookieStore = await cookies()
   const supabase = createServerClient(
     process.env.NEXT_PUBLIC_SUPABASE_URL!,
@@ -44,7 +42,8 @@ async function isAuthorized(req: NextRequest): Promise<boolean> {
 }
 
 function decodeRoute(segments: string[]): string {
-  return '/' + segments.map(decodeURIComponent).join('/')
+  const joined = '/' + segments.map(decodeURIComponent).join('/')
+  return joined === '/home' ? '/' : joined
 }
 
 export async function GET(
@@ -89,8 +88,8 @@ export async function PUT(
     return NextResponse.json({ error: error.message }, { status: 500 })
   }
 
-  revalidateTag('seo-pages', 'max')
-  console.log('✅ Cache revalidated for tag: seo-pages')
+revalidateTag('seo-pages', 'max')
+console.log('✅ Cache revalidated for tag: seo-pages')
 
   return NextResponse.json({ success: true })
 }

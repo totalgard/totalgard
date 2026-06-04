@@ -25,6 +25,13 @@ const nextConfig: NextConfig = {
         permanent: true,
       },
 
+      {
+        source: '/:path*',
+        has: [{ type: 'host', value: 'totalgard.ae' }],
+        destination: 'https://www.totalgard.ae/:path*',
+        permanent: true,
+      },
+
       // ── FROM tint.totalgard.ae ────────────────────────────────────────
       // These come from a subdomain — handled below (see note)
       {
