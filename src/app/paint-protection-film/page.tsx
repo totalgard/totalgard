@@ -2,15 +2,14 @@ import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
 import { siteConfig } from "@/lib/siteConfig";
+import { buildMetadata } from "@/lib/metadata";
 
-export const metadata: Metadata = {
-  title: "Paint Protection Film Sharjah | Best PPF Sharjah — Totalgard",
-  description:
-    "Totalgard offers the best paint protection film (PPF) in Sharjah. Transparent, self-healing PPF shielding your car from chips, scratches and environmental damage. Central Mall, Sharjah, UAE. Call +971 56 425 5770.",
-  keywords:
-    "paint protection film sharjah, PPF sharjah, car paint protection sharjah, self healing PPF sharjah, clear bra sharjah, best PPF sharjah, car protection film sharjah, ppf automotive sharjah",
-  alternates: { canonical: "https://Totalgard.ae/paint-protection-film" },
-};
+export async function generateMetadata(): Promise<Metadata> {
+  return buildMetadata('/paint-protection-film', {
+    title: 'Paint Protection Film Sharjah | PPF Sharjah — Totalgard',
+    description: 'Totalgard offers professional paint protection film (PPF) installation in Sharjah. Self-healing, scratch-resistant PPF for ultimate paint protection. Central Mall, Sharjah.',
+  })
+}
 
 const benefits = [
   {

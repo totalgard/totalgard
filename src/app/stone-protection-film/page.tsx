@@ -2,15 +2,14 @@ import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
 import { siteConfig } from "@/lib/siteConfig";
+import { buildMetadata } from "@/lib/metadata";
 
-export const metadata: Metadata = {
-  title: "Stone Protection Film Sharjah | Marble & Stone Surface Protection — Totalgard",
-  description:
-    "Totalgard offers professional stone protection film installation in Sharjah. Transparent polyurethane film protecting marble, glass and stone countertops from scratches, stains and damage. Residential and commercial. Call +971 56 425 5770.",
-  keywords:
-    "stone protection film sharjah, marble protection film sharjah, stone surface protection sharjah, countertop protection film sharjah, stone film installation sharjah, marble protection sharjah, surface protection film sharjah",
-  alternates: { canonical: "https://Totalgard.ae/stone-protection-film" },
-};
+export async function generateMetadata(): Promise<Metadata> {
+  return buildMetadata('/stone-protection-film', {
+    title: 'Stone Protection Film Sharjah | Rock Chip Protection — Totalgard',
+    description: 'Protect your vehicle from stone chips, gravel and road debris with Totalgard\'s stone protection film in Sharjah. Transparent, durable and self-healing.',
+  })
+}
 
 const benefits = [
   {

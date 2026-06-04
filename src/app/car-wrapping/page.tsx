@@ -3,14 +3,14 @@ import Image from "next/image";
 import Link from "next/link";
 import { siteConfig } from "@/lib/siteConfig";
 
-export const metadata: Metadata = {
-  title: "Car Wrapping Sharjah | Professional Car Wrap Sharjah — Totalgard",
-  description:
-    "Totalgard offers professional car wrapping in Sharjah. Full wraps, partial wraps, colour changes and car graphics. Premium vinyl materials, stunning results. Central Mall, Sharjah, UAE. Call +971 56 425 5770.",
-  keywords:
-    "car wrapping sharjah, car wrap sharjah, vinyl wrap sharjah, colour change wrap sharjah, car graphics sharjah, vehicle wrap sharjah, full car wrap sharjah, partial car wrap sharjah, car decals sharjah",
-  alternates: { canonical: "https://Totalgard.ae/car-wrapping" },
-};
+import { buildMetadata } from "@/lib/metadata";
+
+export async function generateMetadata(): Promise<Metadata> {
+  return buildMetadata('/car-wrapping', {
+    title: 'Car Wrapping Sharjah | Professional Car Wrap Sharjah — Totalgard',
+    description: 'Totalgard offers professional car wrapping in Sharjah. Full wraps, partial wraps, colour changes and car graphics. Premium vinyl materials, stunning results. Central Mall, Sharjah, UAE.',
+  })
+}
 
 const benefits = [
   {

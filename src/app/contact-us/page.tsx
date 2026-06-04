@@ -2,13 +2,14 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { siteConfig } from "@/lib/siteConfig";
 import WhatsAppForm from "@/components/WhatsAppForm";
+import { buildMetadata } from "@/lib/metadata";
 
-export const metadata: Metadata = {
-  title: "Contact Us | TotalGard Sharjah — Automotive Protection UAE",
-  description:
-    "Contact TotalGard Sharjah for window tinting, PPF, ceramic coating, car wrapping and smart film. Visit us at Central Mall, Sharjah. Call +971 56 425 5770 or WhatsApp for a free quote.",
-  alternates: { canonical: "https://totalgard.ae/contact-us" },
-};
+export async function generateMetadata(): Promise<Metadata> {
+  return buildMetadata('/contact-us', {
+    title: 'Contact Totalgard Sharjah | Get a Free Quote',
+    description: 'Contact Totalgard Sharjah for window tinting, PPF, ceramic coating, car wrapping and smart film. Call +971 56 425 5770 or WhatsApp for a free quote.',
+  })
+}
 
 // ── ICONS ──
 function IconMapPin() {

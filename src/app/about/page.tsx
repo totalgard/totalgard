@@ -1,14 +1,15 @@
-import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
 import { siteConfig } from "@/lib/siteConfig";
+import type { Metadata } from 'next'
+import { buildMetadata } from "@/lib/metadata";
 
-export const metadata: Metadata = {
-  title: "About Us | Totalgard Sharjah — Automotive Protection UAE",
-  description:
-    "Learn about Totalgard by Smart Auto Sharjah — the UAE's trusted automotive protection specialists with 10+ years of expertise in window tinting, PPF, ceramic coating and car wrapping at Central Mall, Sharjah.",
-  alternates: { canonical: "https://Totalgard.ae/about" },
-};
+export async function generateMetadata(): Promise<Metadata> {
+  return buildMetadata('/about', {
+    title: 'About Totalgard Sharjah | Automotive Protection Specialists',
+    description: 'Learn about Totalgard — Sharjah\'s trusted automotive protection specialists. 10+ years of window tinting, PPF, ceramic coating and car wrapping expertise.',
+  })
+}
 
 // ── INLINE SVG ICONS ──
 function IconTrophy() {

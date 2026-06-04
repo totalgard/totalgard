@@ -2,15 +2,14 @@ import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
 import { siteConfig } from "@/lib/siteConfig";
+import { buildMetadata } from "@/lib/metadata";
 
-export const metadata: Metadata = {
-  title: "Window Tinting Sharjah | Best Car Window Tinting Sharjah — Totalgard",
-  description:
-    "Totalgard offers professional car window tinting in Sharjah. Ceramic window films blocking up to 95% infrared heat and 99% UV rays. 3–10 year warranty. Central Mall, Sharjah, UAE. Call +971 56 425 5770.",
-  keywords:
-    "window tinting sharjah, car window tinting sharjah, ceramic window tint sharjah, best window tint sharjah, UV protection window tint sharjah, heat reduction window film sharjah, car tinting sharjah",
-  alternates: { canonical: "https://Totalgard.ae/window-tinting" },
-};
+export async function generateMetadata(): Promise<Metadata> {
+  return buildMetadata('/window-tinting', {
+    title: 'Window Tinting Sharjah | Car Window Tint Sharjah — Totalgard',
+    description: 'Professional window tinting in Sharjah by Totalgard. Premium heat rejection films, UV protection and privacy tinting for cars. Central Mall, Sharjah, UAE.',
+  })
+}
 
 const benefits = [
   {

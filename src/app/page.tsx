@@ -1,26 +1,16 @@
-import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
 import { siteConfig } from "@/lib/siteConfig";
 import HeroSection from "@/components/HeroSection";
+import type { Metadata } from 'next'
+import { buildMetadata } from "@/lib/metadata";
 
-export const metadata: Metadata = {
-  title: "Totalgard Sharjah | Window Tinting, PPF & Ceramic Coating Sharjah",
-  description:
-    "Totalgard by Smart Auto — Sharjah's #1 automotive protection centre. Expert window tinting Sharjah, paint protection film Sharjah, nano ceramic coating Sharjah & car wrapping Sharjah. Central Mall, Sharjah, UAE. Call +971 56 425 5770.",
-  keywords:
-    "window tinting sharjah, car window tinting sharjah, ceramic window tint sharjah, paint protection film sharjah, PPF sharjah, nano ceramic coating sharjah, car wrapping sharjah, vinyl wrap sharjah, smart film sharjah, stone protection film sharjah, automotive protection sharjah, Totalgard sharjah",
-  alternates: { canonical: "https://Totalgard.ae" },
-  openGraph: {
-    title: "Totalgard Sharjah | Window Tinting, PPF & Ceramic Coating Sharjah",
-    description:
-      "Sharjah's #1 automotive protection experts. Window tinting, PPF, nano ceramic coating & car wrapping at Central Mall, Sharjah.",
-    url: "https://Totalgard.ae",
-    siteName: "Totalgard Sharjah",
-    locale: "en_AE",
-    type: "website",
-  },
-};
+export async function generateMetadata(): Promise<Metadata> {
+  return buildMetadata('/', {
+    title: 'Totalgard Sharjah | Automotive Protection Sharjah',
+    description: 'Totalgard Sharjah — premium automotive protection specialists. Window tinting, PPF, ceramic coating, car wrapping and smart film. Central Mall, Sharjah, UAE.',
+  })
+}
 
 const services = [
   {

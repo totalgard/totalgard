@@ -2,15 +2,14 @@ import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
 import { siteConfig } from "@/lib/siteConfig";
+import { buildMetadata } from "@/lib/metadata";
 
-export const metadata: Metadata = {
-  title: "Smart Film Sharjah | PDLC Switchable Privacy Glass Film Sharjah — Totalgard",
-  description:
-    "Totalgard offers PDLC switchable privacy glass film (smart film) in Sharjah. Control transparency at the touch of a button. Blocks 98% UV rays. Residential and commercial smart film installation in Sharjah, UAE. Call +971 56 425 5770.",
-  keywords:
-    "smart film sharjah, PDLC film sharjah, switchable glass film sharjah, privacy glass film sharjah, smart glass sharjah, switchable privacy glass sharjah, smart film installation sharjah, smart window film sharjah",
-  alternates: { canonical: "https://Totalgard.ae/smart-film-pdlc-switchable-privacy-glass-film-sharjah" },
-};
+export async function generateMetadata(): Promise<Metadata> {
+  return buildMetadata('/smart-film-pdlc-switchable-privacy-glass-film-sharjah', {
+    title: 'Smart Film Sharjah | PDLC Switchable Privacy Glass Film — Totalgard',
+    description: 'Totalgard installs PDLC smart film and switchable privacy glass film in Sharjah. Instantly switch from transparent to frosted. Homes, offices and vehicles.',
+  })
+}
 
 const benefits = [
   {

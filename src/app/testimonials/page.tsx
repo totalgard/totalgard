@@ -1,12 +1,13 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import { buildMetadata } from "@/lib/metadata";
 
-export const metadata: Metadata = {
-  title: "Customer Reviews | TotalGard Sharjah — What Our Clients Say",
-  description:
-    "Read real customer reviews for TotalGard Sharjah. Our clients love our window tinting, PPF, ceramic coating and car wrapping services at Central Mall, Sharjah.",
-  alternates: { canonical: "https://totalgard.ae/testimonials" },
-};
+export async function generateMetadata(): Promise<Metadata> {
+  return buildMetadata('/testimonials', {
+    title: 'Customer Reviews | Totalgard Sharjah Testimonials',
+    description: 'Read verified customer reviews and testimonials for Totalgard Sharjah. See what our clients say about window tinting, PPF, ceramic coating and car wrapping.',
+  })
+}
 
 const testimonials = [
   {

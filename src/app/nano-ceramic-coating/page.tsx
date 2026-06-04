@@ -2,15 +2,14 @@ import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
 import { siteConfig } from "@/lib/siteConfig";
+import { buildMetadata } from "@/lib/metadata";
 
-export const metadata: Metadata = {
-  title: "Nano Ceramic Coating Sharjah | Best Car Ceramic Coating Sharjah — Totalgard",
-  description:
-    "Totalgard offers the best nano ceramic coating in Sharjah. Hydrophobic, UV-resistant ceramic coating for cars. Enhanced gloss, long-lasting protection and easy maintenance. Central Mall, Sharjah, UAE. Call +971 56 425 5770.",
-  keywords:
-    "nano ceramic coating sharjah, ceramic coating sharjah, car ceramic coating sharjah, graphene coating sharjah, auto ceramic coating sharjah, automotive ceramic coating sharjah, ceramic coating near me sharjah, best ceramic coating sharjah",
-  alternates: { canonical: "https://Totalgard.ae/nano-ceramic-coating" },
-};
+export async function generateMetadata(): Promise<Metadata> {
+  return buildMetadata('/nano-ceramic-coating', {
+    title: 'Ceramic Coating Sharjah | Nano Ceramic Coating Sharjah — Totalgard',
+    description: 'Totalgard offers professional nano ceramic coating in Sharjah. Ultimate paint protection, hydrophobic finish and long-lasting gloss. Central Mall, Sharjah, UAE.',
+  })
+}
 
 const benefits = [
   {
