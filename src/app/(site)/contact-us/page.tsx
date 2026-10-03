@@ -140,7 +140,7 @@ export default function ContactPage() {
         <div className="max-w-7xl mx-auto px-6">
           <div className="grid lg:grid-cols-2 gap-12">
 
-            {/* ── LEFT — Contact Details ── */}
+            {/* ── LEFT - Contact Details ── */}
             <div className="flex flex-col gap-6">
               <div>
                 <span className="text-[#c9a84c] text-xs font-semibold tracking-[0.2em] uppercase">
@@ -235,7 +235,7 @@ export default function ContactPage() {
             </div>
             {/* ── end LEFT ── */}
 
-            {/* ── RIGHT — WhatsApp Booking Form ── */}
+            {/* ── RIGHT - WhatsApp Booking Form ── */}
             <div className="bg-[#111111] border border-[#1e1e1e] rounded-3xl p-8 relative overflow-hidden">
               <div className="absolute top-0 right-0 w-40 h-40 bg-[#c9a84c] opacity-[0.04] blur-3xl rounded-full pointer-events-none" />
 
@@ -255,7 +255,7 @@ export default function ContactPage() {
               </h2>
               <p className="text-[#666] text-xs mb-6 leading-relaxed">
                 Fill in your details below and we'll open WhatsApp with everything
-                pre-filled — get a reply in minutes.
+                pre-filled - get a reply in minutes.
               </p>
 
               <WhatsAppForm />
@@ -290,7 +290,7 @@ export default function ContactPage() {
               allowFullScreen
               loading="lazy"
               referrerPolicy="no-referrer-when-downgrade"
-              title="TotalGard Sharjah Location — Central Mall"
+              title="TotalGard Sharjah Location - Central Mall"
             />
           </div>
           <div className="mt-4 text-center">

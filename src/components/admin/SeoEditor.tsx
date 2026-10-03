@@ -269,7 +269,7 @@ export default function SeoEditor({ route, pageLabel, initialData }: Props) {
         structured_data = JSON.parse(schemaJson)
         setSchemaError('')
       } catch {
-        setSchemaError('Invalid JSON — fix before saving')
+        setSchemaError('Invalid JSON - fix before saving')
         setSaving(false)
         setTab('schema')
         return
@@ -281,7 +281,7 @@ export default function SeoEditor({ route, pageLabel, initialData }: Props) {
     const { data: { session } } = await supabase.auth.getSession()
 
     if (!session) {
-      setError('Session expired — please refresh the page and log in again.')
+      setError('Session expired - please refresh the page and log in again.')
       setSaving(false)
       return
     }
@@ -304,10 +304,10 @@ const res = await fetch(`/api/admin/seo/${apiSegment}`, {
         setTimeout(() => setSaved(false), 2500)
       } else {
         const body = await res.json().catch(() => ({}))
-        setError(body?.error ?? `Save failed (${res.status}) — please try again.`)
+        setError(body?.error ?? `Save failed (${res.status}) - please try again.`)
       }
     } catch {
-      setError('Network error — check your connection and try again.')
+      setError('Network error - check your connection and try again.')
     }
 
     setSaving(false)
@@ -541,7 +541,7 @@ const res = await fetch(`/api/admin/seo/${apiSegment}`, {
         {/* STRUCTURED DATA */}
         {tab === 'schema' && <>
           <div>
-            <label style={labelSt}>Schema Type — Load Template</label>
+            <label style={labelSt}>Schema Type - Load Template</label>
             <div style={{ display: 'flex', flexWrap: 'wrap', gap: '0.4rem' }}>
               {Object.keys(SCHEMA_TEMPLATES).map(type => (
                 <button
@@ -604,7 +604,7 @@ const res = await fetch(`/api/admin/seo/${apiSegment}`, {
           <div>
             <label style={labelSt}>Robots</label>
             <select style={inputSt} value={fields.robots} onChange={e => set('robots', e.target.value)}>
-              <option value="index, follow">index, follow (default — recommended)</option>
+              <option value="index, follow">index, follow (default - recommended)</option>
               <option value="noindex, follow">noindex, follow</option>
               <option value="index, nofollow">index, nofollow</option>
               <option value="noindex, nofollow">noindex, nofollow (block from Google)</option>

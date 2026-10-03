@@ -5,7 +5,7 @@ import { createServerClient } from '@supabase/ssr'
 export async function middleware(req: NextRequest) {
   const { pathname } = req.nextUrl
 
-  // Let /admin/login through — otherwise infinite redirect loop
+  // Let /admin/login through - otherwise infinite redirect loop
   if (pathname.startsWith('/admin/login')) {
     return NextResponse.next()
   }

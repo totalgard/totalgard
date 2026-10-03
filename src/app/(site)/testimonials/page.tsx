@@ -97,7 +97,7 @@ const testimonials = [
     service: "Tinting, PPF & Ceramic",
     car: "RAV4 & Camry",
     review:
-      "Great place for tinting, PPF and ceramic. I did tinting for my RAV4 and Camry — they offered me good price and high quality of material and nano ceramic quality. Very good team at Sharjah Central Mall.",
+      "Great place for tinting, PPF and ceramic. I did tinting for my RAV4 and Camry - they offered me good price and high quality of material and nano ceramic quality. Very good team at Sharjah Central Mall.",
     initials: "IS",
   },
   {
@@ -137,7 +137,7 @@ const testimonials = [
     service: "Nano Ceramic, Tinting & PPF",
     car: null,
     review:
-      "A great place for car detailing. Right from coordination to the workmanship — Nano, tinting or car PPF. Great job guys!",
+      "A great place for car detailing. Right from coordination to the workmanship - Nano, tinting or car PPF. Great job guys!",
     initials: "FA",
   },
   {
@@ -224,7 +224,7 @@ export default function TestimonialsPage() {
               <br />Are Saying
             </h1>
             <p className="text-[#888] mt-4 leading-relaxed text-sm max-w-lg mx-auto">
-              Real reviews from real customers at TotalGard Sharjah — Central Mall.
+              Real reviews from real customers at TotalGard Sharjah - Central Mall.
               Over 40 five-star ratings and counting.
             </p>
 
@@ -329,7 +329,7 @@ export default function TestimonialsPage() {
           </h2>
           <p className="text-[#666] text-sm mt-3 mb-8 leading-relaxed">
             Book your appointment today and experience the same 5-star service at
-            TotalGard Sharjah — Central Mall.
+            TotalGard Sharjah - Central Mall.
           </p>
           <div className="flex flex-col sm:flex-row gap-3 justify-center">
             <Link

@@ -71,7 +71,7 @@ export default function HeroSection() {
 
             <p className="mx-auto mt-6 max-w-2xl text-base leading-relaxed text-[#9a9a9a] md:text-lg">
               Ceramic window tinting, paint protection film, nano ceramic coating
-              and car wrapping — expertly applied in Sharjah for a clean,
+              and car wrapping - expertly applied in Sharjah for a clean,
               refined and long-lasting finish.
             </p>
 

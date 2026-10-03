@@ -53,7 +53,7 @@ export default function AdminLoginPage() {
       triggerShake()
       setLoading(false)
     }
-    // on success, loginAction calls redirect() server-side — no need to push here
+    // on success, loginAction calls redirect() server-side - no need to push here
   }
 
   return (
@@ -85,7 +85,7 @@ export default function AdminLoginPage() {
             Totalgard
           </h1>
           <p className="text-[13px]" style={{ color: 'rgba(255,255,255,0.3)' }}>
-            Admin Panel — Sign in to continue
+            Admin Panel - Sign in to continue
           </p>
         </div>
 

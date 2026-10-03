@@ -6,7 +6,7 @@ import { buildMetadata } from "@/lib/metadata";
 
 export async function generateMetadata(): Promise<Metadata> {
   return buildMetadata('/nano-ceramic-coating', {
-    title: 'Ceramic Coating Sharjah | Nano Ceramic Coating Sharjah — Totalgard',
+    title: 'Ceramic Coating Sharjah | Nano Ceramic Coating Sharjah - Totalgard',
     description: 'Totalgard offers professional nano ceramic coating in Sharjah. Ultimate paint protection, hydrophobic finish and long-lasting gloss. Central Mall, Sharjah, UAE.',
   })
 }
@@ -14,7 +14,7 @@ export async function generateMetadata(): Promise<Metadata> {
 const benefits = [
   {
     title: "Long-Lasting Protection",
-    desc: "Our ceramic nano coating forms a strong bond with the paint, providing durable protection that lasts for years — essential for Sharjah's harsh climate.",
+    desc: "Our ceramic nano coating forms a strong bond with the paint, providing durable protection that lasts for years - essential for Sharjah's harsh climate.",
   },
   {
     title: "Hydrophobic Properties",
@@ -33,7 +33,7 @@ const benefits = [
 const whyUs = [
   {
     title: "High-Quality Products",
-    desc: "We use only the best quality nano ceramic coatings designed to provide long-lasting protection and enhance the appearance of your car. No shortcuts — only premium products at Totalgard Sharjah.",
+    desc: "We use only the best quality nano ceramic coatings designed to provide long-lasting protection and enhance the appearance of your car. No shortcuts - only premium products at Totalgard Sharjah.",
   },
   {
     title: "Expert Application",
@@ -41,11 +41,11 @@ const whyUs = [
   },
   {
     title: "Enhanced Gloss & Shine",
-    desc: "Our car nano ceramic coating not only protects your car's paint but also adds a deep gloss and shine — making it look brand new even after years of Sharjah's heat and dust.",
+    desc: "Our car nano ceramic coating not only protects your car's paint but also adds a deep gloss and shine - making it look brand new even after years of Sharjah's heat and dust.",
   },
   {
     title: "Easy Maintenance",
-    desc: "With our nano ceramic coating, your car will be easier to clean as dirt and grime struggle to stick to the smooth hydrophobic surface — saving you time and money.",
+    desc: "With our nano ceramic coating, your car will be easier to clean as dirt and grime struggle to stick to the smooth hydrophobic surface - saving you time and money.",
   },
   {
     title: "Long-Term Investment",
@@ -53,7 +53,7 @@ const whyUs = [
   },
   {
     title: "Scratch & Stain Resistance",
-    desc: "Totalgard's ceramic coating creates a barrier that resists minor scratches and stains from everyday driving — keeping your vehicle pristine on Sharjah's roads.",
+    desc: "Totalgard's ceramic coating creates a barrier that resists minor scratches and stains from everyday driving - keeping your vehicle pristine on Sharjah's roads.",
   },
 ];
 
@@ -74,7 +74,7 @@ const coatingTypes = [
   {
     name: "Graphene Coating",
     tag: "Premium",
-    desc: "The latest in coating technology — graphene-infused ceramic coating offering superior hardness, anti-static properties and longer durability than standard ceramic.",
+    desc: "The latest in coating technology - graphene-infused ceramic coating offering superior hardness, anti-static properties and longer durability than standard ceramic.",
     features: [
       "5+ year protection",
       "Anti-static properties",
@@ -108,7 +108,7 @@ const process = [
   {
     step: "02",
     title: "Paint Correction",
-    desc: "Machine polishing to remove swirl marks, scratches and oxidation — ensuring a perfect base for the ceramic coating.",
+    desc: "Machine polishing to remove swirl marks, scratches and oxidation - ensuring a perfect base for the ceramic coating.",
   },
   {
     step: "03",
@@ -125,7 +125,7 @@ const process = [
 const faqs = [
   {
     q: "What is nano ceramic coating and why do I need it in Sharjah?",
-    a: "Nano ceramic coating is a liquid polymer that bonds with your car's paint to form a protective layer. In Sharjah's harsh climate — extreme UV, heat, dust and sand — ceramic coating is essential to protect and preserve your vehicle's paint.",
+    a: "Nano ceramic coating is a liquid polymer that bonds with your car's paint to form a protective layer. In Sharjah's harsh climate - extreme UV, heat, dust and sand - ceramic coating is essential to protect and preserve your vehicle's paint.",
   },
   {
     q: "How long does ceramic coating last in Sharjah?",
@@ -133,7 +133,7 @@ const faqs = [
   },
   {
     q: "Is ceramic coating worth it in Sharjah's heat?",
-    a: "Absolutely. Sharjah's intense UV radiation and heat accelerate paint oxidation and fading. Totalgard's ceramic coating creates a UV-resistant, hydrophobic barrier that keeps your car looking new for years — saving money on repainting and detailing.",
+    a: "Absolutely. Sharjah's intense UV radiation and heat accelerate paint oxidation and fading. Totalgard's ceramic coating creates a UV-resistant, hydrophobic barrier that keeps your car looking new for years - saving money on repainting and detailing.",
   },
   {
     q: "How long does ceramic coating application take in Sharjah?",
@@ -141,11 +141,11 @@ const faqs = [
   },
   {
     q: "What is the difference between ceramic coating and PPF in Sharjah?",
-    a: "Ceramic coating enhances shine, adds UV resistance and creates a hydrophobic surface — but does not protect against physical impact like stone chips. PPF provides physical protection against chips and scratches. Totalgard recommends combining both for ultimate protection in Sharjah.",
+    a: "Ceramic coating enhances shine, adds UV resistance and creates a hydrophobic surface - but does not protect against physical impact like stone chips. PPF provides physical protection against chips and scratches. Totalgard recommends combining both for ultimate protection in Sharjah.",
   },
   {
     q: "What is graphene coating and how is it better than ceramic?",
-    a: "Graphene coating is the next evolution of ceramic coating — infused with graphene for superior hardness, anti-static properties, water spot resistance and longer durability. Totalgard Sharjah offers both nano ceramic and graphene coating options.",
+    a: "Graphene coating is the next evolution of ceramic coating - infused with graphene for superior hardness, anti-static properties, water spot resistance and longer durability. Totalgard Sharjah offers both nano ceramic and graphene coating options.",
   },
 ];
 
@@ -220,7 +220,7 @@ export default function NanoCeramicCoatingPage() {
               <span className="text-[#c9a84c] font-semibold">
                 durable, transparent hydrophobic layer
               </span>{" "}
-              that bonds with your paint — protecting against UV rays, bird
+              that bonds with your paint - protecting against UV rays, bird
               droppings and road grime while enhancing your vehicle's shine and
               making maintenance effortless in Sharjah's harsh climate.
             </p>
@@ -240,7 +240,7 @@ export default function NanoCeramicCoatingPage() {
               </a>
             </div>
             <p className="mt-5 text-xs text-[#444] tracking-widest uppercase">
-              Central Mall, Sharjah, UAE — Expert Application Guaranteed
+              Central Mall, Sharjah, UAE - Expert Application Guaranteed
             </p>
           </div>
 
@@ -248,7 +248,7 @@ export default function NanoCeramicCoatingPage() {
           <div className="relative rounded-3xl overflow-hidden h-[420px] shadow-2xl shadow-black/50">
             <Image
               src="/images/nano-ceramic-2.webp"
-              alt="Nano ceramic coating Sharjah — Totalgard best car ceramic coating UAE"
+              alt="Nano ceramic coating Sharjah - Totalgard best car ceramic coating UAE"
               fill
               className="object-cover opacity-75"
               priority
@@ -283,7 +283,7 @@ export default function NanoCeramicCoatingPage() {
               Overview
             </span>
             <h2 className="text-3xl md:text-4xl font-extrabold text-[#f5f5f5] mt-3 leading-tight">
-              Ceramic Nano Coating —
+              Ceramic Nano Coating -
               <br />
               <span className="gold-text">Elevating Protection & Shine</span>
             </h2>
@@ -292,7 +292,7 @@ export default function NanoCeramicCoatingPage() {
               engineered to safeguard and enhance the exterior surfaces of
               vehicles. Totalgard's nano ceramic coating forms a durable and
               transparent layer that bonds with the paint, creating a hydrophobic
-              and dirt-repellent surface — providing long-lasting protection
+              and dirt-repellent surface - providing long-lasting protection
               against environmental hazards such as UV rays, bird droppings and
               road grime while enhancing your vehicle's shine.
             </p>
@@ -331,7 +331,7 @@ export default function NanoCeramicCoatingPage() {
               Ceramic Coating Options in Sharjah
             </h2>
             <p className="text-[#888] mt-3 max-w-xl mx-auto text-sm leading-relaxed">
-              From standard nano ceramic to advanced graphene coatings —
+              From standard nano ceramic to advanced graphene coatings -
               Totalgard Sharjah offers the right protection level for every
               vehicle and budget.
             </p>
@@ -461,7 +461,7 @@ export default function NanoCeramicCoatingPage() {
           <div className="relative rounded-3xl overflow-hidden h-[460px] shadow-2xl shadow-black/50">
             <Image
               src="/images/nano-ceramic.webp"
-              alt="Totalgard nano ceramic coating results Sharjah — deep gloss and hydrophobic finish"
+              alt="Totalgard nano ceramic coating results Sharjah - deep gloss and hydrophobic finish"
               fill
               className="object-cover opacity-70"
             />
@@ -490,8 +490,8 @@ export default function NanoCeramicCoatingPage() {
             </p>
             <div className="mt-8 space-y-5">
               {[
-                { label: "Paint Hardness", value: 90, desc: "9H hardness rating — highly scratch resistant" },
-                { label: "Hydrophobic Effect", value: 98, desc: "Water beads off instantly — self-cleaning surface" },
+                { label: "Paint Hardness", value: 90, desc: "9H hardness rating - highly scratch resistant" },
+                { label: "Hydrophobic Effect", value: 98, desc: "Water beads off instantly - self-cleaning surface" },
                 { label: "UV Protection", value: 95, desc: "Prevents fading and oxidation from Sharjah's sun" },
                 { label: "Gloss Enhancement", value: 85, desc: "Deep showroom shine restored and preserved" },
               ].map((bar) => (
@@ -530,7 +530,7 @@ export default function NanoCeramicCoatingPage() {
               FAQ
             </span>
             <h2 className="text-3xl font-extrabold text-[#f5f5f5] mt-3">
-              Ceramic Coating Sharjah — FAQ
+              Ceramic Coating Sharjah - FAQ
             </h2>
           </div>
           <div className="space-y-4">
@@ -583,7 +583,7 @@ export default function NanoCeramicCoatingPage() {
             </a>
           </div>
           <p className="mt-6 text-xs text-[#2a2a2a] tracking-widest uppercase">
-            Central Mall, Sharjah — Open 7 Days a Week
+            Central Mall, Sharjah - Open 7 Days a Week
           </p>
         </div>
       </section>

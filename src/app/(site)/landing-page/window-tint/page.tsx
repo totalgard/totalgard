@@ -54,11 +54,11 @@ function BookingForm() {
     const msg = [
       `Hi TotalGard! I'd like to book a slot and claim the 15% OFF offer.`,
       ``,
-      `*Name:* ${name || "—"}`,
-      `*Phone:* ${phone || "—"}`,
-      `*Car Make & Model:* ${car || "—"}`,
-      `*Tint Type:* ${tintType || "—"}`,
-      `*Preferred Time Slot:* ${timeSlot || "—"}`,
+      `*Name:* ${name || "-"}`,
+      `*Phone:* ${phone || "-"}`,
+      `*Car Make & Model:* ${car || "-"}`,
+      `*Tint Type:* ${tintType || "-"}`,
+      `*Preferred Time Slot:* ${timeSlot || "-"}`,
     ].join("\n");
     return `https://wa.me/${WA_NUMBER}?text=${encodeURIComponent(msg)}`;
   };
@@ -227,7 +227,7 @@ export default function TintOfferPage() {
             </div>
           </div>
 
-          {/* Right — controlled booking form */}
+          {/* Right - controlled booking form */}
           <BookingForm />
         </div>
       </section>

@@ -7,7 +7,7 @@ import { buildMetadata } from "@/lib/metadata";
 export async function generateMetadata(): Promise<Metadata> {
   return buildMetadata('/about', {
     title: 'About Totalgard Sharjah | Automotive Protection Specialists',
-    description: 'Learn about Totalgard — Sharjah\'s trusted automotive protection specialists. 10+ years of window tinting, PPF, ceramic coating and car wrapping expertise.',
+    description: 'Learn about Totalgard - Sharjah\'s trusted automotive protection specialists. 10+ years of window tinting, PPF, ceramic coating and car wrapping expertise.',
   })
 }
 
@@ -82,22 +82,22 @@ const values = [
   {
     Icon: IconTrophy,
     title: "Excellence",
-    desc: "We use only the world's leading brands and premium materials — never cutting corners on quality. Every vehicle we touch gets the best.",
+    desc: "We use only the world's leading brands and premium materials - never cutting corners on quality. Every vehicle we touch gets the best.",
   },
   {
     Icon: IconMicroscope,
     title: "Expertise",
-    desc: "Our certified technicians are trained in the latest application techniques — ensuring flawless results on every single vehicle.",
+    desc: "Our certified technicians are trained in the latest application techniques - ensuring flawless results on every single vehicle.",
   },
   {
     Icon: IconHandshake,
     title: "Trust",
-    desc: "Transparent pricing, honest recommendations and a commitment to doing what's right for your vehicle and your budget — always.",
+    desc: "Transparent pricing, honest recommendations and a commitment to doing what's right for your vehicle and your budget - always.",
   },
   {
     Icon: IconShield,
     title: "Protection",
-    desc: "We are passionate about protecting your investment. Sharjah's harsh climate demands the best — and that's exactly what we deliver.",
+    desc: "We are passionate about protecting your investment. Sharjah's harsh climate demands the best - and that's exactly what we deliver.",
   },
 ];
 
@@ -114,31 +114,31 @@ const timeline = [
   {
     year: "2014",
     title: "Founded in Sharjah",
-    desc: "Smart Auto opened its doors in Sharjah with a simple mission — bring world-class automotive protection to UAE car owners.",
+    desc: "Smart Auto opened its doors in Sharjah with a simple mission - bring world-class automotive protection to UAE car owners.",
   },
   {
     year: "2017",
     title: "Totalgard Brand Launched",
-    desc: "The Totalgard brand was established — a dedicated automotive protection division specialising in window tinting, PPF and ceramic coatings.",
+    desc: "The Totalgard brand was established - a dedicated automotive protection division specialising in window tinting, PPF and ceramic coatings.",
   },
   {
     year: "2020",
     title: "Central Mall Flagship",
-    desc: "Totalgard opened its flagship location at Central Mall, Sharjah — the most spacious, family-friendly car care centre in the UAE.",
+    desc: "Totalgard opened its flagship location at Central Mall, Sharjah - the most spacious, family-friendly car care centre in the UAE.",
   },
   {
     year: "2024",
     title: "50,000+ Customers",
-    desc: "Trusted by over 50,000 car enthusiasts across Sharjah and the UAE — cementing Totalgard's position as the #1 automotive protection brand.",
+    desc: "Trusted by over 50,000 car enthusiasts across Sharjah and the UAE - cementing Totalgard's position as the #1 automotive protection brand.",
   },
 ];
 
 const whyUs = [
   "Authorised dealers and certified installers for leading global brands",
   "10+ years of hands-on experience with all vehicle types",
-  "State-of-the-art studio at Central Mall, Sharjah — open 7 days",
+  "State-of-the-art studio at Central Mall, Sharjah - open 7 days",
   "Only premium, UAE climate-tested materials used",
-  "Transparent pricing — no hidden fees, ever",
+  "Transparent pricing - no hidden fees, ever",
   "Trained and certified technicians for every service",
   "Trusted by 50,000+ car enthusiasts across the UAE",
   "100% satisfaction guarantee on every job",
@@ -150,7 +150,7 @@ const jsonLd = {
   name: "About Totalgard Sharjah",
   url: "https://www.totalgard.ae/about",
   description:
-    "Totalgard by Smart Auto Sharjah — 10+ years of automotive protection expertise in window tinting, PPF, ceramic coating and car wrapping.",
+    "Totalgard by Smart Auto Sharjah - 10+ years of automotive protection expertise in window tinting, PPF, ceramic coating and car wrapping.",
   mainEntity: {
     "@type": "AutoBodyShop",
     name: "Totalgard by Smart Auto Sharjah",
@@ -218,7 +218,7 @@ export default function AboutPage() {
               <p className="mt-6 text-[#888] text-lg leading-relaxed">
                 Totalgard is the automotive protection division of{" "}
                 <span className="text-[#c9a84c] font-semibold">Smart Auto Sharjah</span>{" "}
-                — the UAE's premier destination for window tinting, paint
+                - the UAE's premier destination for window tinting, paint
                 protection film, nano ceramic coating and car wrapping. With
                 10+ years of expertise and 50,000+ satisfied customers across
                 Sharjah and the UAE, we are the name you can trust.
@@ -244,7 +244,7 @@ export default function AboutPage() {
             <div className="relative rounded-3xl overflow-hidden h-[420px] shadow-2xl shadow-black/50">
               <Image
                 src="/images/color-ppf.webp"
-                alt="Totalgard Sharjah automotive protection workshop — Totalgard"
+                alt="Totalgard Sharjah automotive protection workshop - Totalgard"
                 fill
                 className="object-cover opacity-70"
                 priority
@@ -291,7 +291,7 @@ export default function AboutPage() {
           <div className="relative rounded-3xl overflow-hidden h-[480px] shadow-2xl shadow-black/50">
             <Image
               src="/images/detailing.webp"
-              alt="Totalgard story — Smart Auto Sharjah automotive protection UAE"
+              alt="Totalgard story - Smart Auto Sharjah automotive protection UAE"
               fill
               className="object-cover opacity-65"
             />
@@ -310,18 +310,18 @@ export default function AboutPage() {
               Totalgard was born from a passion for automotive excellence and a
               deep understanding of the challenges UAE car owners face. Sharjah's
               intense UV radiation, extreme heat and dusty conditions are
-              unforgiving on vehicle paintwork — and we built Totalgard to be
+              unforgiving on vehicle paintwork - and we built Totalgard to be
               the answer.
             </p>
             <p className="text-[#888] mt-4 leading-relaxed">
-              As the automotive protection division of Smart Auto — one of the
-              UAE's most trusted car care groups — Totalgard combines decades
+              As the automotive protection division of Smart Auto - one of the
+              UAE's most trusted car care groups - Totalgard combines decades
               of collective expertise with the world's leading protection brands.
               From our flagship studio at Central Mall, Sharjah, we serve
               thousands of car owners across the UAE every year.
             </p>
             <p className="text-[#888] mt-4 leading-relaxed">
-              Whether it's a daily driver or a luxury supercar — every vehicle
+              Whether it's a daily driver or a luxury supercar - every vehicle
               that enters Totalgard receives the same meticulous attention to
               detail and the same commitment to excellence.
             </p>
@@ -413,7 +413,7 @@ export default function AboutPage() {
             </h2>
             <p className="text-[#888] mt-3 max-w-xl mx-auto text-sm leading-relaxed">
               Every service we offer is designed to protect and enhance your
-              vehicle — using only the best materials and the most precise
+              vehicle - using only the best materials and the most precise
               application techniques available in Sharjah.
             </p>
           </div>
@@ -456,7 +456,7 @@ export default function AboutPage() {
               <span className="gold-text">in Sharjah</span>
             </h2>
             <p className="text-[#888] mt-5 leading-relaxed">
-              There are plenty of car protection services in Sharjah — but
+              There are plenty of car protection services in Sharjah - but
               Totalgard stands apart. We combine genuine expertise, premium
               materials and an obsession with quality that has earned us the
               trust of 50,000+ UAE car owners.
@@ -474,7 +474,7 @@ export default function AboutPage() {
           <div className="relative rounded-3xl overflow-hidden h-[460px] shadow-2xl shadow-black/50">
             <Image
               src="/images/ceramic-coating-2.webp"
-              alt="Totalgard team Sharjah — trusted automotive protection UAE"
+              alt="Totalgard team Sharjah - trusted automotive protection UAE"
               fill
               className="object-cover opacity-65"
             />
@@ -525,7 +525,7 @@ export default function AboutPage() {
             </Link>
           </div>
           <p className="mt-6 text-xs text-[#2a2a2a] tracking-widest uppercase">
-            Open 7 Days — Sun to Sat: 10:00 AM – 10:00 PM
+            Open 7 Days - Sun to Sat: 10:00 AM – 10:00 PM
           </p>
         </div>
       </section>

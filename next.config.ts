@@ -33,7 +33,7 @@ const nextConfig: NextConfig = {
       },
 
       // ── FROM tint.totalgard.ae ────────────────────────────────────────
-      // These come from a subdomain — handled below (see note)
+      // These come from a subdomain - handled below (see note)
       {
         source: "/about-us",
         destination: "/about-us",

@@ -6,7 +6,7 @@ import { buildMetadata } from "@/lib/metadata";
 
 export async function generateMetadata(): Promise<Metadata> {
   return buildMetadata('/stone-protection-film', {
-    title: 'Stone Protection Film Sharjah | Rock Chip Protection — Totalgard',
+    title: 'Stone Protection Film Sharjah | Rock Chip Protection - Totalgard',
     description: 'Protect your vehicle from stone chips, gravel and road debris with Totalgard\'s stone protection film in Sharjah. Transparent, durable and self-healing.',
   })
 }
@@ -14,23 +14,23 @@ export async function generateMetadata(): Promise<Metadata> {
 const benefits = [
   {
     title: "Enhanced Durability",
-    desc: "Creates a strong protective layer that shields stone surfaces from scratches, stains and etching from acidic substances — extending the life of your investment.",
+    desc: "Creates a strong protective layer that shields stone surfaces from scratches, stains and etching from acidic substances - extending the life of your investment.",
   },
   {
     title: "Ease of Cleaning",
-    desc: "Treated surfaces are less porous and resist grime and dirt — requiring only mild detergents and water. Maintaining pristine stone has never been easier.",
+    desc: "Treated surfaces are less porous and resist grime and dirt - requiring only mild detergents and water. Maintaining pristine stone has never been easier.",
   },
   {
     title: "Preserved Aesthetics",
-    desc: "Stone protection films are virtually invisible once applied — enhancing the natural colour and shine of your stone without altering its appearance.",
+    desc: "Stone protection films are virtually invisible once applied - enhancing the natural colour and shine of your stone without altering its appearance.",
   },
   {
     title: "Increased Lifespan",
-    desc: "Significantly reduces the need for costly repairs or replacements — protecting your investment in quality stone surfaces for years to come.",
+    desc: "Significantly reduces the need for costly repairs or replacements - protecting your investment in quality stone surfaces for years to come.",
   },
   {
     title: "Impact Resistance",
-    desc: "Polyurethane film absorbs shocks and minimises damage from accidental impacts — critical in high-traffic residential and commercial spaces in Sharjah.",
+    desc: "Polyurethane film absorbs shocks and minimises damage from accidental impacts - critical in high-traffic residential and commercial spaces in Sharjah.",
   },
   {
     title: "UV Protection",
@@ -41,22 +41,22 @@ const benefits = [
 const applications = [
   {
     title: "Kitchen Countertops",
-    desc: "Protect marble and granite kitchen countertops from spills, cuts, stains and daily culinary hazards — keeping them looking brand new.",
+    desc: "Protect marble and granite kitchen countertops from spills, cuts, stains and daily culinary hazards - keeping them looking brand new.",
     icon: "🍽️",
   },
   {
     title: "Bathroom Surfaces",
-    desc: "Shield bathroom marble and stone from water stains, soap scum and cosmetic damage — easy to clean and maintain.",
+    desc: "Shield bathroom marble and stone from water stains, soap scum and cosmetic damage - easy to clean and maintain.",
     icon: "🚿",
   },
   {
     title: "Outdoor Patios",
-    desc: "Protect outdoor stone surfaces from Sharjah's harsh weather, UV rays, heat and environmental damage — preserving vibrant aesthetics.",
+    desc: "Protect outdoor stone surfaces from Sharjah's harsh weather, UV rays, heat and environmental damage - preserving vibrant aesthetics.",
     icon: "🌿",
   },
   {
     title: "Restaurant Countertops",
-    desc: "High-traffic commercial countertops protected against spills, scratches and heavy daily use — lower maintenance costs and better aesthetics.",
+    desc: "High-traffic commercial countertops protected against spills, scratches and heavy daily use - lower maintenance costs and better aesthetics.",
     icon: "🏪",
   },
   {
@@ -66,7 +66,7 @@ const applications = [
   },
   {
     title: "Office & Commercial",
-    desc: "Protect marble flooring and stone surfaces in commercial buildings — easier cleaning, fewer repairs and prolonged surface life.",
+    desc: "Protect marble flooring and stone surfaces in commercial buildings - easier cleaning, fewer repairs and prolonged surface life.",
     icon: "🏢",
   },
 ];
@@ -75,7 +75,7 @@ const materials = [
   {
     name: "Polyurethane Film",
     tag: "Primary Material",
-    desc: "The gold standard for stone protection. Exceptional durability, flexibility and impact resistance — absorbs shocks and resists scratches and stains.",
+    desc: "The gold standard for stone protection. Exceptional durability, flexibility and impact resistance - absorbs shocks and resists scratches and stains.",
     features: [
       "Shock absorption technology",
       "Superior scratch resistance",
@@ -117,17 +117,17 @@ const installationSteps = [
   {
     step: "01",
     title: "Initial Consultation",
-    desc: "Totalgard's experts assess your stone surfaces — type, condition, environment — to determine the appropriate film and extent of preparation required.",
+    desc: "Totalgard's experts assess your stone surfaces - type, condition, environment - to determine the appropriate film and extent of preparation required.",
   },
   {
     step: "02",
     title: "Surface Cleaning & Prep",
-    desc: "Professional-grade cleaning to ensure the stone is free from dirt, debris and previous coatings — primed for optimal film adhesion.",
+    desc: "Professional-grade cleaning to ensure the stone is free from dirt, debris and previous coatings - primed for optimal film adhesion.",
   },
   {
     step: "03",
     title: "Precision Film Application",
-    desc: "Meticulous alignment and application of the protection film by Totalgard's trained professionals — cut and fitted with advanced tools, zero bubbles.",
+    desc: "Meticulous alignment and application of the protection film by Totalgard's trained professionals - cut and fitted with advanced tools, zero bubbles.",
   },
   {
     step: "04",
@@ -137,11 +137,11 @@ const installationSteps = [
 ];
 
 const maintenanceTips = [
-  "Use pH-neutral cleaners specifically designed for stone surfaces — avoid acidic or abrasive products",
+  "Use pH-neutral cleaners specifically designed for stone surfaces - avoid acidic or abrasive products",
   "Clean with soft microfiber cloths to minimise scratches and effectively remove dust and debris",
-  "Wipe up spills promptly — especially acidic substances like lemon juice or wine on marble",
+  "Wipe up spills promptly - especially acidic substances like lemon juice or wine on marble",
   "Use coasters under glasses and placemats under dishes to protect from heat and moisture",
-  "Avoid harsh chemicals — a mild soap and warm water solution is sufficient for routine cleaning",
+  "Avoid harsh chemicals - a mild soap and warm water solution is sufficient for routine cleaning",
   "For deeper cleaning, consult a professional familiar with the protective film for best results",
 ];
 
@@ -149,12 +149,12 @@ const misconceptions = [
   {
     myth: "Stone film prevents ALL damage",
     truth:
-      "Stone protection films significantly reduce the risk of scratches, stains and minor impacts — but they are not impervious to every form of damage. They are a protective layer, not an absolute barrier.",
+      "Stone protection films significantly reduce the risk of scratches, stains and minor impacts - but they are not impervious to every form of damage. They are a protective layer, not an absolute barrier.",
   },
   {
     myth: "Film ruins the look of your stone",
     truth:
-      "High-quality stone protection films from Totalgard are virtually invisible once applied — actually enhancing the natural beauty and colour of your stone rather than detracting from it.",
+      "High-quality stone protection films from Totalgard are virtually invisible once applied - actually enhancing the natural beauty and colour of your stone rather than detracting from it.",
   },
   {
     myth: "DIY installation is just as good",
@@ -167,7 +167,7 @@ const testimonials = [
   {
     name: "Restaurant Owner, Sharjah",
     quote:
-      "After Totalgard's stone protection film installation, we noticed a significant reduction in damage from spills and scratches. Lower maintenance costs and our countertops always look great — the long-lasting protection exceeded our expectations.",
+      "After Totalgard's stone protection film installation, we noticed a significant reduction in damage from spills and scratches. Lower maintenance costs and our countertops always look great - the long-lasting protection exceeded our expectations.",
     type: "Commercial",
   },
   {
@@ -179,7 +179,7 @@ const testimonials = [
   {
     name: "Facility Manager, Office Building Sharjah",
     quote:
-      "Dramatic improvements in the durability of our marble flooring after Totalgard's installation. Easier cleaning, reduced frequency of repairs — a great investment in protecting our high-quality materials.",
+      "Dramatic improvements in the durability of our marble flooring after Totalgard's installation. Easier cleaning, reduced frequency of repairs - a great investment in protecting our high-quality materials.",
     type: "Commercial",
   },
 ];
@@ -191,15 +191,15 @@ const faqs = [
   },
   {
     q: "Will stone protection film change the appearance of my stone in Sharjah?",
-    a: "No. Totalgard's high-quality stone protection films are virtually invisible once applied. Rather than altering your stone's appearance, the film enhances its natural colour and shine — preserving and accentuating the original beauty of your surfaces.",
+    a: "No. Totalgard's high-quality stone protection films are virtually invisible once applied. Rather than altering your stone's appearance, the film enhances its natural colour and shine - preserving and accentuating the original beauty of your surfaces.",
   },
   {
     q: "How long does stone protection film last in Sharjah's climate?",
-    a: "Totalgard's polyurethane stone protection films are engineered to withstand Sharjah's harsh climate including extreme heat, UV radiation and humidity. With proper maintenance, the film provides long-lasting protection — significantly extending the life of your stone surfaces.",
+    a: "Totalgard's polyurethane stone protection films are engineered to withstand Sharjah's harsh climate including extreme heat, UV radiation and humidity. With proper maintenance, the film provides long-lasting protection - significantly extending the life of your stone surfaces.",
   },
   {
     q: "Is professional installation necessary for stone protection film in Sharjah?",
-    a: "Yes. Professional installation is strongly recommended. Totalgard's certified technicians ensure precise cutting, proper surface preparation and optimal film adhesion — guaranteeing a bubble-free, flawless result that performs effectively over time.",
+    a: "Yes. Professional installation is strongly recommended. Totalgard's certified technicians ensure precise cutting, proper surface preparation and optimal film adhesion - guaranteeing a bubble-free, flawless result that performs effectively over time.",
   },
   {
     q: "How do I maintain stone surfaces after film installation in Sharjah?",
@@ -279,7 +279,7 @@ export default function StoneProtectionFilmPage() {
             </h1>
             <p className="mt-5 text-[#888] text-lg leading-relaxed">
               Totalgard offers professional stone protection film installation
-              in Sharjah — an{" "}
+              in Sharjah - an{" "}
               <span className="text-[#c9a84c] font-semibold">
                 advanced transparent barrier
               </span>{" "}
@@ -303,7 +303,7 @@ export default function StoneProtectionFilmPage() {
               </a>
             </div>
             <p className="mt-5 text-xs text-[#444] tracking-widest uppercase">
-              Central Mall, Sharjah, UAE — Residential & Commercial
+              Central Mall, Sharjah, UAE - Residential & Commercial
             </p>
           </div>
 
@@ -311,7 +311,7 @@ export default function StoneProtectionFilmPage() {
           <div className="relative rounded-3xl overflow-hidden h-[420px] shadow-2xl shadow-black/50">
             <Image
               src="/images/surface-protection.webp"
-              alt="Stone protection film Sharjah — Totalgard marble and stone surface protection UAE"
+              alt="Stone protection film Sharjah - Totalgard marble and stone surface protection UAE"
               fill
               className="object-cover opacity-75"
               priority
@@ -354,7 +354,7 @@ export default function StoneProtectionFilmPage() {
               Stone protection film is an advanced solution designed to
               safeguard surfaces such as marble, glass and natural stone
               countertops. This innovative product acts as a transparent
-              barrier — protecting against scratches, stains and various types
+              barrier - protecting against scratches, stains and various types
               of damage from everyday use, while preserving the aesthetic
               quality and structural integrity of your surfaces in both
               residential and commercial settings across Sharjah.
@@ -432,7 +432,7 @@ export default function StoneProtectionFilmPage() {
             </h2>
             <p className="text-[#888] mt-3 max-w-xl mx-auto text-sm leading-relaxed">
               Totalgard uses only the highest quality stone protection film
-              materials — engineered to withstand Sharjah's harsh climate and
+              materials - engineered to withstand Sharjah's harsh climate and
               heavy daily use.
             </p>
           </div>
@@ -522,7 +522,7 @@ export default function StoneProtectionFilmPage() {
           <div className="relative rounded-3xl overflow-hidden h-[460px] shadow-2xl shadow-black/50">
             <Image
               src="/images/marble-and-surface-protection.webp"
-              alt="Totalgard stone protection film installation Sharjah — marble and countertop protection UAE"
+              alt="Totalgard stone protection film installation Sharjah - marble and countertop protection UAE"
               fill
               className="object-cover opacity-70"
             />
@@ -545,20 +545,20 @@ export default function StoneProtectionFilmPage() {
             </h2>
             <p className="text-[#888] mt-5 leading-relaxed">
               Totalgard has emerged as a leading choice for stone protection
-              film in Sharjah — renowned for exceptional expertise, high-quality
+              film in Sharjah - renowned for exceptional expertise, high-quality
               materials and a commitment to customer satisfaction. Our team is
               well-versed in various stone types and the specific requirements
               for effective protection.
             </p>
             <p className="text-[#888] mt-4 leading-relaxed">
-              We are transparent about pricing and services — providing clear
+              We are transparent about pricing and services - providing clear
               information that helps customers make informed decisions. Our
               personalized approach has fostered a loyal customer base with
               numerous positive testimonials from across Sharjah and UAE.
             </p>
             <ul className="mt-6 space-y-3">
               {[
-                "Extensive experience with all stone types — marble, granite, glass and more",
+                "Extensive experience with all stone types - marble, granite, glass and more",
                 "High-quality polyurethane films engineered for Sharjah's climate",
                 "Personalized solutions tailored to each client's specific needs",
                 "Skilled technicians dedicated to precision and care",
@@ -678,7 +678,7 @@ export default function StoneProtectionFilmPage() {
             <p className="text-[#888] mt-5 leading-relaxed">
               After Totalgard's professional stone protection film installation
               in Sharjah, proper maintenance ensures the longevity of your
-              marble, glass and stone countertops — preserving their aesthetic
+              marble, glass and stone countertops - preserving their aesthetic
               appeal and functionality for years.
             </p>
             <ul className="mt-6 space-y-3">
@@ -693,7 +693,7 @@ export default function StoneProtectionFilmPage() {
           <div className="relative rounded-3xl overflow-hidden h-[440px] shadow-2xl shadow-black/50">
             <Image
               src="/images/surface-protection-film-2.webp"
-              alt="Stone protection film maintenance Sharjah — Totalgard protected marble countertop UAE"
+              alt="Stone protection film maintenance Sharjah - Totalgard protected marble countertop UAE"
               fill
               className="object-cover opacity-70"
             />
@@ -717,7 +717,7 @@ export default function StoneProtectionFilmPage() {
               FAQ
             </span>
             <h2 className="text-3xl font-extrabold text-[#f5f5f5] mt-3">
-              Stone Protection Film Sharjah — FAQ
+              Stone Protection Film Sharjah - FAQ
             </h2>
           </div>
           <div className="space-y-4">
@@ -753,7 +753,7 @@ export default function StoneProtectionFilmPage() {
             Reach out to Totalgard Sharjah for a free consultation and quote on
             stone protection film installation. Residential and commercial
             properties across Sharjah and UAE. We frequently offer special
-            promotions — ask about ongoing deals when you contact us.
+            promotions - ask about ongoing deals when you contact us.
           </p>
           <div className="flex flex-wrap justify-center gap-4 mt-8">
             <a
@@ -771,7 +771,7 @@ export default function StoneProtectionFilmPage() {
             </a>
           </div>
           <p className="mt-6 text-xs text-[#2a2a2a] tracking-widest uppercase">
-            Central Mall, Sharjah — Open 7 Days a Week
+            Central Mall, Sharjah - Open 7 Days a Week
           </p>
         </div>
       </section>

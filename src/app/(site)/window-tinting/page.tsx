@@ -6,7 +6,7 @@ import { buildMetadata } from "@/lib/metadata";
 
 export async function generateMetadata(): Promise<Metadata> {
   return buildMetadata('/window-tinting', {
-    title: 'Window Tinting Sharjah | Car Window Tint Sharjah — Totalgard',
+    title: 'Window Tinting Sharjah | Car Window Tint Sharjah - Totalgard',
     description: 'Professional window tinting in Sharjah by Totalgard. Premium heat rejection films, UV protection and privacy tinting for cars. Central Mall, Sharjah, UAE.',
   })
 }
@@ -18,7 +18,7 @@ const benefits = [
   },
   {
     title: "Heat Reduction",
-    desc: "Enjoy a cooler interior by blocking out a significant amount of solar heat — blocking up to 95% of infrared heat waves for a more comfortable drive.",
+    desc: "Enjoy a cooler interior by blocking out a significant amount of solar heat - blocking up to 95% of infrared heat waves for a more comfortable drive.",
   },
   {
     title: "Glare Reduction",
@@ -26,7 +26,7 @@ const benefits = [
   },
   {
     title: "Privacy Enhancement",
-    desc: "Increase privacy and security by limiting visibility into your vehicle's interior — dark outside, crystal clear from within.",
+    desc: "Increase privacy and security by limiting visibility into your vehicle's interior - dark outside, crystal clear from within.",
   },
 ];
 
@@ -77,7 +77,7 @@ const whyUs = [
   },
   {
     title: "Quality Materials & Products",
-    desc: "We only use high-quality tint films designed to last and provide optimal performance — offering excellent heat rejection, UV protection and glare reduction. A wide range of tint shades is available so you can customise the look of your vehicle while enjoying all the benefits.",
+    desc: "We only use high-quality tint films designed to last and provide optimal performance - offering excellent heat rejection, UV protection and glare reduction. A wide range of tint shades is available so you can customise the look of your vehicle while enjoying all the benefits.",
   },
   {
     title: "Professional Installation Process",
@@ -85,7 +85,7 @@ const whyUs = [
   },
   {
     title: "Customer Satisfaction",
-    desc: "Customer satisfaction is our top priority. From the moment you contact us to the completion of the installation, we are here to answer your questions. We value your feedback and continuously strive to improve — our goal is to be your go-to choice for window tinting in Sharjah.",
+    desc: "Customer satisfaction is our top priority. From the moment you contact us to the completion of the installation, we are here to answer your questions. We value your feedback and continuously strive to improve - our goal is to be your go-to choice for window tinting in Sharjah.",
   },
 ];
 
@@ -174,7 +174,7 @@ export default function WindowTintingPage() {
             </div>
             <span className="inline-flex items-center gap-2 glass-gold text-[#c9a84c] text-xs font-semibold tracking-[0.2em] uppercase px-5 py-2.5 rounded-full">
               <span className="w-1.5 h-1.5 bg-[#c9a84c] rounded-full animate-pulse" />
-              Ceramic Window Films — Dark Outside, Clear Within
+              Ceramic Window Films - Dark Outside, Clear Within
             </span>
             <h1 className="mt-6 text-4xl md:text-6xl font-extrabold leading-[1.05] tracking-tight">
               <span className="text-[#f5f5f5]">Window</span>
@@ -193,7 +193,7 @@ export default function WindowTintingPage() {
               <span className="text-[#c9a84c] font-semibold">
                 99% of harmful UV rays
               </span>{" "}
-              — backed by warranties of 3 to 10 years.
+              - backed by warranties of 3 to 10 years.
             </p>
             <div className="flex flex-wrap gap-4 mt-8">
               <a
@@ -211,7 +211,7 @@ export default function WindowTintingPage() {
               </a>
             </div>
             <p className="mt-5 text-xs text-[#444] tracking-widest uppercase">
-              Central Mall, Sharjah, UAE — Same Day Service Available
+              Central Mall, Sharjah, UAE - Same Day Service Available
             </p>
           </div>
 
@@ -219,7 +219,7 @@ export default function WindowTintingPage() {
           <div className="relative rounded-3xl overflow-hidden h-[420px] shadow-2xl shadow-black/50">
             <Image
               src="/images/car-window-tint-2.webp"
-              alt="Professional window tinting Sharjah — Totalgard ceramic window film UAE"
+              alt="Professional window tinting Sharjah - Totalgard ceramic window film UAE"
               fill
               className="object-cover opacity-75"
               priority
@@ -262,7 +262,7 @@ export default function WindowTintingPage() {
               Totalgard offers top-tier window tinting services, enhancing both
               the style and functionality of your vehicle. Our premium tint
               films elevate your car's appearance while delivering essential
-              benefits — UV protection, heat reduction, glare reduction and
+              benefits - UV protection, heat reduction, glare reduction and
               enhanced privacy.
             </p>
             <p className="text-[#888] mt-4 leading-relaxed">
@@ -418,7 +418,7 @@ export default function WindowTintingPage() {
             <p className="text-[#888] mt-5 leading-relaxed">
               Sharjah's extreme summer heat demands the very best window tinting
               technology. Totalgard's ceramic films are engineered to handle
-              UAE's harsh climate — keeping your car cool, protecting your
+              UAE's harsh climate - keeping your car cool, protecting your
               interior and blocking harmful radiation.
             </p>
             <div className="mt-10 space-y-6">
@@ -426,7 +426,7 @@ export default function WindowTintingPage() {
                 { label: "Infrared Heat Rejection", value: 95, desc: "Blocks 95% of infrared heat waves keeping your cabin cool in Sharjah's summers" },
                 { label: "UV Ray Rejection", value: 99, desc: "Blocks 99% of harmful UV rays protecting skin and car interior" },
                 { label: "Glare Reduction", value: 80, desc: "Significantly reduces sun and headlight glare on Sharjah roads" },
-                { label: "Privacy Enhancement", value: 90, desc: "Dark from outside — crystal clear from inside for full privacy" },
+                { label: "Privacy Enhancement", value: 90, desc: "Dark from outside - crystal clear from inside for full privacy" },
               ].map((bar) => (
                 <div key={bar.label}>
                   <div className="flex justify-between text-sm mb-2">
@@ -444,7 +444,7 @@ export default function WindowTintingPage() {
           <div className="relative rounded-3xl overflow-hidden h-[480px] shadow-2xl shadow-black/50">
             <Image
               src="/images/car-window-tinting.webp"
-              alt="Best ceramic window tinting Sharjah UAE — Totalgard heat and UV protection performance"
+              alt="Best ceramic window tinting Sharjah UAE - Totalgard heat and UV protection performance"
               fill
               className="object-cover opacity-70"
             />
@@ -460,7 +460,7 @@ export default function WindowTintingPage() {
           <div className="text-center mb-12">
             <span className="text-[#c9a84c] text-xs font-semibold tracking-[0.2em] uppercase">FAQ</span>
             <h2 className="text-3xl font-extrabold text-[#f5f5f5] mt-3">
-              Window Tinting Sharjah — FAQ
+              Window Tinting Sharjah - FAQ
             </h2>
           </div>
           <div className="space-y-4">
@@ -510,7 +510,7 @@ export default function WindowTintingPage() {
             </a>
           </div>
           <p className="mt-6 text-xs text-[#2a2a2a] tracking-widest uppercase">
-            Central Mall, Sharjah — Open 7 Days a Week
+            Central Mall, Sharjah - Open 7 Days a Week
           </p>
         </div>
       </section>

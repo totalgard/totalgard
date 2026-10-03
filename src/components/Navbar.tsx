@@ -107,7 +107,7 @@ export default function Navbar() {
               </svg>
             </button>
 
-            {/* Dropdown — fully solid */}
+            {/* Dropdown - fully solid */}
             {servicesOpen && (
               <div className="absolute top-full left-1/2 -translate-x-1/2 mt-3 w-60 bg-[#111111] border border-[#222] rounded-2xl p-2 shadow-2xl shadow-black/80">
                 {services.map((s) => (

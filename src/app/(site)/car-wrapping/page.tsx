@@ -7,7 +7,7 @@ import { buildMetadata } from "@/lib/metadata";
 
 export async function generateMetadata(): Promise<Metadata> {
   return buildMetadata('/car-wrapping', {
-    title: 'Car Wrapping Sharjah | Professional Car Wrap Sharjah — Totalgard',
+    title: 'Car Wrapping Sharjah | Professional Car Wrap Sharjah - Totalgard',
     description: 'Totalgard offers professional car wrapping in Sharjah. Full wraps, partial wraps, colour changes and car graphics. Premium vinyl materials, stunning results. Central Mall, Sharjah, UAE.',
   })
 }
@@ -15,7 +15,7 @@ export async function generateMetadata(): Promise<Metadata> {
 const benefits = [
   {
     title: "Customization",
-    desc: "Transform the appearance of your vehicle with endless colour, texture and design options — from gloss and matte to satin, chrome and custom prints.",
+    desc: "Transform the appearance of your vehicle with endless colour, texture and design options - from gloss and matte to satin, chrome and custom prints.",
   },
   {
     title: "Protection",
@@ -27,14 +27,14 @@ const benefits = [
   },
   {
     title: "Affordability",
-    desc: "Achieve a high-quality finish at a fraction of the cost of a traditional paint job — car wrapping in Sharjah is the smart choice for a fresh look.",
+    desc: "Achieve a high-quality finish at a fraction of the cost of a traditional paint job - car wrapping in Sharjah is the smart choice for a fresh look.",
   },
 ];
 
 const graphicsBenefits = [
   {
     title: "Endless Customization",
-    desc: "Car graphics offer endless options — unique designs, patterns and images tailored to your personal style or branding needs in Sharjah.",
+    desc: "Car graphics offer endless options - unique designs, patterns and images tailored to your personal style or branding needs in Sharjah.",
   },
   {
     title: "Fully Removable",
@@ -42,7 +42,7 @@ const graphicsBenefits = [
   },
   {
     title: "Easy Maintenance",
-    desc: "Car graphics are easy to maintain and clean — requiring only mild soap and water to keep them looking fresh and vibrant.",
+    desc: "Car graphics are easy to maintain and clean - requiring only mild soap and water to keep them looking fresh and vibrant.",
   },
   {
     title: "Paint Protection",
@@ -54,7 +54,7 @@ const wrapTypes = [
   {
     name: "Full Car Wrap",
     tag: "Maximum Impact",
-    desc: "Complete vehicle transformation — every panel wrapped in your chosen colour or design. The ultimate way to change your car's appearance in Sharjah.",
+    desc: "Complete vehicle transformation - every panel wrapped in your chosen colour or design. The ultimate way to change your car's appearance in Sharjah.",
     features: [
       "Complete colour change",
       "All panels covered",
@@ -67,12 +67,12 @@ const wrapTypes = [
   {
     name: "Colour Change Wrap",
     tag: "Most Popular",
-    desc: "Transform your car's colour entirely with a premium vinyl wrap. A stunning, cost-effective alternative to a full respray — fully reversible.",
+    desc: "Transform your car's colour entirely with a premium vinyl wrap. A stunning, cost-effective alternative to a full respray - fully reversible.",
     features: [
       "Full colour transformation",
       "100+ colour options",
       "Gloss, matte, satin, chrome",
-      "Reversible — no permanent change",
+      "Reversible - no permanent change",
       "Protects original factory paint",
     ],
     popular: true,
@@ -108,10 +108,10 @@ const wrapTypes = [
 const finishTypes = [
   { name: "Gloss", desc: "Classic high-shine finish that enhances your car's colour depth and presence." },
   { name: "Matte", desc: "Premium flat finish for a stealthy, sophisticated and unique look on Sharjah's roads." },
-  { name: "Satin", desc: "The perfect blend between gloss and matte — elegant and distinctive." },
+  { name: "Satin", desc: "The perfect blend between gloss and matte - elegant and distinctive." },
   { name: "Chrome", desc: "Mirror-like metallic finish for maximum visual impact and attention." },
   { name: "Carbon Fibre", desc: "Adds a sporty carbon fibre texture aesthetic to any panel or full wrap." },
-  { name: "Custom Print", desc: "Fully custom digital print wraps — unlimited design possibilities for branding or personal style." },
+  { name: "Custom Print", desc: "Fully custom digital print wraps - unlimited design possibilities for branding or personal style." },
 ];
 
 const process = [
@@ -128,7 +128,7 @@ const process = [
   {
     step: "03",
     title: "Precision Wrap Application",
-    desc: "Our certified wrap technicians apply your chosen vinyl film with meticulous precision — panel by panel, edge to edge.",
+    desc: "Our certified wrap technicians apply your chosen vinyl film with meticulous precision - panel by panel, edge to edge.",
   },
   {
     step: "04",
@@ -144,7 +144,7 @@ const faqs = [
   },
   {
     q: "How long does a car wrap last in Sharjah's heat?",
-    a: "A professionally installed car wrap from Totalgard Sharjah typically lasts 5 to 7 years. We use premium vinyl films specifically rated for UAE's extreme heat and UV conditions — they won't fade, bubble or peel prematurely.",
+    a: "A professionally installed car wrap from Totalgard Sharjah typically lasts 5 to 7 years. We use premium vinyl films specifically rated for UAE's extreme heat and UV conditions - they won't fade, bubble or peel prematurely.",
   },
   {
     q: "Will car wrapping damage my original paint in Sharjah?",
@@ -156,7 +156,7 @@ const faqs = [
   },
   {
     q: "Can I wrap my car a different colour in Sharjah?",
-    a: "Absolutely. Colour change wrapping is one of the most popular services at Totalgard Sharjah. With 100+ colour options including gloss, matte, satin and chrome — you can completely transform your car's colour without permanent paint changes.",
+    a: "Absolutely. Colour change wrapping is one of the most popular services at Totalgard Sharjah. With 100+ colour options including gloss, matte, satin and chrome - you can completely transform your car's colour without permanent paint changes.",
   },
   {
     q: "Can car graphics be used for business advertising in Sharjah?",
@@ -231,12 +231,12 @@ export default function CarWrappingPage() {
             </h1>
             <p className="mt-5 text-[#888] text-lg leading-relaxed">
               Totalgard specialises in professional car wrapping services in
-              Sharjah — seamlessly blending{" "}
+              Sharjah - seamlessly blending{" "}
               <span className="text-[#c9a84c] font-semibold">
                 creativity, expertise and top-quality materials
               </span>{" "}
               to produce stunning results. Whether a custom design, colour
-              change or business graphics — we deliver a flawless finish that
+              change or business graphics - we deliver a flawless finish that
               commands attention on the road.
             </p>
             <div className="flex flex-wrap gap-4 mt-8">
@@ -255,7 +255,7 @@ export default function CarWrappingPage() {
               </a>
             </div>
             <p className="mt-5 text-xs text-[#444] tracking-widest uppercase">
-              Central Mall, Sharjah, UAE — Precision Wrap Studio
+              Central Mall, Sharjah, UAE - Precision Wrap Studio
             </p>
           </div>
 
@@ -263,7 +263,7 @@ export default function CarWrappingPage() {
           <div className="relative rounded-3xl overflow-hidden h-[420px] shadow-2xl shadow-black/50">
             <Image
               src="/images/car-wrap-1.webp"
-              alt="Professional car wrapping Sharjah — Totalgard vinyl wrap colour change UAE"
+              alt="Professional car wrapping Sharjah - Totalgard vinyl wrap colour change UAE"
               fill
               className="object-cover opacity-75"
               priority
@@ -307,7 +307,7 @@ export default function CarWrappingPage() {
               to express their unique style, safeguard their vehicle's exterior,
               or effectively promote their business through captivating visuals.
               With Totalgard, your car wrapping project will be executed with
-              precision and attention to detail — resulting in a flawless finish
+              precision and attention to detail - resulting in a flawless finish
               that commands attention on Sharjah's roads.
             </p>
           </div>
@@ -343,7 +343,7 @@ export default function CarWrappingPage() {
               Car Wrapping Options in Sharjah
             </h2>
             <p className="text-[#888] mt-3 max-w-xl mx-auto text-sm leading-relaxed">
-              From full colour changes to custom graphics — Totalgard Sharjah
+              From full colour changes to custom graphics - Totalgard Sharjah
               has the perfect car wrapping solution for your vehicle and budget.
             </p>
           </div>
@@ -444,7 +444,7 @@ export default function CarWrappingPage() {
               Car graphics are a dynamic form of vehicle customisation that
               allows individuals and businesses to make a bold statement on
               Sharjah's roads. At Totalgard, we offer professional car graphics
-              services — from sleek racing stripes and vibrant decals to full
+              services - from sleek racing stripes and vibrant decals to full
               branding and fleet graphics.
             </p>
             <p className="text-[#888] mt-4 leading-relaxed">
@@ -480,7 +480,7 @@ export default function CarWrappingPage() {
           <div className="relative rounded-3xl overflow-hidden h-[480px] shadow-2xl shadow-black/50">
             <Image
               src="/images/car-wrapping.webp"
-              alt="Car graphics and branding Sharjah — Totalgard professional vehicle graphics UAE"
+              alt="Car graphics and branding Sharjah - Totalgard professional vehicle graphics UAE"
               fill
               className="object-cover opacity-70"
             />
@@ -536,7 +536,7 @@ export default function CarWrappingPage() {
           <div className="relative rounded-3xl overflow-hidden h-[460px] shadow-2xl shadow-black/50">
             <Image
               src="/images/car-wrap.webp"
-              alt="Totalgard car wrapping workshop Sharjah — professional vinyl wrap UAE"
+              alt="Totalgard car wrapping workshop Sharjah - professional vinyl wrap UAE"
               fill
               className="object-cover opacity-70"
             />
@@ -561,7 +561,7 @@ export default function CarWrappingPage() {
               that seamlessly blend creativity, expertise and top-quality
               materials. Whether you're enhancing your vehicle's aesthetic
               appeal, protecting its original paint or creating eye-catching
-              graphics for branding purposes — our team is dedicated to
+              graphics for branding purposes - our team is dedicated to
               exceeding your expectations.
             </p>
             <ul className="mt-6 space-y-3">
@@ -569,11 +569,11 @@ export default function CarWrappingPage() {
                 "10+ years of professional car wrapping in Sharjah",
                 "Premium vinyl films rated for UAE's extreme heat",
                 "100+ colour and finish options available",
-                "Certified wrap technicians — bubble-free guaranteed",
+                "Certified wrap technicians - bubble-free guaranteed",
                 "Custom design and print services in Sharjah",
                 "Business fleet graphics and branding specialists",
                 "Original paint 100% preserved under the wrap",
-                "Fully removable — no permanent commitment",
+                "Fully removable - no permanent commitment",
               ].map((point) => (
                 <li key={point} className="flex items-start gap-3 text-sm text-[#888]">
                   <span className="w-1.5 h-1.5 bg-[#c9a84c] rounded-full mt-1.5 flex-shrink-0" />
@@ -601,7 +601,7 @@ export default function CarWrappingPage() {
               FAQ
             </span>
             <h2 className="text-3xl font-extrabold text-[#f5f5f5] mt-3">
-              Car Wrapping Sharjah — FAQ
+              Car Wrapping Sharjah - FAQ
             </h2>
           </div>
           <div className="space-y-4">
@@ -636,7 +636,7 @@ export default function CarWrappingPage() {
           <p className="mt-4 text-[#888] text-sm max-w-lg mx-auto leading-relaxed">
             Contact Totalgard Sharjah today for a free consultation and quote on
             car wrapping, colour changes or car graphics. Central Mall, Sharjah
-            — open 7 days a week.
+            - open 7 days a week.
           </p>
           <div className="flex flex-wrap justify-center gap-4 mt-8">
             <a
@@ -654,7 +654,7 @@ export default function CarWrappingPage() {
             </a>
           </div>
           <p className="mt-6 text-xs text-[#2a2a2a] tracking-widest uppercase">
-            Central Mall, Sharjah — Open 7 Days a Week
+            Central Mall, Sharjah - Open 7 Days a Week
           </p>
         </div>
       </section>

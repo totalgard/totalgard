@@ -6,7 +6,7 @@ import { buildMetadata } from "@/lib/metadata";
 
 export async function generateMetadata(): Promise<Metadata> {
   return buildMetadata('/paint-protection-film', {
-    title: 'Paint Protection Film Sharjah | PPF Sharjah — Totalgard',
+    title: 'Paint Protection Film Sharjah | PPF Sharjah - Totalgard',
     description: 'Totalgard offers professional paint protection film (PPF) installation in Sharjah. Self-healing, scratch-resistant PPF for ultimate paint protection. Central Mall, Sharjah.',
   })
 }
@@ -26,7 +26,7 @@ const benefits = [
   },
   {
     title: "Ease of Maintenance",
-    desc: "Enjoy effortless maintenance with PPF — easily cleaned with soap and water, helping to keep your vehicle looking pristine.",
+    desc: "Enjoy effortless maintenance with PPF - easily cleaned with soap and water, helping to keep your vehicle looking pristine.",
   },
 ];
 
@@ -114,7 +114,7 @@ const packages = [
 const filmTypes = [
   { name: "Gloss PPF", desc: "Crystal clear finish preserving your car's original shine with maximum protection." },
   { name: "Matte PPF", desc: "Transform your car's look with a premium matte finish while protecting the paint." },
-  { name: "Self-Healing PPF", desc: "Minor scratches disappear on their own when exposed to heat — stay flawless." },
+  { name: "Self-Healing PPF", desc: "Minor scratches disappear on their own when exposed to heat - stay flawless." },
   { name: "Carbon Fiber PPF", desc: "Adds a carbon fiber aesthetic while delivering full paint protection." },
   { name: "Hydrophobic PPF", desc: "Water-repelling technology keeps your car cleaner for longer in Sharjah's dusty climate." },
 ];
@@ -126,7 +126,7 @@ const faqs = [
   },
   {
     q: "How long does PPF last in UAE conditions?",
-    a: "Totalgard's PPF in Sharjah is engineered to withstand UAE's extreme heat without yellowing, bubbling or peeling — typically lasting 7 to 10 years depending on the grade and coverage chosen.",
+    a: "Totalgard's PPF in Sharjah is engineered to withstand UAE's extreme heat without yellowing, bubbling or peeling - typically lasting 7 to 10 years depending on the grade and coverage chosen.",
   },
   {
     q: "Is PPF worth it for my car in Sharjah?",
@@ -134,7 +134,7 @@ const faqs = [
   },
   {
     q: "Can PPF be removed without damaging paint?",
-    a: "Yes. Totalgard's professionally installed PPF can be removed cleanly without damaging the underlying paint — one of the key advantages of PPF for paint protection in Sharjah.",
+    a: "Yes. Totalgard's professionally installed PPF can be removed cleanly without damaging the underlying paint - one of the key advantages of PPF for paint protection in Sharjah.",
   },
   {
     q: "How long does PPF installation take in Sharjah?",
@@ -218,7 +218,7 @@ export default function PPFPage() {
               <span className="text-[#c9a84c] font-semibold">
                 invisible shield
               </span>{" "}
-              against chips, scratches and environmental damage — ensuring your
+              against chips, scratches and environmental damage - ensuring your
               vehicle maintains its flawless finish for years to come.
             </p>
             <div className="flex flex-wrap gap-4 mt-8">
@@ -237,7 +237,7 @@ export default function PPFPage() {
               </a>
             </div>
             <p className="mt-5 text-xs text-[#444] tracking-widest uppercase">
-              Central Mall, Sharjah, UAE — 10+ Years Experience
+              Central Mall, Sharjah, UAE - 10+ Years Experience
             </p>
           </div>
 
@@ -245,7 +245,7 @@ export default function PPFPage() {
           <div className="relative rounded-3xl overflow-hidden h-[420px] shadow-2xl shadow-black/50">
             <Image
               src="/images/ppf-2.webp"
-              alt="Best paint protection film PPF Sharjah — Totalgard self-healing car paint protection UAE"
+              alt="Best paint protection film PPF Sharjah - Totalgard self-healing car paint protection UAE"
               fill
               className="object-cover opacity-75"
               priority
@@ -287,7 +287,7 @@ export default function PPFPage() {
             <p className="text-[#888] mt-4 max-w-3xl mx-auto leading-relaxed">
               Totalgard offers the best paint protection film in Sharjah. Our
               PPF solution is meticulously engineered to provide unparalleled
-              protection — the top choice for drivers in Sharjah looking to
+              protection - the top choice for drivers in Sharjah looking to
               safeguard their investment and drive with confidence knowing their
               vehicle is protected by the best.
             </p>
@@ -458,7 +458,7 @@ export default function PPFPage() {
           <div className="relative rounded-3xl overflow-hidden h-[460px] shadow-2xl shadow-black/50">
             <Image
               src="/images/ppf.webp"
-              alt="Totalgard PPF installation workshop Sharjah — best paint protection film UAE"
+              alt="Totalgard PPF installation workshop Sharjah - best paint protection film UAE"
               fill
               className="object-cover opacity-70"
             />
@@ -482,7 +482,7 @@ export default function PPFPage() {
               When it comes to keeping your car looking brand new, Totalgard is
               the go-to provider for the best car paint protection film in
               Sharjah. Our high-quality film is designed to shield your vehicle
-              from scratches, chips and other forms of damage — ensuring it
+              from scratches, chips and other forms of damage - ensuring it
               retains its pristine appearance for years to come.
             </p>
             <p className="text-[#888] mt-4 leading-relaxed">
@@ -494,7 +494,7 @@ export default function PPFPage() {
             <ul className="mt-6 space-y-3">
               {[
                 "Best PPF brands available in Sharjah",
-                "Virtually invisible — no visual compromise",
+                "Virtually invisible - no visual compromise",
                 "Self-healing technology included",
                 "10+ years of professional PPF installation in Sharjah",
                 "Flawless, bubble-free application guaranteed",
@@ -526,7 +526,7 @@ export default function PPFPage() {
               FAQ
             </span>
             <h2 className="text-3xl font-extrabold text-[#f5f5f5] mt-3">
-              PPF Sharjah — FAQ
+              PPF Sharjah - FAQ
             </h2>
           </div>
           <div className="space-y-4">
@@ -554,7 +554,7 @@ export default function PPFPage() {
             Contact Totalgard Sharjah
           </span>
           <h2 className="text-3xl md:text-4xl font-extrabold mt-4">
-            <span className="text-[#f5f5f5]">Don't Settle for Less —</span>
+            <span className="text-[#f5f5f5]">Don't Settle for Less -</span>
             <br />
             <span className="gold-text">Get the Best PPF in Sharjah</span>
           </h2>
@@ -579,7 +579,7 @@ export default function PPFPage() {
             </a>
           </div>
           <p className="mt-6 text-xs text-[#2a2a2a] tracking-widest uppercase">
-            Central Mall, Sharjah — Open 7 Days a Week
+            Central Mall, Sharjah - Open 7 Days a Week
           </p>
         </div>
       </section>

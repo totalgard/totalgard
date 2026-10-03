@@ -46,9 +46,9 @@ const SERVICE_INFO: Record<string, string> = {
   "Nano Ceramic Coating":
     "Professional ceramic coating for long-lasting gloss, hydrophobic protection & UV resistance. Multi-year warranty available.",
   "Car Wrapping":
-    "Full & partial car wraps in any colour or finish — matte, chrome, satin, brushed metal & more. Premium brands only.",
+    "Full & partial car wraps in any colour or finish - matte, chrome, satin, brushed metal & more. Premium brands only.",
   "Smart Film":
-    "PDLC switchable smart glass film — turns glass from clear to frosted at the touch of a button. Perfect for villas, offices & partitions.",
+    "PDLC switchable smart glass film - turns glass from clear to frosted at the touch of a button. Perfect for villas, offices & partitions.",
   "Stone Protection Film":
     "Clear protection films for marble, granite, glass, floors, lifts, wood & countertops. Removable & residue-free.",
 };
@@ -120,7 +120,7 @@ export default function FloatingChatbot() {
       return;
     }
     if (value === "branch") {
-      botReply("We're located at Central Mall, Sharjah — open every day 11AM–9PM.", "options", BRANCHES);
+      botReply("We're located at Central Mall, Sharjah - open every day 11AM–9PM.", "options", BRANCHES);
       return;
     }
     if (value === "human") {
@@ -172,7 +172,7 @@ export default function FloatingChatbot() {
       return;
     }
     if (value === "call") {
-      botReply("Call us anytime — we're available every day 11AM–9PM.", "booking");
+      botReply("Call us anytime - we're available every day 11AM–9PM.", "booking");
       return;
     }
     if (value === "restart") {
@@ -236,7 +236,7 @@ export default function FloatingChatbot() {
     } else if (lower.includes("price") || lower.includes("cost") || lower.includes("how much")) {
       botReply("Prices vary by service and vehicle type. Our team can give you an accurate quote directly 👇", "booking");
     } else if (lower.includes("branch") || lower.includes("location") || lower.includes("where") || lower.includes("sharjah")) {
-      botReply("We're at Central Mall, Sharjah — open every day 11AM–9PM.", "options", BRANCHES);
+      botReply("We're at Central Mall, Sharjah - open every day 11AM–9PM.", "options", BRANCHES);
     } else if (lower.includes("book") || lower.includes("appointment")) {
       botReply("Which service would you like to book?", "options", SERVICES);
     } else if (lower.includes("hello") || lower.includes("hi") || lower.includes("hey")) {
